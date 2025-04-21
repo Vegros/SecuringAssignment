@@ -1,1 +1,18 @@
-[]
+[
+  {
+    "ContainingType": "ClientWebApp.Controllers.FileDownloadController",
+    "Method": "DownloadFile",
+    "RelativePath": "api/FileDownload/Download",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "ClientWebApp.Models.DownloadFileDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

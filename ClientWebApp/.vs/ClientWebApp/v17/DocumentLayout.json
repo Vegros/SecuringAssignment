@@ -3,15 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\matti\\Desktop\\assignment enterprise\\ClientWebApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{64307FCA-4E8B-4C93-A885-DE65F9F6BB7A}|ClientWebApp.csproj|c:\\users\\matti\\desktop\\assignment enterprise\\clientwebapp\\controllers\\fileuploadcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{64307FCA-4E8B-4C93-A885-DE65F9F6BB7A}|ClientWebApp.csproj|solutionrelative:controllers\\fileuploadcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7BF0F6E8-69C3-458F-BAC2-5BDFB7D7FC57}|ClientWebApp.csproj|c:\\users\\matti\\desktop\\assignment enterprise\\clientwebapp\\controllers\\filedownloadcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BF0F6E8-69C3-458F-BAC2-5BDFB7D7FC57}|ClientWebApp.csproj|solutionrelative:controllers\\filedownloadcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{64307FCA-4E8B-4C93-A885-DE65F9F6BB7A}|ClientWebApp.csproj|c:\\users\\matti\\desktop\\assignment enterprise\\clientwebapp\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{64307FCA-4E8B-4C93-A885-DE65F9F6BB7A}|ClientWebApp.csproj|solutionrelative:controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7BF0F6E8-69C3-458F-BAC2-5BDFB7D7FC57}|ClientWebApp.csproj|c:\\users\\matti\\desktop\\assignment enterprise\\clientwebapp\\models\\downloadfiledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BF0F6E8-69C3-458F-BAC2-5BDFB7D7FC57}|ClientWebApp.csproj|solutionrelative:models\\downloadfiledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3B46CAA0-21D3-4D3D-BE36-429E656F111E}|..\\LawyerApp\\LawyerApp.csproj|c:\\users\\matti\\desktop\\assignment enterprise\\lawyerapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7BF0F6E8-69C3-458F-BAC2-5BDFB7D7FC57}|ClientWebApp.csproj|c:\\users\\matti\\desktop\\assignment enterprise\\clientwebapp\\controllers\\fileuploadcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BF0F6E8-69C3-458F-BAC2-5BDFB7D7FC57}|ClientWebApp.csproj|solutionrelative:controllers\\fileuploadcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -21,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -33,41 +34,41 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "FileUploadController.cs",
-              "DocumentMoniker": "C:\\Users\\matti\\Desktop\\assignment enterprise\\ClientWebApp\\Controllers\\FileUploadController.cs",
-              "RelativeDocumentMoniker": "Controllers\\FileUploadController.cs",
-              "ToolTip": "C:\\Users\\matti\\Desktop\\assignment enterprise\\ClientWebApp\\Controllers\\FileUploadController.cs",
-              "RelativeToolTip": "Controllers\\FileUploadController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "DownloadFileDTO.cs",
+              "DocumentMoniker": "C:\\Users\\matti\\Desktop\\assignment enterprise\\ClientWebApp\\Models\\DownloadFileDTO.cs",
+              "RelativeDocumentMoniker": "Models\\DownloadFileDTO.cs",
+              "ToolTip": "C:\\Users\\matti\\Desktop\\assignment enterprise\\ClientWebApp\\Models\\DownloadFileDTO.cs",
+              "RelativeToolTip": "Models\\DownloadFileDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-21T10:54:31.938Z",
+              "WhenOpened": "2025-04-21T16:08:22.022Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AccountController.cs",
-              "DocumentMoniker": "C:\\Users\\matti\\Desktop\\assignment enterprise\\ClientWebApp\\Controllers\\AccountController.cs",
-              "RelativeDocumentMoniker": "Controllers\\AccountController.cs",
-              "ToolTip": "C:\\Users\\matti\\Desktop\\assignment enterprise\\ClientWebApp\\Controllers\\AccountController.cs",
-              "RelativeToolTip": "Controllers\\AccountController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "FileDownloadController.cs",
+              "DocumentMoniker": "C:\\Users\\matti\\Desktop\\assignment enterprise\\ClientWebApp\\Controllers\\FileDownloadController.cs",
+              "RelativeDocumentMoniker": "Controllers\\FileDownloadController.cs",
+              "ToolTip": "C:\\Users\\matti\\Desktop\\assignment enterprise\\ClientWebApp\\Controllers\\FileDownloadController.cs",
+              "RelativeToolTip": "Controllers\\FileDownloadController.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAQwBoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-21T10:54:28.179Z",
+              "WhenOpened": "2025-04-21T16:07:44.987Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\matti\\Desktop\\assignment enterprise\\LawyerApp\\Program.cs",
-              "RelativeDocumentMoniker": "..\\LawyerApp\\Program.cs",
-              "ToolTip": "C:\\Users\\matti\\Desktop\\assignment enterprise\\LawyerApp\\Program.cs",
-              "RelativeToolTip": "..\\LawyerApp\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "FileUploadController.cs",
+              "DocumentMoniker": "C:\\Users\\matti\\Desktop\\assignment enterprise\\ClientWebApp\\Controllers\\FileUploadController.cs",
+              "RelativeDocumentMoniker": "Controllers\\FileUploadController.cs",
+              "ToolTip": "C:\\Users\\matti\\Desktop\\assignment enterprise\\ClientWebApp\\Controllers\\FileUploadController.cs",
+              "RelativeToolTip": "Controllers\\FileUploadController.cs",
+              "ViewState": "AgIAAEcAAAAAAAAAAAAwwFIAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-21T10:52:24.331Z",
+              "WhenOpened": "2025-04-21T16:07:30.436Z",
               "EditorCaption": ""
             }
           ]

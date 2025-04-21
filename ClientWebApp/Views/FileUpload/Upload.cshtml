@@ -1,0 +1,15 @@
+﻿@model UploadFileViewModel
+
+<h2>Upload File</h2>
+
+<form asp-controller="FileUpload" asp-action="Upload" method="post" enctype="multipart/form-data">
+    <div>
+        <label>Select File (.docx, .pdf):</label>
+        <input type="file" name="File" />
+    </div>
+    <div>
+        <label>Lawyer's Email:</label>
+        <input type="email" name="LawyerEmail" required />
+    </div>
+    <button type="submit">Upload</button>
+</form>

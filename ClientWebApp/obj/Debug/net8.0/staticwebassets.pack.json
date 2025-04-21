@@ -5,12 +5,24 @@
       "PackagePath": "staticwebassets\\ClientWebApp.e21adic3yy.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\matti\\Desktop\\assignment enterprise\\ClientWebApp\\wwwroot\\SecureFiles\\0d5a45a6-c6b8-4eaa-9916-655ca0db460f.docx",
+      "PackagePath": "staticwebassets\\SecureFiles\\0d5a45a6-c6b8-4eaa-9916-655ca0db460f.docx"
+    },
+    {
+      "Id": "C:\\Users\\matti\\Desktop\\assignment enterprise\\ClientWebApp\\wwwroot\\SecureFiles\\6ff8de8e-1f90-45ad-aebc-41878abf114d.docx",
+      "PackagePath": "staticwebassets\\SecureFiles\\6ff8de8e-1f90-45ad-aebc-41878abf114d.docx"
+    },
+    {
       "Id": "C:\\Users\\matti\\Desktop\\assignment enterprise\\ClientWebApp\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
       "Id": "C:\\Users\\matti\\Desktop\\assignment enterprise\\ClientWebApp\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\matti\\Desktop\\assignment enterprise\\ClientWebApp\\wwwroot\\js\\qr.js",
+      "PackagePath": "staticwebassets\\js\\qr.js"
     },
     {
       "Id": "C:\\Users\\matti\\Desktop\\assignment enterprise\\ClientWebApp\\wwwroot\\js\\site.js",
@@ -243,6 +255,14 @@
     {
       "Id": "C:\\Users\\matti\\Desktop\\assignment enterprise\\ClientWebApp\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\Users\\matti\\Desktop\\assignment enterprise\\ClientWebApp\\wwwroot\\lib\\qrcode.js",
+      "PackagePath": "staticwebassets\\lib\\qrcode.js"
+    },
+    {
+      "Id": "C:\\Users\\matti\\Desktop\\assignment enterprise\\ClientWebApp\\wwwroot\\lib\\qrcode.min.js",
+      "PackagePath": "staticwebassets\\lib\\qrcode.min.js"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.ClientWebApp.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",

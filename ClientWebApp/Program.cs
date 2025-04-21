@@ -1,9 +1,7 @@
-using Microsoft.AspNetCore.Authentication;
-using Microsoft.AspNetCore.Authentication.OpenIdConnect;
-using Microsoft.AspNetCore.Authorization;
-using Microsoft.AspNetCore.Mvc.Authorization;
-using Microsoft.Identity.Web;
-using Microsoft.Identity.Web.UI;
+using ClientWebApp.Data;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.EntityFrameworkCore;
+using System;
 
 namespace ClientWebApp
 {
@@ -14,23 +12,47 @@ namespace ClientWebApp
             var builder = WebApplication.CreateBuilder(args);
 
             // Add services to the container.
-            builder.Services.AddAuthentication(OpenIdConnectDefaults.AuthenticationScheme)
-                .AddMicrosoftIdentityWebApp(builder.Configuration.GetSection("AzureAd"));
 
-            builder.Services.AddControllersWithViews(options =>
+            builder.Services.AddDbContext<ApplicationDbContext>(options =>
+                options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection")));
+
+
+            builder.Services.AddDatabaseDeveloperPageExceptionFilter();
+
+            builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
+                .AddEntityFrameworkStores<ApplicationDbContext>();
+            
+            builder.Services.AddAuthentication()
+            .AddMicrosoftAccount(options =>
             {
-                var policy = new AuthorizationPolicyBuilder()
-                    .RequireAuthenticatedUser()
-                    .Build();
-                options.Filters.Add(new AuthorizeFilter(policy));
+                options.ClientId = builder.Configuration["Authentication:Microsoft:ClientId"]!;
+                options.ClientSecret = builder.Configuration["Authentication:Microsoft:ClientSecret"]!;
             });
-            builder.Services.AddRazorPages()
-                .AddMicrosoftIdentityUI();
+
+            builder.Services.AddControllersWithViews();
+
+            builder.Services.Configure<IdentityOptions>(options =>
+            {
+                options.Lockout.DefaultLockoutTimeSpan = TimeSpan.FromMinutes(5); // Lockout duration
+                options.Lockout.MaxFailedAccessAttempts = 3; // Number of failed attempts before lockout
+                options.Lockout.AllowedForNewUsers = true; // Enable lockout for new users
+
+                options.Password.RequireDigit = true;  // Require at least one number (0-9)
+                options.Password.RequiredLength = 8;   // Minimum password length
+                options.Password.RequireNonAlphanumeric = true; // Require special characters (e.g., !, @, #)
+                options.Password.RequireUppercase = true; // Require at least one uppercase letter
+                options.Password.RequireLowercase = true; // Require at least one lowercase letter
+                options.Password.RequiredUniqueChars = 2; // Require at least 2 unique characters
+            });
 
             var app = builder.Build();
 
             // Configure the HTTP request pipeline.
-            if (!app.Environment.IsDevelopment())
+            if (app.Environment.IsDevelopment())
+            {
+                app.UseMigrationsEndPoint();
+            }
+            else
             {
                 app.UseExceptionHandler("/Home/Error");
                 // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
@@ -41,7 +63,7 @@ namespace ClientWebApp
             app.UseStaticFiles();
 
             app.UseRouting();
-
+            app.UseAuthentication(); 
             app.UseAuthorization();
 
             app.MapControllerRoute(

@@ -11,11 +11,12 @@
 using System;
 using System.Reflection;
 
-[assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("aspnet-ClientWebApp-0cfe2cc2-00ee-4efd-85f4-964f595ba215")]
+[assembly: Microsoft.AspNetCore.Identity.UI.UIFrameworkAttribute("Bootstrap5")]
+[assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("aspnet-ClientWebApp-ba553b01-5b37-4ced-9632-144c04ae6d08")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("ClientWebApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1225ef65ebcb408da9e96b262ffc1397c863eccf")]
 [assembly: System.Reflection.AssemblyProductAttribute("ClientWebApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ClientWebApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
