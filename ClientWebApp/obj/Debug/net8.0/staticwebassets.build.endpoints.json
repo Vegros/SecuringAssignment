@@ -2387,6 +2387,88 @@
       ]
     },
     {
+      "Route": "SecureFiles/0fb132ac-37b6-419e-b6f7-5987bfb86148.docx",
+      "AssetFile": "SecureFiles/0fb132ac-37b6-419e-b6f7-5987bfb86148.docx",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "104049"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"H+rjLsbfI4yPTQPPmtwSM4PPs1dvmzSYqTaUqejthho=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 25 Apr 2025 00:08:16 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-H+rjLsbfI4yPTQPPmtwSM4PPs1dvmzSYqTaUqejthho="
+        }
+      ]
+    },
+    {
+      "Route": "SecureFiles/0fb132ac-37b6-419e-b6f7-5987bfb86148.tl91vod2p2.docx",
+      "AssetFile": "SecureFiles/0fb132ac-37b6-419e-b6f7-5987bfb86148.docx",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "104049"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"H+rjLsbfI4yPTQPPmtwSM4PPs1dvmzSYqTaUqejthho=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 25 Apr 2025 00:08:16 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "tl91vod2p2"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-H+rjLsbfI4yPTQPPmtwSM4PPs1dvmzSYqTaUqejthho="
+        },
+        {
+          "Name": "label",
+          "Value": "SecureFiles/0fb132ac-37b6-419e-b6f7-5987bfb86148.docx"
+        }
+      ]
+    },
+    {
       "Route": "SecureFiles/6ff8de8e-1f90-45ad-aebc-41878abf114d.docx",
       "AssetFile": "SecureFiles/6ff8de8e-1f90-45ad-aebc-41878abf114d.docx",
       "Selectors": [],

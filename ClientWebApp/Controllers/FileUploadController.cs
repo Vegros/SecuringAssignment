@@ -1,10 +1,9 @@
-﻿using ClientWebApp.Data;
-using ClientWebApp.Models;
+﻿using ClientWebApp.Models;
 using ClientWebApp.Models.DatabaseModels;
+using ClientWebApp.Repositories;
+using ClientWebApp.Utlities;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
-using System;
 using System.Security.Claims;
 
 namespace ClientWebApp.Controllers
@@ -12,10 +11,16 @@ namespace ClientWebApp.Controllers
     [Authorize]
     public class FileUploadController : Controller
     {
-        private readonly ApplicationDbContext _dbcontext;
-        public FileUploadController(ApplicationDbContext dbcontext)
+        PermisionRepository _permisionRepository;
+        FileRepository _fileRepository;
+        EncryptionUtility _encryptionUtility;
+        LogsRepository _logsRepository;
+        public FileUploadController(PermisionRepository permisionRepository, FileRepository fileRepository, EncryptionUtility encryptionUtility, LogsRepository logsRepository)
         {
-            _dbcontext = dbcontext;
+            _permisionRepository = permisionRepository;
+            _fileRepository = fileRepository;
+            _encryptionUtility = encryptionUtility;
+            _logsRepository = logsRepository;
         }
 
 
@@ -36,18 +41,23 @@ namespace ClientWebApp.Controllers
             }
 
             var extension = Path.GetExtension(model.File.FileName).ToLower();
-            if (extension != ".docx" && extension != ".pdf")
+            if (extension != ".docx")
             {
-                ModelState.AddModelError("File", "Only .docx or .pdf allowed.");
+                ModelState.AddModelError("File", "Only .docx allowed.");
                 return View(model);
             }
+
+            using var ms = new MemoryStream();
+            await model.File.CopyToAsync(ms);
+            string fileHash = _encryptionUtility.Hash(ms);
+            ms.Position = 0;
 
             var fileName = Guid.NewGuid() + extension;
             var filePath = Path.Combine(host.WebRootPath, "SecureFiles", fileName);
 
             using (var stream = new FileStream(filePath, FileMode.Create))
             {
-                await model.File.CopyToAsync(stream);
+                await ms.CopyToAsync(stream);
             }
 
             var accessCode = Guid.NewGuid().ToString();
@@ -59,11 +69,12 @@ namespace ClientWebApp.Controllers
                 FileName = model.File.FileName,
                 FilePath = filePath,
                 UploadedByEmail = uploadedBy,
-                FileHash = "", // Hashing to be added
+                FileHash = fileHash,
                 UploadDate = DateTime.UtcNow
             };
 
-            _dbcontext.Files.Add(uploadedFile);
+
+            _fileRepository.UploadFile(uploadedFile);
 
             var permission = new AccessPermission
             {
@@ -73,14 +84,25 @@ namespace ClientWebApp.Controllers
                 UploadedFileId = uploadedFile.Id
             };
 
-            _dbcontext.AccessPermissions.Add(permission);
-            await _dbcontext.SaveChangesAsync(); // ✅ Use await
+            _permisionRepository.addPermission(permission);
+
+            var log = new AccessLog
+            {
+                Id = Guid.NewGuid(),
+                IPAddress = HttpContext.Connection.RemoteIpAddress?.ToString() ?? "Unknown",
+                UserEmail = uploadedBy,
+                Timestamp = DateTime.UtcNow,
+                Action = "Upload"
+            };
+
+            _logsRepository.addLogs(log);
+
 
             TempData["Message"] = $"File uploaded successfully! Access Code: {accessCode}";
             return RedirectToAction("Upload");
         }
 
-      
+
 
 
     }

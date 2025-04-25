@@ -1,7 +1,8 @@
 using ClientWebApp.Data;
+using ClientWebApp.Repositories;
+using ClientWebApp.Utlities;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
-using System;
 
 namespace ClientWebApp
 {
@@ -21,7 +22,12 @@ namespace ClientWebApp
 
             builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
                 .AddEntityFrameworkStores<ApplicationDbContext>();
-            
+
+            builder.Services.AddScoped<EncryptionUtility>();
+            builder.Services.AddScoped<FileRepository>();
+            builder.Services.AddScoped<PermisionRepository>();
+            builder.Services.AddScoped<LogsRepository>();
+
             builder.Services.AddAuthentication()
             .AddMicrosoftAccount(options =>
             {
@@ -47,6 +53,8 @@ namespace ClientWebApp
 
             var app = builder.Build();
 
+
+
             // Configure the HTTP request pipeline.
             if (app.Environment.IsDevelopment())
             {
@@ -63,7 +71,7 @@ namespace ClientWebApp
             app.UseStaticFiles();
 
             app.UseRouting();
-            app.UseAuthentication(); 
+            app.UseAuthentication();
             app.UseAuthorization();
 
             app.MapControllerRoute(

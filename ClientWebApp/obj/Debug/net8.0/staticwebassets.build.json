@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "XIQv2+pYeYQqC5g5CRDRtdZfZt1uL2x7JaUlkIS7xpU=",
+  "Hash": "yx5j+30X76zeVqyX0lVVb9dTIN9FOPCoK8XOA8OcwU4=",
   "Source": "ClientWebApp",
   "BasePath": "_content/ClientWebApp",
   "Mode": "Default",
@@ -2661,6 +2661,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\SecureFiles\\0d5a45a6-c6b8-4eaa-9916-655ca0db460f.docx"
+    },
+    {
+      "Identity": "C:\\Users\\matti\\Desktop\\assignment enterprise\\ClientWebApp\\wwwroot\\SecureFiles\\0fb132ac-37b6-419e-b6f7-5987bfb86148.docx",
+      "SourceId": "ClientWebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\matti\\Desktop\\assignment enterprise\\ClientWebApp\\wwwroot\\",
+      "BasePath": "_content/ClientWebApp",
+      "RelativePath": "SecureFiles/0fb132ac-37b6-419e-b6f7-5987bfb86148#[.{fingerprint}]?.docx",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "tl91vod2p2",
+      "Integrity": "H+rjLsbfI4yPTQPPmtwSM4PPs1dvmzSYqTaUqejthho=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\SecureFiles\\0fb132ac-37b6-419e-b6f7-5987bfb86148.docx"
     },
     {
       "Identity": "C:\\Users\\matti\\Desktop\\assignment enterprise\\ClientWebApp\\wwwroot\\SecureFiles\\6ff8de8e-1f90-45ad-aebc-41878abf114d.docx",
@@ -10314,6 +10335,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-30eSqccYlwsbztKVXyiVA1IQWaxqy10Q/FSVQdjzSEw="
+        }
+      ]
+    },
+    {
+      "Route": "SecureFiles/0fb132ac-37b6-419e-b6f7-5987bfb86148.docx",
+      "AssetFile": "C:\\Users\\matti\\Desktop\\assignment enterprise\\ClientWebApp\\wwwroot\\SecureFiles\\0fb132ac-37b6-419e-b6f7-5987bfb86148.docx",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "104049"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"H+rjLsbfI4yPTQPPmtwSM4PPs1dvmzSYqTaUqejthho=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 25 Apr 2025 00:08:16 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-H+rjLsbfI4yPTQPPmtwSM4PPs1dvmzSYqTaUqejthho="
+        }
+      ]
+    },
+    {
+      "Route": "SecureFiles/0fb132ac-37b6-419e-b6f7-5987bfb86148.tl91vod2p2.docx",
+      "AssetFile": "C:\\Users\\matti\\Desktop\\assignment enterprise\\ClientWebApp\\wwwroot\\SecureFiles\\0fb132ac-37b6-419e-b6f7-5987bfb86148.docx",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "104049"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"H+rjLsbfI4yPTQPPmtwSM4PPs1dvmzSYqTaUqejthho=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 25 Apr 2025 00:08:16 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "tl91vod2p2"
+        },
+        {
+          "Name": "label",
+          "Value": "SecureFiles/0fb132ac-37b6-419e-b6f7-5987bfb86148.docx"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-H+rjLsbfI4yPTQPPmtwSM4PPs1dvmzSYqTaUqejthho="
         }
       ]
     },

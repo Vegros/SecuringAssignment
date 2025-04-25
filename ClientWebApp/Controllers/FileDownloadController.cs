@@ -1,21 +1,27 @@
 ﻿using ClientWebApp.Data;
 using ClientWebApp.Models;
 using ClientWebApp.Models.DatabaseModels;
-using Microsoft.AspNetCore.Authorization;
+using ClientWebApp.Repositories;
+using ClientWebApp.Utlities;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
 namespace ClientWebApp.Controllers
 {
-   
+
     [ApiController]
     [Route("api/[controller]")]
     public class FileDownloadController : Controller
     {
-        private readonly ApplicationDbContext _dbContext;
-        public FileDownloadController(ApplicationDbContext dbContext)
+
+        ApplicationDbContext _dbContext;
+        EncryptionUtility _encryptionUtility;
+        LogsRepository _logsRepository;
+        public FileDownloadController(ApplicationDbContext dbContext, EncryptionUtility encryptionUtility, LogsRepository logsRepository)
         {
             _dbContext = dbContext;
+            _encryptionUtility = encryptionUtility;
+            _logsRepository = logsRepository;
         }
 
 
@@ -35,25 +41,44 @@ namespace ClientWebApp.Controllers
             if (permission == null)
                 return Unauthorized("Invalid email or access code");
 
-            var file = permission.UploadedFile;
+            var filePath = permission.UploadedFile.FilePath;
 
-            if (!System.IO.File.Exists(file.FilePath))
-                return NotFound("File not found");
+            if (!System.IO.File.Exists(filePath))
+                return NotFound("File not found on server.");
 
-            var fileBytes = await System.IO.File.ReadAllBytesAsync(file.FilePath);
+            var fileBytes = await System.IO.File.ReadAllBytesAsync(filePath);
+            var fileStream = new MemoryStream(fileBytes);
 
-            _dbContext.AccessLogs.Add(new AccessLog
+            var lawyerKeys = _encryptionUtility.GenerateAsymmetricKeys();
+
+            var hybridEncrypted = _encryptionUtility.HybridEncrypt(fileStream, lawyerKeys.PublicKey);
+
+            var serverKeys = _encryptionUtility.GenerateAsymmetricKeys();
+            var signature = _encryptionUtility.DigitallySign(hybridEncrypted, serverKeys.PrivateKey);
+
+            hybridEncrypted.Position = 0;
+            var base64Encrypted = Convert.ToBase64String(hybridEncrypted.ToArray());
+
+
+            var log = new AccessLog
             {
                 Id = Guid.NewGuid(),
                 IPAddress = HttpContext.Connection.RemoteIpAddress?.ToString() ?? "Unknown",
                 UserEmail = request.Email,
                 Timestamp = DateTime.UtcNow,
                 Action = "Download"
+            };
+
+            _logsRepository.addLogs(log);
+
+            return Ok(new
+            {
+                file = base64Encrypted,
+                signature = signature,
+                serverPublicKey = serverKeys.PublicKey,
+                lawyerPrivateKey = lawyerKeys.PrivateKey
             });
 
-            await _dbContext.SaveChangesAsync();
-
-            return File(fileBytes, "application/octet-stream", file.FileName);
         }
     }
 }

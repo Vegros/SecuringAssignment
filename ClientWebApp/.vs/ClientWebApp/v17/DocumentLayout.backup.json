@@ -3,16 +3,44 @@
   "WorkspaceRootPath": "C:\\Users\\matti\\Desktop\\assignment enterprise\\ClientWebApp\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{7BF0F6E8-69C3-458F-BAC2-5BDFB7D7FC57}|ClientWebApp.csproj|c:\\users\\matti\\desktop\\assignment enterprise\\clientwebapp\\controllers\\fileuploadcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BF0F6E8-69C3-458F-BAC2-5BDFB7D7FC57}|ClientWebApp.csproj|solutionrelative:controllers\\fileuploadcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{7BF0F6E8-69C3-458F-BAC2-5BDFB7D7FC57}|ClientWebApp.csproj|c:\\users\\matti\\desktop\\assignment enterprise\\clientwebapp\\controllers\\filedownloadcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7BF0F6E8-69C3-458F-BAC2-5BDFB7D7FC57}|ClientWebApp.csproj|solutionrelative:controllers\\filedownloadcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BF0F6E8-69C3-458F-BAC2-5BDFB7D7FC57}|ClientWebApp.csproj|c:\\users\\matti\\desktop\\assignment enterprise\\clientwebapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BF0F6E8-69C3-458F-BAC2-5BDFB7D7FC57}|ClientWebApp.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BF0F6E8-69C3-458F-BAC2-5BDFB7D7FC57}|ClientWebApp.csproj|c:\\users\\matti\\desktop\\assignment enterprise\\clientwebapp\\repositories\\logsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BF0F6E8-69C3-458F-BAC2-5BDFB7D7FC57}|ClientWebApp.csproj|solutionrelative:repositories\\logsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BF0F6E8-69C3-458F-BAC2-5BDFB7D7FC57}|ClientWebApp.csproj|c:\\users\\matti\\desktop\\assignment enterprise\\clientwebapp\\repositories\\permisionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BF0F6E8-69C3-458F-BAC2-5BDFB7D7FC57}|ClientWebApp.csproj|solutionrelative:repositories\\permisionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7BF0F6E8-69C3-458F-BAC2-5BDFB7D7FC57}|ClientWebApp.csproj|c:\\users\\matti\\desktop\\assignment enterprise\\clientwebapp\\models\\downloadfiledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7BF0F6E8-69C3-458F-BAC2-5BDFB7D7FC57}|ClientWebApp.csproj|solutionrelative:models\\downloadfiledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7BF0F6E8-69C3-458F-BAC2-5BDFB7D7FC57}|ClientWebApp.csproj|c:\\users\\matti\\desktop\\assignment enterprise\\clientwebapp\\controllers\\fileuploadcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7BF0F6E8-69C3-458F-BAC2-5BDFB7D7FC57}|ClientWebApp.csproj|solutionrelative:controllers\\fileuploadcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7BF0F6E8-69C3-458F-BAC2-5BDFB7D7FC57}|ClientWebApp.csproj|c:\\users\\matti\\desktop\\assignment enterprise\\clientwebapp\\repositories\\filerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BF0F6E8-69C3-458F-BAC2-5BDFB7D7FC57}|ClientWebApp.csproj|solutionrelative:repositories\\filerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BF0F6E8-69C3-458F-BAC2-5BDFB7D7FC57}|ClientWebApp.csproj|c:\\users\\matti\\desktop\\assignment enterprise\\clientwebapp\\repositories\\baserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BF0F6E8-69C3-458F-BAC2-5BDFB7D7FC57}|ClientWebApp.csproj|solutionrelative:repositories\\baserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BF0F6E8-69C3-458F-BAC2-5BDFB7D7FC57}|ClientWebApp.csproj|c:\\users\\matti\\desktop\\assignment enterprise\\clientwebapp\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BF0F6E8-69C3-458F-BAC2-5BDFB7D7FC57}|ClientWebApp.csproj|solutionrelative:data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BF0F6E8-69C3-458F-BAC2-5BDFB7D7FC57}|ClientWebApp.csproj|c:\\users\\matti\\desktop\\assignment enterprise\\clientwebapp\\utlities\\encryptionutility.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BF0F6E8-69C3-458F-BAC2-5BDFB7D7FC57}|ClientWebApp.csproj|solutionrelative:utlities\\encryptionutility.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,41 +62,132 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
+              "Title": "PermisionRepository.cs",
+              "DocumentMoniker": "C:\\Users\\matti\\Desktop\\assignment enterprise\\ClientWebApp\\Repositories\\PermisionRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\PermisionRepository.cs",
+              "ToolTip": "C:\\Users\\matti\\Desktop\\assignment enterprise\\ClientWebApp\\Repositories\\PermisionRepository.cs",
+              "RelativeToolTip": "Repositories\\PermisionRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T23:16:39.302Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FileUploadController.cs",
+              "DocumentMoniker": "C:\\Users\\matti\\Desktop\\assignment enterprise\\ClientWebApp\\Controllers\\FileUploadController.cs",
+              "RelativeDocumentMoniker": "Controllers\\FileUploadController.cs",
+              "ToolTip": "C:\\Users\\matti\\Desktop\\assignment enterprise\\ClientWebApp\\Controllers\\FileUploadController.cs",
+              "RelativeToolTip": "Controllers\\FileUploadController.cs",
+              "ViewState": "AgIAAD4AAAAAAAAAAAAwwBEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-21T16:07:30.436Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LogsRepository.cs",
+              "DocumentMoniker": "C:\\Users\\matti\\Desktop\\assignment enterprise\\ClientWebApp\\Repositories\\LogsRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\LogsRepository.cs",
+              "ToolTip": "C:\\Users\\matti\\Desktop\\assignment enterprise\\ClientWebApp\\Repositories\\LogsRepository.cs",
+              "RelativeToolTip": "Repositories\\LogsRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T00:24:42.954Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\matti\\Desktop\\assignment enterprise\\ClientWebApp\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\matti\\Desktop\\assignment enterprise\\ClientWebApp\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAADwvxwAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T00:03:53.012Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "EncryptionUtility.cs",
+              "DocumentMoniker": "C:\\Users\\matti\\Desktop\\assignment enterprise\\ClientWebApp\\Utlities\\EncryptionUtility.cs",
+              "RelativeDocumentMoniker": "Utlities\\EncryptionUtility.cs",
+              "ToolTip": "C:\\Users\\matti\\Desktop\\assignment enterprise\\ClientWebApp\\Utlities\\EncryptionUtility.cs",
+              "RelativeToolTip": "Utlities\\EncryptionUtility.cs",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAswF4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T23:22:39.267Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\matti\\Desktop\\assignment enterprise\\ClientWebApp\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\matti\\Desktop\\assignment enterprise\\ClientWebApp\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwA0AAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T23:12:42.877Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "FileRepository.cs",
+              "DocumentMoniker": "C:\\Users\\matti\\Desktop\\assignment enterprise\\ClientWebApp\\Repositories\\FileRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\FileRepository.cs",
+              "ToolTip": "C:\\Users\\matti\\Desktop\\assignment enterprise\\ClientWebApp\\Repositories\\FileRepository.cs",
+              "RelativeToolTip": "Repositories\\FileRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwA8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T23:10:45.77Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "BaseRepository.cs",
+              "DocumentMoniker": "C:\\Users\\matti\\Desktop\\assignment enterprise\\ClientWebApp\\Repositories\\BaseRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\BaseRepository.cs",
+              "ToolTip": "C:\\Users\\matti\\Desktop\\assignment enterprise\\ClientWebApp\\Repositories\\BaseRepository.cs",
+              "RelativeToolTip": "Repositories\\BaseRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAYAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T23:10:27.742Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "DownloadFileDTO.cs",
               "DocumentMoniker": "C:\\Users\\matti\\Desktop\\assignment enterprise\\ClientWebApp\\Models\\DownloadFileDTO.cs",
               "RelativeDocumentMoniker": "Models\\DownloadFileDTO.cs",
               "ToolTip": "C:\\Users\\matti\\Desktop\\assignment enterprise\\ClientWebApp\\Models\\DownloadFileDTO.cs",
               "RelativeToolTip": "Models\\DownloadFileDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-21T16:08:22.022Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "FileDownloadController.cs",
               "DocumentMoniker": "C:\\Users\\matti\\Desktop\\assignment enterprise\\ClientWebApp\\Controllers\\FileDownloadController.cs",
               "RelativeDocumentMoniker": "Controllers\\FileDownloadController.cs",
               "ToolTip": "C:\\Users\\matti\\Desktop\\assignment enterprise\\ClientWebApp\\Controllers\\FileDownloadController.cs",
               "RelativeToolTip": "Controllers\\FileDownloadController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAADAAAAAAAAAAAAAowEUAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-21T16:07:44.987Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "FileUploadController.cs",
-              "DocumentMoniker": "C:\\Users\\matti\\Desktop\\assignment enterprise\\ClientWebApp\\Controllers\\FileUploadController.cs",
-              "RelativeDocumentMoniker": "Controllers\\FileUploadController.cs",
-              "ToolTip": "C:\\Users\\matti\\Desktop\\assignment enterprise\\ClientWebApp\\Controllers\\FileUploadController.cs",
-              "RelativeToolTip": "Controllers\\FileUploadController.cs",
-              "ViewState": "AgIAAEcAAAAAAAAAAAAwwFIAAAAGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-21T16:07:30.436Z",
               "EditorCaption": ""
             }
           ]
