@@ -49,12 +49,14 @@ namespace ClientWebApp.Controllers
             var fileBytes = await System.IO.File.ReadAllBytesAsync(filePath);
             var fileStream = new MemoryStream(fileBytes);
 
-            var lawyerKeys = _encryptionUtility.GenerateAsymmetricKeys();
+            var decryptedBytes = fileStream.ToArray(); // before hybridEncrypt
 
-            var hybridEncrypted = _encryptionUtility.HybridEncrypt(fileStream, lawyerKeys.PublicKey);
+
+
+            var hybridEncrypted = _encryptionUtility.HybridEncrypt(fileStream, request.lawyerPublicKey);
 
             var serverKeys = _encryptionUtility.GenerateAsymmetricKeys();
-            var signature = _encryptionUtility.DigitallySign(hybridEncrypted, serverKeys.PrivateKey);
+            var signature = _encryptionUtility.DigitallySign(new MemoryStream(decryptedBytes), serverKeys.PrivateKey);
 
             hybridEncrypted.Position = 0;
             var base64Encrypted = Convert.ToBase64String(hybridEncrypted.ToArray());
@@ -76,7 +78,6 @@ namespace ClientWebApp.Controllers
                 file = base64Encrypted,
                 signature = signature,
                 serverPublicKey = serverKeys.PublicKey,
-                lawyerPrivateKey = lawyerKeys.PrivateKey
             });
 
         }

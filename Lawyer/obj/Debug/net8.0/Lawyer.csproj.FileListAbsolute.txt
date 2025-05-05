@@ -1,0 +1,15 @@
+C:\Users\matti\Desktop\assignment enterprise\Lawyer\bin\Debug\net8.0\Lawyer.exe
+C:\Users\matti\Desktop\assignment enterprise\Lawyer\bin\Debug\net8.0\Lawyer.deps.json
+C:\Users\matti\Desktop\assignment enterprise\Lawyer\bin\Debug\net8.0\Lawyer.runtimeconfig.json
+C:\Users\matti\Desktop\assignment enterprise\Lawyer\bin\Debug\net8.0\Lawyer.dll
+C:\Users\matti\Desktop\assignment enterprise\Lawyer\bin\Debug\net8.0\Lawyer.pdb
+C:\Users\matti\Desktop\assignment enterprise\Lawyer\obj\Debug\net8.0\Lawyer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\matti\Desktop\assignment enterprise\Lawyer\obj\Debug\net8.0\Lawyer.AssemblyInfoInputs.cache
+C:\Users\matti\Desktop\assignment enterprise\Lawyer\obj\Debug\net8.0\Lawyer.AssemblyInfo.cs
+C:\Users\matti\Desktop\assignment enterprise\Lawyer\obj\Debug\net8.0\Lawyer.csproj.CoreCompileInputs.cache
+C:\Users\matti\Desktop\assignment enterprise\Lawyer\obj\Debug\net8.0\Lawyer.sourcelink.json
+C:\Users\matti\Desktop\assignment enterprise\Lawyer\obj\Debug\net8.0\Lawyer.dll
+C:\Users\matti\Desktop\assignment enterprise\Lawyer\obj\Debug\net8.0\refint\Lawyer.dll
+C:\Users\matti\Desktop\assignment enterprise\Lawyer\obj\Debug\net8.0\Lawyer.pdb
+C:\Users\matti\Desktop\assignment enterprise\Lawyer\obj\Debug\net8.0\Lawyer.genruntimeconfig.cache
+C:\Users\matti\Desktop\assignment enterprise\Lawyer\obj\Debug\net8.0\ref\Lawyer.dll

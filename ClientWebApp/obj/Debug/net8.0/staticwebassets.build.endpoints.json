@@ -2469,6 +2469,88 @@
       ]
     },
     {
+      "Route": "SecureFiles/22dac421-df7f-4fe7-89e7-6d9f044df025.cccnft1nfi.docx",
+      "AssetFile": "SecureFiles/22dac421-df7f-4fe7-89e7-6d9f044df025.docx",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "29733"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xI68skMkIZ2WuPxXt/e1Os7KMaAxX0fGlENTsOnSnFI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 25 Apr 2025 00:36:23 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "cccnft1nfi"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-xI68skMkIZ2WuPxXt/e1Os7KMaAxX0fGlENTsOnSnFI="
+        },
+        {
+          "Name": "label",
+          "Value": "SecureFiles/22dac421-df7f-4fe7-89e7-6d9f044df025.docx"
+        }
+      ]
+    },
+    {
+      "Route": "SecureFiles/22dac421-df7f-4fe7-89e7-6d9f044df025.docx",
+      "AssetFile": "SecureFiles/22dac421-df7f-4fe7-89e7-6d9f044df025.docx",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "29733"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xI68skMkIZ2WuPxXt/e1Os7KMaAxX0fGlENTsOnSnFI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 25 Apr 2025 00:36:23 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-xI68skMkIZ2WuPxXt/e1Os7KMaAxX0fGlENTsOnSnFI="
+        }
+      ]
+    },
+    {
       "Route": "SecureFiles/6ff8de8e-1f90-45ad-aebc-41878abf114d.docx",
       "AssetFile": "SecureFiles/6ff8de8e-1f90-45ad-aebc-41878abf114d.docx",
       "Selectors": [],

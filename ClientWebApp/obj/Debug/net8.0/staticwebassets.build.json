@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "yx5j+30X76zeVqyX0lVVb9dTIN9FOPCoK8XOA8OcwU4=",
+  "Hash": "9nwqaXs0uV0Cz4CLzfr/Ybo4YguClwMtfpxRKuuhq8k=",
   "Source": "ClientWebApp",
   "BasePath": "_content/ClientWebApp",
   "Mode": "Default",
@@ -2682,6 +2682,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\SecureFiles\\0fb132ac-37b6-419e-b6f7-5987bfb86148.docx"
+    },
+    {
+      "Identity": "C:\\Users\\matti\\Desktop\\assignment enterprise\\ClientWebApp\\wwwroot\\SecureFiles\\22dac421-df7f-4fe7-89e7-6d9f044df025.docx",
+      "SourceId": "ClientWebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\matti\\Desktop\\assignment enterprise\\ClientWebApp\\wwwroot\\",
+      "BasePath": "_content/ClientWebApp",
+      "RelativePath": "SecureFiles/22dac421-df7f-4fe7-89e7-6d9f044df025#[.{fingerprint}]?.docx",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "cccnft1nfi",
+      "Integrity": "xI68skMkIZ2WuPxXt/e1Os7KMaAxX0fGlENTsOnSnFI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\SecureFiles\\22dac421-df7f-4fe7-89e7-6d9f044df025.docx"
     },
     {
       "Identity": "C:\\Users\\matti\\Desktop\\assignment enterprise\\ClientWebApp\\wwwroot\\SecureFiles\\6ff8de8e-1f90-45ad-aebc-41878abf114d.docx",
@@ -10417,6 +10438,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-H+rjLsbfI4yPTQPPmtwSM4PPs1dvmzSYqTaUqejthho="
+        }
+      ]
+    },
+    {
+      "Route": "SecureFiles/22dac421-df7f-4fe7-89e7-6d9f044df025.cccnft1nfi.docx",
+      "AssetFile": "C:\\Users\\matti\\Desktop\\assignment enterprise\\ClientWebApp\\wwwroot\\SecureFiles\\22dac421-df7f-4fe7-89e7-6d9f044df025.docx",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "29733"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xI68skMkIZ2WuPxXt/e1Os7KMaAxX0fGlENTsOnSnFI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 25 Apr 2025 00:36:23 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "cccnft1nfi"
+        },
+        {
+          "Name": "label",
+          "Value": "SecureFiles/22dac421-df7f-4fe7-89e7-6d9f044df025.docx"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-xI68skMkIZ2WuPxXt/e1Os7KMaAxX0fGlENTsOnSnFI="
+        }
+      ]
+    },
+    {
+      "Route": "SecureFiles/22dac421-df7f-4fe7-89e7-6d9f044df025.docx",
+      "AssetFile": "C:\\Users\\matti\\Desktop\\assignment enterprise\\ClientWebApp\\wwwroot\\SecureFiles\\22dac421-df7f-4fe7-89e7-6d9f044df025.docx",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "29733"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xI68skMkIZ2WuPxXt/e1Os7KMaAxX0fGlENTsOnSnFI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 25 Apr 2025 00:36:23 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-xI68skMkIZ2WuPxXt/e1Os7KMaAxX0fGlENTsOnSnFI="
         }
       ]
     },

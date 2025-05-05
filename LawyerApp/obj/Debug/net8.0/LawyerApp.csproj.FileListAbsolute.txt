@@ -1,0 +1,15 @@
+C:\Users\matti\Desktop\assignment enterprise\LawyerApp\bin\Debug\net8.0\LawyerApp.exe
+C:\Users\matti\Desktop\assignment enterprise\LawyerApp\bin\Debug\net8.0\LawyerApp.deps.json
+C:\Users\matti\Desktop\assignment enterprise\LawyerApp\bin\Debug\net8.0\LawyerApp.runtimeconfig.json
+C:\Users\matti\Desktop\assignment enterprise\LawyerApp\bin\Debug\net8.0\LawyerApp.dll
+C:\Users\matti\Desktop\assignment enterprise\LawyerApp\bin\Debug\net8.0\LawyerApp.pdb
+C:\Users\matti\Desktop\assignment enterprise\LawyerApp\obj\Debug\net8.0\LawyerApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\matti\Desktop\assignment enterprise\LawyerApp\obj\Debug\net8.0\LawyerApp.AssemblyInfoInputs.cache
+C:\Users\matti\Desktop\assignment enterprise\LawyerApp\obj\Debug\net8.0\LawyerApp.AssemblyInfo.cs
+C:\Users\matti\Desktop\assignment enterprise\LawyerApp\obj\Debug\net8.0\LawyerApp.csproj.CoreCompileInputs.cache
+C:\Users\matti\Desktop\assignment enterprise\LawyerApp\obj\Debug\net8.0\LawyerApp.sourcelink.json
+C:\Users\matti\Desktop\assignment enterprise\LawyerApp\obj\Debug\net8.0\LawyerApp.dll
+C:\Users\matti\Desktop\assignment enterprise\LawyerApp\obj\Debug\net8.0\refint\LawyerApp.dll
+C:\Users\matti\Desktop\assignment enterprise\LawyerApp\obj\Debug\net8.0\LawyerApp.pdb
+C:\Users\matti\Desktop\assignment enterprise\LawyerApp\obj\Debug\net8.0\LawyerApp.genruntimeconfig.cache
+C:\Users\matti\Desktop\assignment enterprise\LawyerApp\obj\Debug\net8.0\ref\LawyerApp.dll
