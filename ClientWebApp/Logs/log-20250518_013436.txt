@@ -1,0 +1,44 @@
+2025-05-18 03:34:36.510 +02:00 [INF] User profile is available. Using 'C:\Users\matti\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-05-18 03:34:36.713 +02:00 [INF] Now listening on: https://localhost:7130
+2025-05-18 03:34:36.713 +02:00 [INF] Now listening on: http://localhost:5248
+2025-05-18 03:34:36.753 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-05-18 03:34:36.753 +02:00 [INF] Hosting environment: Development
+2025-05-18 03:34:36.753 +02:00 [INF] Content root path: C:\Users\matti\Desktop\assignment enterprise\ClientWebApp
+2025-05-18 03:34:37.840 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7130/ - null null
+2025-05-18 03:34:37.929 +02:00 [INF] Executing endpoint 'ClientWebApp.Controllers.HomeController.Index (ClientWebApp)'
+2025-05-18 03:34:37.945 +02:00 [INF] Route matched with {action = "Index", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ClientWebApp.Controllers.HomeController (ClientWebApp).
+2025-05-18 03:34:37.949 +02:00 [INF] Executing ViewResult, running view Index.
+2025-05-18 03:34:38.069 +02:00 [INF] Executed ViewResult - view Index executed in 120.657ms.
+2025-05-18 03:34:38.069 +02:00 [INF] Executed action ClientWebApp.Controllers.HomeController.Index (ClientWebApp) in 124.3846ms
+2025-05-18 03:34:38.070 +02:00 [INF] Executed endpoint 'ClientWebApp.Controllers.HomeController.Index (ClientWebApp)'
+2025-05-18 03:34:38.073 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7130/ - 200 null text/html; charset=utf-8 236.3962ms
+2025-05-18 03:34:38.102 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7130/_framework/aspnetcore-browser-refresh.js - null null
+2025-05-18 03:34:38.106 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7130/_vs/browserLink - null null
+2025-05-18 03:34:38.107 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7130/_framework/aspnetcore-browser-refresh.js - 200 16509 application/javascript; charset=utf-8 4.8527ms
+2025-05-18 03:34:38.165 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7130/_vs/browserLink - 200 null text/javascript; charset=UTF-8 58.8436ms
+2025-05-18 03:34:47.897 +02:00 [INF] Request starting HTTP/1.1 POST https://localhost:7130/api/FileDownload/Download - application/json; charset=utf-8 null
+2025-05-18 03:34:47.900 +02:00 [INF] Executing endpoint 'ClientWebApp.Controllers.FileDownloadController.DownloadFile (ClientWebApp)'
+2025-05-18 03:34:47.907 +02:00 [INF] Route matched with {action = "DownloadFile", controller = "FileDownload", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] DownloadFile(ClientWebApp.Models.DownloadFileDTO) on controller ClientWebApp.Controllers.FileDownloadController (ClientWebApp).
+2025-05-18 03:34:47.934 +02:00 [INF] Received download request for fileId="5ea054b0-2138-4b71-ac24-3a962b068e98" by mattias.tonna@gmail.com
+2025-05-18 03:34:48.553 +02:00 [INF] Executed DbCommand (29ms) [Parameters=[@__request_Email_0='?', @__request_AccessCode_1='?', @__request_FileId_2='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT a."Id", a."AccessCode", a."LawyerEmail", a."UploadedFileId", f."Id", f."FileHash", f."FileName", f."FilePath", f."UploadDate", f."UploadedByEmail"
+FROM "AccessPermissions" AS a
+INNER JOIN "Files" AS f ON a."UploadedFileId" = f."Id"
+WHERE a."LawyerEmail" = @__request_Email_0 AND a."AccessCode" = @__request_AccessCode_1 AND a."UploadedFileId" = @__request_FileId_2
+LIMIT 1
+2025-05-18 03:34:48.595 +02:00 [INF] File found: C:\Users\matti\Desktop\assignment enterprise\ClientWebApp\wwwroot\SecureFiles\22dac421-df7f-4fe7-89e7-6d9f044df025.docx. Proceeding with encryption.
+2025-05-18 03:34:48.598 +02:00 [INF] Symmetric AES keys generated.
+2025-05-18 03:34:48.600 +02:00 [INF] Symmetric encryption completed using AES.
+2025-05-18 03:34:48.602 +02:00 [INF] Data encrypted using RSA public key.
+2025-05-18 03:34:48.602 +02:00 [INF] Data encrypted using RSA public key.
+2025-05-18 03:34:48.602 +02:00 [INF] Hybrid encryption completed: AES data + RSA-encrypted key/IV.
+2025-05-18 03:34:48.602 +02:00 [INF] Asymmetric RSA key pair generated.
+2025-05-18 03:34:48.610 +02:00 [INF] Digital signature successfully created.
+2025-05-18 03:34:48.669 +02:00 [INF] Executed DbCommand (6ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?', @p2='?', @p3='?' (DbType = DateTime), @p4='?'], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "AccessLogs" ("Id", "Action", "IPAddress", "Timestamp", "UserEmail")
+VALUES (@p0, @p1, @p2, @p3, @p4);
+2025-05-18 03:34:48.672 +02:00 [INF] Download successfully processed and logged for mattias.tonna@gmail.com
+2025-05-18 03:34:48.676 +02:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType1`3[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-05-18 03:34:48.680 +02:00 [INF] Executed action ClientWebApp.Controllers.FileDownloadController.DownloadFile (ClientWebApp) in 773.3221ms
+2025-05-18 03:34:48.680 +02:00 [INF] Executed endpoint 'ClientWebApp.Controllers.FileDownloadController.DownloadFile (ClientWebApp)'
+2025-05-18 03:34:48.683 +02:00 [INF] Request finished HTTP/1.1 POST https://localhost:7130/api/FileDownload/Download - 200 null application/json; charset=utf-8 786.2901ms
