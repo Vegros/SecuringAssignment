@@ -2,7 +2,7 @@
 
 <div class="container mt-5">
     <div class="card shadow p-4">
-        <h2 class="mb-4 text-primary">📄 Upload Secure File</h2>
+        <h2 class="mb-4 text-primary">Upload Secure File</h2>
 
         <form asp-controller="FileUpload" asp-action="Upload" method="post" enctype="multipart/form-data">
             <div class="mb-3">
@@ -15,7 +15,7 @@
                 <input type="email" name="LawyerEmail" class="form-control" placeholder="lawyer@example.com" required />
             </div>
 
-            <button type="submit" class="btn btn-primary w-100">🔐 Upload File</button>
+            <button type="submit" class="btn btn-primary w-100">Upload File</button>
         </form>
 
         @if (TempData["Message"] != null)

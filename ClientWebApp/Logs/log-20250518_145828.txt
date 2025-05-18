@@ -1,0 +1,24 @@
+2025-05-18 16:58:28.156 +02:00 [INF] User profile is available. Using 'C:\Users\matti\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-05-18 16:58:28.243 +02:00 [INF] Now listening on: https://localhost:7130
+2025-05-18 16:58:28.244 +02:00 [INF] Now listening on: http://localhost:5248
+2025-05-18 16:58:28.273 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-05-18 16:58:28.273 +02:00 [INF] Hosting environment: Development
+2025-05-18 16:58:28.273 +02:00 [INF] Content root path: C:\Users\matti\Desktop\assignment enterprise\ClientWebApp
+2025-05-18 16:58:28.618 +02:00 [INF] User profile is available. Using 'C:\Users\matti\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-05-18 16:58:28.714 +02:00 [INF] Now listening on: https://localhost:7130
+2025-05-18 16:58:28.714 +02:00 [INF] Now listening on: http://localhost:5248
+2025-05-18 16:58:28.745 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-05-18 16:58:28.745 +02:00 [INF] Hosting environment: Development
+2025-05-18 16:58:28.745 +02:00 [INF] Content root path: C:\Users\matti\Desktop\assignment enterprise\ClientWebApp
+2025-05-18 16:58:29.126 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7130/ - null null
+2025-05-18 16:58:29.220 +02:00 [INF] Executing endpoint 'ClientWebApp.Controllers.HomeController.Index (ClientWebApp)'
+2025-05-18 16:58:29.226 +02:00 [INF] Route matched with {action = "Index", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ClientWebApp.Controllers.HomeController (ClientWebApp).
+2025-05-18 16:58:29.229 +02:00 [INF] Executing ViewResult, running view Index.
+2025-05-18 16:58:29.267 +02:00 [INF] Executed ViewResult - view Index executed in 38.8703ms.
+2025-05-18 16:58:29.269 +02:00 [INF] Executed action ClientWebApp.Controllers.HomeController.Index (ClientWebApp) in 42.9107ms
+2025-05-18 16:58:29.270 +02:00 [INF] Executed endpoint 'ClientWebApp.Controllers.HomeController.Index (ClientWebApp)'
+2025-05-18 16:58:29.272 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7130/ - 200 null text/html; charset=utf-8 146.8808ms
+2025-05-18 16:58:29.273 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7130/_vs/browserLink - null null
+2025-05-18 16:58:29.274 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7130/_framework/aspnetcore-browser-refresh.js - null null
+2025-05-18 16:58:29.276 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7130/_framework/aspnetcore-browser-refresh.js - 200 16509 application/javascript; charset=utf-8 1.9213ms
+2025-05-18 16:58:29.285 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7130/_vs/browserLink - 200 null text/javascript; charset=UTF-8 11.829ms

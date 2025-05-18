@@ -1,0 +1,246 @@
+2025-05-18 17:16:09.348 +02:00 [INF] User profile is available. Using 'C:\Users\matti\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-05-18 17:16:09.553 +02:00 [INF] Now listening on: https://localhost:7130
+2025-05-18 17:16:09.553 +02:00 [INF] Now listening on: http://localhost:5248
+2025-05-18 17:16:09.586 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-05-18 17:16:09.586 +02:00 [INF] Hosting environment: Development
+2025-05-18 17:16:09.586 +02:00 [INF] Content root path: C:\Users\matti\Desktop\assignment enterprise\ClientWebApp
+2025-05-18 17:16:10.432 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7130/ - null null
+2025-05-18 17:16:11.269 +02:00 [INF] Executed DbCommand (42ms) [Parameters=[@__p_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT a."Id", a."AccessFailedCount", a."ConcurrencyStamp", a."Email", a."EmailConfirmed", a."LockoutEnabled", a."LockoutEnd", a."NormalizedEmail", a."NormalizedUserName", a."PasswordHash", a."PhoneNumber", a."PhoneNumberConfirmed", a."SecurityStamp", a."TwoFactorEnabled", a."UserName"
+FROM "AspNetUsers" AS a
+WHERE a."Id" = @__p_0
+LIMIT 1
+2025-05-18 17:16:11.344 +02:00 [INF] Executed DbCommand (2ms) [Parameters=[@__user_Id_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT a."Id", a."ClaimType", a."ClaimValue", a."UserId"
+FROM "AspNetUserClaims" AS a
+WHERE a."UserId" = @__user_Id_0
+2025-05-18 17:16:11.350 +02:00 [INF] Executing endpoint 'ClientWebApp.Controllers.HomeController.Index (ClientWebApp)'
+2025-05-18 17:16:11.356 +02:00 [INF] Route matched with {action = "Index", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ClientWebApp.Controllers.HomeController (ClientWebApp).
+2025-05-18 17:16:11.361 +02:00 [INF] Executing ViewResult, running view Index.
+2025-05-18 17:16:11.416 +02:00 [INF] Executed ViewResult - view Index executed in 55.6085ms.
+2025-05-18 17:16:11.418 +02:00 [INF] Executed action ClientWebApp.Controllers.HomeController.Index (ClientWebApp) in 62.1852ms
+2025-05-18 17:16:11.418 +02:00 [INF] Executed endpoint 'ClientWebApp.Controllers.HomeController.Index (ClientWebApp)'
+2025-05-18 17:16:11.422 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7130/_framework/aspnetcore-browser-refresh.js - null null
+2025-05-18 17:16:11.425 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7130/_framework/aspnetcore-browser-refresh.js - 200 16509 application/javascript; charset=utf-8 3.3967ms
+2025-05-18 17:16:11.425 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7130/ - 200 null text/html; charset=utf-8 997.7304ms
+2025-05-18 17:16:11.429 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7130/_vs/browserLink - null null
+2025-05-18 17:16:11.461 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7130/_vs/browserLink - 200 null text/javascript; charset=UTF-8 32.1209ms
+2025-05-18 17:16:13.921 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7130/ - null null
+2025-05-18 17:16:13.926 +02:00 [INF] Executing endpoint 'ClientWebApp.Controllers.HomeController.Index (ClientWebApp)'
+2025-05-18 17:16:13.927 +02:00 [INF] Route matched with {action = "Index", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ClientWebApp.Controllers.HomeController (ClientWebApp).
+2025-05-18 17:16:13.927 +02:00 [INF] Executing ViewResult, running view Index.
+2025-05-18 17:16:13.932 +02:00 [INF] Executed ViewResult - view Index executed in 4.8333ms.
+2025-05-18 17:16:13.932 +02:00 [INF] Executed action ClientWebApp.Controllers.HomeController.Index (ClientWebApp) in 5.0872ms
+2025-05-18 17:16:13.932 +02:00 [INF] Executed endpoint 'ClientWebApp.Controllers.HomeController.Index (ClientWebApp)'
+2025-05-18 17:16:13.932 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7130/ - 200 null text/html; charset=utf-8 11.0955ms
+2025-05-18 17:16:13.952 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7130/_vs/browserLink - null null
+2025-05-18 17:16:13.952 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7130/_framework/aspnetcore-browser-refresh.js - null null
+2025-05-18 17:16:13.953 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7130/_framework/aspnetcore-browser-refresh.js - 200 16509 application/javascript; charset=utf-8 1.7319ms
+2025-05-18 17:16:13.961 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7130/_vs/browserLink - 200 null text/javascript; charset=UTF-8 9.3802ms
+2025-05-18 17:16:16.988 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7130/FileUpload/Upload - null null
+2025-05-18 17:16:17.006 +02:00 [INF] Executing endpoint 'ClientWebApp.Controllers.FileUploadController.Upload (ClientWebApp)'
+2025-05-18 17:16:17.009 +02:00 [INF] Route matched with {action = "Upload", controller = "FileUpload", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Upload() on controller ClientWebApp.Controllers.FileUploadController (ClientWebApp).
+2025-05-18 17:16:17.011 +02:00 [INF] Executing ViewResult, running view Upload.
+2025-05-18 17:16:17.021 +02:00 [INF] Executed ViewResult - view Upload executed in 10.8202ms.
+2025-05-18 17:16:17.022 +02:00 [INF] Executed action ClientWebApp.Controllers.FileUploadController.Upload (ClientWebApp) in 12.4385ms
+2025-05-18 17:16:17.022 +02:00 [INF] Executed endpoint 'ClientWebApp.Controllers.FileUploadController.Upload (ClientWebApp)'
+2025-05-18 17:16:17.022 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7130/FileUpload/Upload - 200 null text/html; charset=utf-8 33.7042ms
+2025-05-18 17:16:17.031 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7130/_vs/browserLink - null null
+2025-05-18 17:16:17.034 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7130/_framework/aspnetcore-browser-refresh.js - null null
+2025-05-18 17:16:17.037 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7130/_framework/aspnetcore-browser-refresh.js - 200 16509 application/javascript; charset=utf-8 3.3421ms
+2025-05-18 17:16:17.045 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7130/_vs/browserLink - 200 null text/javascript; charset=UTF-8 13.7351ms
+2025-05-18 17:16:22.892 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7130/ - null null
+2025-05-18 17:16:22.894 +02:00 [INF] Executing endpoint 'ClientWebApp.Controllers.HomeController.Index (ClientWebApp)'
+2025-05-18 17:16:22.894 +02:00 [INF] Route matched with {action = "Index", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ClientWebApp.Controllers.HomeController (ClientWebApp).
+2025-05-18 17:16:22.894 +02:00 [INF] Executing ViewResult, running view Index.
+2025-05-18 17:16:22.897 +02:00 [INF] Executed ViewResult - view Index executed in 2.1891ms.
+2025-05-18 17:16:22.897 +02:00 [INF] Executed action ClientWebApp.Controllers.HomeController.Index (ClientWebApp) in 2.7991ms
+2025-05-18 17:16:22.898 +02:00 [INF] Executed endpoint 'ClientWebApp.Controllers.HomeController.Index (ClientWebApp)'
+2025-05-18 17:16:22.898 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7130/ - 200 null text/html; charset=utf-8 6.5232ms
+2025-05-18 17:16:22.908 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7130/_vs/browserLink - null null
+2025-05-18 17:16:22.909 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7130/_framework/aspnetcore-browser-refresh.js - null null
+2025-05-18 17:16:22.910 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7130/_framework/aspnetcore-browser-refresh.js - 200 16509 application/javascript; charset=utf-8 1.4208ms
+2025-05-18 17:16:22.926 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7130/_vs/browserLink - 200 null text/javascript; charset=UTF-8 17.9463ms
+2025-05-18 17:16:25.135 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7130/test/login - null null
+2025-05-18 17:16:25.139 +02:00 [INF] Executing endpoint 'ClientWebApp.Controllers.TestController.Login (ClientWebApp)'
+2025-05-18 17:16:25.141 +02:00 [INF] Route matched with {action = "Login", controller = "Test", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller ClientWebApp.Controllers.TestController (ClientWebApp).
+2025-05-18 17:16:25.142 +02:00 [INF] Executing ViewResult, running view Login.
+2025-05-18 17:16:25.147 +02:00 [INF] Executed ViewResult - view Login executed in 5.4647ms.
+2025-05-18 17:16:25.147 +02:00 [INF] Executed action ClientWebApp.Controllers.TestController.Login (ClientWebApp) in 6.3574ms
+2025-05-18 17:16:25.148 +02:00 [INF] Executed endpoint 'ClientWebApp.Controllers.TestController.Login (ClientWebApp)'
+2025-05-18 17:16:25.148 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7130/test/login - 200 null text/html; charset=utf-8 12.9331ms
+2025-05-18 17:16:25.155 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7130/_vs/browserLink - null null
+2025-05-18 17:16:25.161 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7130/_framework/aspnetcore-browser-refresh.js - null null
+2025-05-18 17:16:25.162 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7130/_framework/aspnetcore-browser-refresh.js - 200 16509 application/javascript; charset=utf-8 2.0363ms
+2025-05-18 17:16:25.167 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7130/_vs/browserLink - 200 null text/javascript; charset=UTF-8 12.1434ms
+2025-05-18 17:16:28.876 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7130/FileUpload/Upload - null null
+2025-05-18 17:16:28.881 +02:00 [INF] Executing endpoint 'ClientWebApp.Controllers.FileUploadController.Upload (ClientWebApp)'
+2025-05-18 17:16:28.881 +02:00 [INF] Route matched with {action = "Upload", controller = "FileUpload", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Upload() on controller ClientWebApp.Controllers.FileUploadController (ClientWebApp).
+2025-05-18 17:16:28.882 +02:00 [INF] Executing ViewResult, running view Upload.
+2025-05-18 17:16:28.886 +02:00 [INF] Executed ViewResult - view Upload executed in 3.6812ms.
+2025-05-18 17:16:28.886 +02:00 [INF] Executed action ClientWebApp.Controllers.FileUploadController.Upload (ClientWebApp) in 4.821ms
+2025-05-18 17:16:28.886 +02:00 [INF] Executed endpoint 'ClientWebApp.Controllers.FileUploadController.Upload (ClientWebApp)'
+2025-05-18 17:16:28.886 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7130/FileUpload/Upload - 200 null text/html; charset=utf-8 10.2656ms
+2025-05-18 17:16:28.893 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7130/_vs/browserLink - null null
+2025-05-18 17:16:28.897 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7130/_framework/aspnetcore-browser-refresh.js - null null
+2025-05-18 17:16:28.900 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7130/_framework/aspnetcore-browser-refresh.js - 200 16509 application/javascript; charset=utf-8 2.6977ms
+2025-05-18 17:16:28.911 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7130/_vs/browserLink - 200 null text/javascript; charset=UTF-8 18.2122ms
+2025-05-18 17:16:29.836 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7130/Identity/Account/Manage - null null
+2025-05-18 17:16:29.839 +02:00 [INF] Executing endpoint '/Account/Manage/Index'
+2025-05-18 17:16:29.856 +02:00 [INF] Route matched with {page = "/Account/Manage/Index", area = "Identity", action = "", controller = ""}. Executing page /Account/Manage/Index
+2025-05-18 17:16:29.866 +02:00 [INF] Executing handler method Microsoft.AspNetCore.Identity.UI.V4.Pages.Account.Manage.Internal.IndexModel.OnGetAsync - ModelState is "Valid"
+2025-05-18 17:16:29.911 +02:00 [INF] Executed DbCommand (2ms) [Parameters=[@__p_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT a."Id", a."AccessFailedCount", a."ConcurrencyStamp", a."Email", a."EmailConfirmed", a."LockoutEnabled", a."LockoutEnd", a."NormalizedEmail", a."NormalizedUserName", a."PasswordHash", a."PhoneNumber", a."PhoneNumberConfirmed", a."SecurityStamp", a."TwoFactorEnabled", a."UserName"
+FROM "AspNetUsers" AS a
+WHERE a."Id" = @__p_0
+LIMIT 1
+2025-05-18 17:16:29.918 +02:00 [INF] Executed handler method OnGetAsync, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2025-05-18 17:16:29.982 +02:00 [INF] Executed page /Account/Manage/Index in 126.012ms
+2025-05-18 17:16:29.982 +02:00 [INF] Executed endpoint '/Account/Manage/Index'
+2025-05-18 17:16:29.982 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7130/Identity/Account/Manage - 200 null text/html; charset=utf-8 146.4322ms
+2025-05-18 17:16:29.992 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7130/_framework/aspnetcore-browser-refresh.js - null null
+2025-05-18 17:16:29.992 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7130/_vs/browserLink - null null
+2025-05-18 17:16:29.993 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7130/_framework/aspnetcore-browser-refresh.js - 200 16509 application/javascript; charset=utf-8 1.2026ms
+2025-05-18 17:16:30.008 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7130/_vs/browserLink - 200 null text/javascript; charset=UTF-8 15.7128ms
+2025-05-18 17:16:31.152 +02:00 [INF] Request starting HTTP/2 POST https://localhost:7130/Identity/Account/Logout?returnUrl=%2F - application/x-www-form-urlencoded 225
+2025-05-18 17:16:31.158 +02:00 [INF] Executing endpoint '/Account/Logout'
+2025-05-18 17:16:31.162 +02:00 [INF] Route matched with {page = "/Account/Logout", area = "Identity", action = "", controller = ""}. Executing page /Account/Logout
+2025-05-18 17:16:31.176 +02:00 [INF] Executing handler method Microsoft.AspNetCore.Identity.UI.V5.Pages.Account.Internal.LogoutModel.OnPost - ModelState is "Valid"
+2025-05-18 17:16:31.178 +02:00 [INF] AuthenticationScheme: Identity.Application signed out.
+2025-05-18 17:16:31.179 +02:00 [INF] AuthenticationScheme: Identity.External signed out.
+2025-05-18 17:16:31.179 +02:00 [INF] AuthenticationScheme: Identity.TwoFactorUserId signed out.
+2025-05-18 17:16:31.179 +02:00 [INF] User logged out.
+2025-05-18 17:16:31.180 +02:00 [INF] Executed handler method OnPost, returned result Microsoft.AspNetCore.Mvc.LocalRedirectResult.
+2025-05-18 17:16:31.180 +02:00 [INF] Executing LocalRedirectResult, redirecting to /.
+2025-05-18 17:16:31.180 +02:00 [INF] Executed page /Account/Logout in 18.1368ms
+2025-05-18 17:16:31.180 +02:00 [INF] Executed endpoint '/Account/Logout'
+2025-05-18 17:16:31.181 +02:00 [INF] Request finished HTTP/2 POST https://localhost:7130/Identity/Account/Logout?returnUrl=%2F - 302 0 null 29.1716ms
+2025-05-18 17:16:31.184 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7130/ - null null
+2025-05-18 17:16:31.186 +02:00 [INF] Executing endpoint 'ClientWebApp.Controllers.HomeController.Index (ClientWebApp)'
+2025-05-18 17:16:31.186 +02:00 [INF] Route matched with {action = "Index", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ClientWebApp.Controllers.HomeController (ClientWebApp).
+2025-05-18 17:16:31.186 +02:00 [INF] Executing ViewResult, running view Index.
+2025-05-18 17:16:31.188 +02:00 [INF] Executed ViewResult - view Index executed in 1.6498ms.
+2025-05-18 17:16:31.188 +02:00 [INF] Executed action ClientWebApp.Controllers.HomeController.Index (ClientWebApp) in 1.7641ms
+2025-05-18 17:16:31.188 +02:00 [INF] Executed endpoint 'ClientWebApp.Controllers.HomeController.Index (ClientWebApp)'
+2025-05-18 17:16:31.188 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7130/ - 200 null text/html; charset=utf-8 4.2958ms
+2025-05-18 17:16:31.198 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7130/_vs/browserLink - null null
+2025-05-18 17:16:31.200 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7130/_framework/aspnetcore-browser-refresh.js - null null
+2025-05-18 17:16:31.201 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7130/_framework/aspnetcore-browser-refresh.js - 200 16509 application/javascript; charset=utf-8 1.0256ms
+2025-05-18 17:16:31.210 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7130/_vs/browserLink - 200 null text/javascript; charset=UTF-8 11.9235ms
+2025-05-18 17:16:32.461 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7130/Identity/Account/Register - null null
+2025-05-18 17:16:32.464 +02:00 [INF] Executing endpoint '/Account/Register'
+2025-05-18 17:16:32.471 +02:00 [INF] Route matched with {page = "/Account/Register", area = "Identity", action = "", controller = ""}. Executing page /Account/Register
+2025-05-18 17:16:32.472 +02:00 [INF] Executing handler method ClientWebApp.Areas.Identity.Pages.Account.RegisterModel.OnGetAsync - ModelState is "Valid"
+2025-05-18 17:16:32.473 +02:00 [INF] Executed handler method OnGetAsync, returned result .
+2025-05-18 17:16:32.476 +02:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2025-05-18 17:16:32.476 +02:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2025-05-18 17:16:32.495 +02:00 [INF] Executed page /Account/Register in 23.7556ms
+2025-05-18 17:16:32.495 +02:00 [INF] Executed endpoint '/Account/Register'
+2025-05-18 17:16:32.495 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7130/Identity/Account/Register - 200 null text/html; charset=utf-8 34.0162ms
+2025-05-18 17:16:32.503 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7130/_vs/browserLink - null null
+2025-05-18 17:16:32.505 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7130/_framework/aspnetcore-browser-refresh.js - null null
+2025-05-18 17:16:32.506 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7130/_framework/aspnetcore-browser-refresh.js - 200 16509 application/javascript; charset=utf-8 1.1902ms
+2025-05-18 17:16:32.518 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7130/_vs/browserLink - 200 null text/javascript; charset=UTF-8 15.2044ms
+2025-05-18 17:16:33.361 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7130/Identity/Account/Login - null null
+2025-05-18 17:16:33.363 +02:00 [INF] Executing endpoint '/Account/Login'
+2025-05-18 17:16:33.367 +02:00 [INF] Route matched with {page = "/Account/Login", area = "Identity", action = "", controller = ""}. Executing page /Account/Login
+2025-05-18 17:16:33.368 +02:00 [INF] Executing handler method ClientWebApp.Areas.Identity.Pages.Account.LoginModel.OnGetAsync - ModelState is "Valid"
+2025-05-18 17:16:33.369 +02:00 [INF] AuthenticationScheme: Identity.External signed out.
+2025-05-18 17:16:33.369 +02:00 [INF] Executed handler method OnGetAsync, returned result .
+2025-05-18 17:16:33.369 +02:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2025-05-18 17:16:33.369 +02:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2025-05-18 17:16:33.388 +02:00 [INF] Executed page /Account/Login in 20.59ms
+2025-05-18 17:16:33.388 +02:00 [INF] Executed endpoint '/Account/Login'
+2025-05-18 17:16:33.388 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7130/Identity/Account/Login - 200 null text/html; charset=utf-8 27.8758ms
+2025-05-18 17:16:33.396 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7130/_vs/browserLink - null null
+2025-05-18 17:16:33.396 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7130/_framework/aspnetcore-browser-refresh.js - null null
+2025-05-18 17:16:33.398 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7130/_framework/aspnetcore-browser-refresh.js - 200 16509 application/javascript; charset=utf-8 1.6176ms
+2025-05-18 17:16:33.408 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7130/_vs/browserLink - 200 null text/javascript; charset=UTF-8 12.4847ms
+2025-05-18 17:16:34.922 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7130/ - null null
+2025-05-18 17:16:34.925 +02:00 [INF] Executing endpoint 'ClientWebApp.Controllers.HomeController.Index (ClientWebApp)'
+2025-05-18 17:16:34.925 +02:00 [INF] Route matched with {action = "Index", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ClientWebApp.Controllers.HomeController (ClientWebApp).
+2025-05-18 17:16:34.925 +02:00 [INF] Executing ViewResult, running view Index.
+2025-05-18 17:16:34.926 +02:00 [INF] Executed ViewResult - view Index executed in 1.2038ms.
+2025-05-18 17:16:34.927 +02:00 [INF] Executed action ClientWebApp.Controllers.HomeController.Index (ClientWebApp) in 1.3324ms
+2025-05-18 17:16:34.927 +02:00 [INF] Executed endpoint 'ClientWebApp.Controllers.HomeController.Index (ClientWebApp)'
+2025-05-18 17:16:34.927 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7130/ - 200 null text/html; charset=utf-8 4.6872ms
+2025-05-18 17:16:34.937 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7130/_vs/browserLink - null null
+2025-05-18 17:16:34.943 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7130/_framework/aspnetcore-browser-refresh.js - null null
+2025-05-18 17:16:34.946 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7130/_framework/aspnetcore-browser-refresh.js - 200 16509 application/javascript; charset=utf-8 3.2243ms
+2025-05-18 17:16:34.953 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7130/_vs/browserLink - 200 null text/javascript; charset=UTF-8 16.1136ms
+2025-05-18 17:16:35.305 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7130/FileUpload/Upload - null null
+2025-05-18 17:16:35.308 +02:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-05-18 17:16:35.311 +02:00 [INF] AuthenticationScheme: Identity.Application was challenged.
+2025-05-18 17:16:35.311 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7130/FileUpload/Upload - 302 0 null 6.9528ms
+2025-05-18 17:16:35.313 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7130/Identity/Account/Login?ReturnUrl=%2FFileUpload%2FUpload - null null
+2025-05-18 17:16:35.315 +02:00 [INF] Executing endpoint '/Account/Login'
+2025-05-18 17:16:35.316 +02:00 [INF] Route matched with {page = "/Account/Login", area = "Identity", action = "", controller = ""}. Executing page /Account/Login
+2025-05-18 17:16:35.316 +02:00 [INF] Executing handler method ClientWebApp.Areas.Identity.Pages.Account.LoginModel.OnGetAsync - ModelState is "Valid"
+2025-05-18 17:16:35.317 +02:00 [INF] AuthenticationScheme: Identity.External signed out.
+2025-05-18 17:16:35.317 +02:00 [INF] Executed handler method OnGetAsync, returned result .
+2025-05-18 17:16:35.317 +02:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2025-05-18 17:16:35.317 +02:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2025-05-18 17:16:35.321 +02:00 [INF] Executed page /Account/Login in 5.2085ms
+2025-05-18 17:16:35.321 +02:00 [INF] Executed endpoint '/Account/Login'
+2025-05-18 17:16:35.322 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7130/Identity/Account/Login?ReturnUrl=%2FFileUpload%2FUpload - 200 null text/html; charset=utf-8 8.6627ms
+2025-05-18 17:16:35.329 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7130/_vs/browserLink - null null
+2025-05-18 17:16:35.329 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7130/_framework/aspnetcore-browser-refresh.js - null null
+2025-05-18 17:16:35.330 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7130/_framework/aspnetcore-browser-refresh.js - 200 16509 application/javascript; charset=utf-8 0.9004ms
+2025-05-18 17:16:35.341 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7130/_vs/browserLink - 200 null text/javascript; charset=UTF-8 12.5669ms
+2025-05-18 17:16:36.009 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7130/test/login - null null
+2025-05-18 17:16:36.011 +02:00 [INF] Executing endpoint 'ClientWebApp.Controllers.TestController.Login (ClientWebApp)'
+2025-05-18 17:16:36.011 +02:00 [INF] Route matched with {action = "Login", controller = "Test", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller ClientWebApp.Controllers.TestController (ClientWebApp).
+2025-05-18 17:16:36.011 +02:00 [INF] Executing ViewResult, running view Login.
+2025-05-18 17:16:36.014 +02:00 [INF] Executed ViewResult - view Login executed in 2.2401ms.
+2025-05-18 17:16:36.015 +02:00 [INF] Executed action ClientWebApp.Controllers.TestController.Login (ClientWebApp) in 3.6557ms
+2025-05-18 17:16:36.015 +02:00 [INF] Executed endpoint 'ClientWebApp.Controllers.TestController.Login (ClientWebApp)'
+2025-05-18 17:16:36.016 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7130/test/login - 200 null text/html; charset=utf-8 6.9132ms
+2025-05-18 17:16:36.023 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7130/_vs/browserLink - null null
+2025-05-18 17:16:36.023 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7130/_framework/aspnetcore-browser-refresh.js - null null
+2025-05-18 17:16:36.024 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7130/_framework/aspnetcore-browser-refresh.js - 200 16509 application/javascript; charset=utf-8 0.8772ms
+2025-05-18 17:16:36.033 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7130/_vs/browserLink - 200 null text/javascript; charset=UTF-8 10.4775ms
+2025-05-18 17:16:37.058 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7130/ - null null
+2025-05-18 17:16:37.060 +02:00 [INF] Executing endpoint 'ClientWebApp.Controllers.HomeController.Index (ClientWebApp)'
+2025-05-18 17:16:37.060 +02:00 [INF] Route matched with {action = "Index", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ClientWebApp.Controllers.HomeController (ClientWebApp).
+2025-05-18 17:16:37.060 +02:00 [INF] Executing ViewResult, running view Index.
+2025-05-18 17:16:37.061 +02:00 [INF] Executed ViewResult - view Index executed in 0.7384ms.
+2025-05-18 17:16:37.061 +02:00 [INF] Executed action ClientWebApp.Controllers.HomeController.Index (ClientWebApp) in 0.8606ms
+2025-05-18 17:16:37.061 +02:00 [INF] Executed endpoint 'ClientWebApp.Controllers.HomeController.Index (ClientWebApp)'
+2025-05-18 17:16:37.061 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7130/ - 200 null text/html; charset=utf-8 3.1373ms
+2025-05-18 17:16:37.068 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7130/_vs/browserLink - null null
+2025-05-18 17:16:37.069 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7130/_framework/aspnetcore-browser-refresh.js - null null
+2025-05-18 17:16:37.070 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7130/_framework/aspnetcore-browser-refresh.js - 200 16509 application/javascript; charset=utf-8 0.9117ms
+2025-05-18 17:16:37.083 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7130/_vs/browserLink - 200 null text/javascript; charset=UTF-8 15.2493ms
+2025-05-18 17:16:38.170 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7130/FileUpload/Upload - null null
+2025-05-18 17:16:38.173 +02:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-05-18 17:16:38.173 +02:00 [INF] AuthenticationScheme: Identity.Application was challenged.
+2025-05-18 17:16:38.174 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7130/FileUpload/Upload - 302 0 null 3.7126ms
+2025-05-18 17:16:38.176 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7130/Identity/Account/Login?ReturnUrl=%2FFileUpload%2FUpload - null null
+2025-05-18 17:16:38.178 +02:00 [INF] Executing endpoint '/Account/Login'
+2025-05-18 17:16:38.178 +02:00 [INF] Route matched with {page = "/Account/Login", area = "Identity", action = "", controller = ""}. Executing page /Account/Login
+2025-05-18 17:16:38.179 +02:00 [INF] Executing handler method ClientWebApp.Areas.Identity.Pages.Account.LoginModel.OnGetAsync - ModelState is "Valid"
+2025-05-18 17:16:38.179 +02:00 [INF] AuthenticationScheme: Identity.External signed out.
+2025-05-18 17:16:38.179 +02:00 [INF] Executed handler method OnGetAsync, returned result .
+2025-05-18 17:16:38.179 +02:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2025-05-18 17:16:38.179 +02:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2025-05-18 17:16:38.183 +02:00 [INF] Executed page /Account/Login in 4.9027ms
+2025-05-18 17:16:38.184 +02:00 [INF] Executed endpoint '/Account/Login'
+2025-05-18 17:16:38.184 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7130/Identity/Account/Login?ReturnUrl=%2FFileUpload%2FUpload - 200 null text/html; charset=utf-8 8.2645ms
+2025-05-18 17:16:38.192 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7130/_vs/browserLink - null null
+2025-05-18 17:16:38.194 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7130/_framework/aspnetcore-browser-refresh.js - null null
+2025-05-18 17:16:38.196 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7130/_framework/aspnetcore-browser-refresh.js - 200 16509 application/javascript; charset=utf-8 1.9277ms
+2025-05-18 17:16:38.205 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7130/_vs/browserLink - 200 null text/javascript; charset=UTF-8 13.2291ms
+2025-05-18 17:16:41.679 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7130/test/login - null null
+2025-05-18 17:16:41.681 +02:00 [INF] Executing endpoint 'ClientWebApp.Controllers.TestController.Login (ClientWebApp)'
+2025-05-18 17:16:41.681 +02:00 [INF] Route matched with {action = "Login", controller = "Test", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller ClientWebApp.Controllers.TestController (ClientWebApp).
+2025-05-18 17:16:41.681 +02:00 [INF] Executing ViewResult, running view Login.
+2025-05-18 17:16:41.684 +02:00 [INF] Executed ViewResult - view Login executed in 2.7744ms.
+2025-05-18 17:16:41.685 +02:00 [INF] Executed action ClientWebApp.Controllers.TestController.Login (ClientWebApp) in 3.6244ms
+2025-05-18 17:16:41.685 +02:00 [INF] Executed endpoint 'ClientWebApp.Controllers.TestController.Login (ClientWebApp)'
+2025-05-18 17:16:41.686 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7130/test/login - 200 null text/html; charset=utf-8 6.9462ms
+2025-05-18 17:16:41.694 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7130/_vs/browserLink - null null
+2025-05-18 17:16:41.696 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7130/_framework/aspnetcore-browser-refresh.js - null null
+2025-05-18 17:16:41.697 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7130/_framework/aspnetcore-browser-refresh.js - 200 16509 application/javascript; charset=utf-8 1.1413ms
+2025-05-18 17:16:41.705 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7130/_vs/browserLink - 200 null text/javascript; charset=UTF-8 11.6411ms

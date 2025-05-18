@@ -4,8 +4,14 @@ namespace ClientWebApp.Controllers
 {
     public class TestController : Controller
     {
-        private readonly String username = "admin";
-        private readonly String password = "admin123";
+        private readonly List<(string Username, string Password)> accounts = new()
+        {
+            ("admin", "admin123"),
+            ("user", "password"),
+            ("test", "123456"),
+            ("guest", "guest123"),
+            ("john", "doe123")
+        };
 
         [HttpGet("test/login")]
         public IActionResult Login()
@@ -17,14 +23,16 @@ namespace ClientWebApp.Controllers
         [HttpPost("test/login")]
         public IActionResult Login(string username, string password)
         {
-            if (username.Equals(this.username) && password.Equals(this.password))
+            if (accounts.Any(acc =>
+                acc.Username.Equals(username, StringComparison.OrdinalIgnoreCase)
+                && acc.Password == password))
             {
                 return new OkResult();
             }
             else
             {
                 Thread.Sleep(2000);
-                return new ForbidResult();
+                return new UnauthorizedResult();
             }
 
 

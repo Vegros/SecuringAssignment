@@ -1,0 +1,206 @@
+2025-05-18 16:54:53.086 +02:00 [INF] User profile is available. Using 'C:\Users\matti\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-05-18 16:54:53.247 +02:00 [INF] Now listening on: https://localhost:7130
+2025-05-18 16:54:53.248 +02:00 [INF] Now listening on: http://localhost:5248
+2025-05-18 16:54:53.316 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-05-18 16:54:53.317 +02:00 [INF] Hosting environment: Development
+2025-05-18 16:54:53.317 +02:00 [INF] Content root path: C:\Users\matti\Desktop\assignment enterprise\ClientWebApp
+2025-05-18 16:54:53.343 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:7130/test/login - null null
+2025-05-18 16:54:53.425 +02:00 [INF] Executing endpoint 'ClientWebApp.Controllers.TestController.Login (ClientWebApp)'
+2025-05-18 16:54:53.438 +02:00 [INF] Route matched with {action = "Login", controller = "Test", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller ClientWebApp.Controllers.TestController (ClientWebApp).
+2025-05-18 16:54:53.443 +02:00 [INF] Executing ViewResult, running view Login.
+2025-05-18 16:54:53.563 +02:00 [INF] Executed ViewResult - view Login executed in 121.895ms.
+2025-05-18 16:54:53.564 +02:00 [INF] Executed action ClientWebApp.Controllers.TestController.Login (ClientWebApp) in 124.9881ms
+2025-05-18 16:54:53.564 +02:00 [INF] Executed endpoint 'ClientWebApp.Controllers.TestController.Login (ClientWebApp)'
+2025-05-18 16:54:53.566 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:7130/test/login - 200 null text/html; charset=utf-8 226.9976ms
+2025-05-18 16:54:53.594 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:7130/_framework/aspnetcore-browser-refresh.js - null null
+2025-05-18 16:54:53.596 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:7130/_framework/aspnetcore-browser-refresh.js - 200 16509 application/javascript; charset=utf-8 2.1696ms
+2025-05-18 16:54:54.035 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7130/ - null null
+2025-05-18 16:54:54.043 +02:00 [INF] Executing endpoint 'ClientWebApp.Controllers.HomeController.Index (ClientWebApp)'
+2025-05-18 16:54:54.044 +02:00 [INF] Route matched with {action = "Index", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ClientWebApp.Controllers.HomeController (ClientWebApp).
+2025-05-18 16:54:54.044 +02:00 [INF] Executing ViewResult, running view Index.
+2025-05-18 16:54:54.055 +02:00 [INF] Executed ViewResult - view Index executed in 10.6909ms.
+2025-05-18 16:54:54.055 +02:00 [INF] Executed action ClientWebApp.Controllers.HomeController.Index (ClientWebApp) in 11.3389ms
+2025-05-18 16:54:54.055 +02:00 [INF] Executed endpoint 'ClientWebApp.Controllers.HomeController.Index (ClientWebApp)'
+2025-05-18 16:54:54.055 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7130/ - 200 null text/html; charset=utf-8 20.8312ms
+2025-05-18 16:54:54.086 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7130/_framework/aspnetcore-browser-refresh.js - null null
+2025-05-18 16:54:54.088 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7130/_vs/browserLink - null null
+2025-05-18 16:54:54.096 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7130/_framework/aspnetcore-browser-refresh.js - 200 16509 application/javascript; charset=utf-8 10.4222ms
+2025-05-18 16:54:54.117 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7130/_vs/browserLink - 200 null text/javascript; charset=UTF-8 28.3261ms
+2025-05-18 16:54:56.048 +02:00 [INF] Request starting HTTP/1.1 POST https://localhost:7130/test/login - application/x-www-form-urlencoded 216
+2025-05-18 16:54:56.052 +02:00 [INF] Executing endpoint 'ClientWebApp.Controllers.TestController.Login (ClientWebApp)'
+2025-05-18 16:54:56.056 +02:00 [INF] Route matched with {action = "Login", controller = "Test", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(System.String, System.String) on controller ClientWebApp.Controllers.TestController (ClientWebApp).
+2025-05-18 16:54:58.078 +02:00 [INF] Executing StatusCodeResult, setting HTTP status code 401
+2025-05-18 16:54:58.078 +02:00 [INF] Executed action ClientWebApp.Controllers.TestController.Login (ClientWebApp) in 2022.5316ms
+2025-05-18 16:54:58.078 +02:00 [INF] Executed endpoint 'ClientWebApp.Controllers.TestController.Login (ClientWebApp)'
+2025-05-18 16:54:58.080 +02:00 [INF] Executing endpoint 'ClientWebApp.Controllers.HomeController.StatusCodeHandler (ClientWebApp)'
+2025-05-18 16:54:58.081 +02:00 [INF] Route matched with {action = "StatusCodeHandler", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult StatusCodeHandler(Int32) on controller ClientWebApp.Controllers.HomeController (ClientWebApp).
+2025-05-18 16:54:58.084 +02:00 [INF] Executing ViewResult, running view Unauthorized.
+2025-05-18 16:54:58.085 +02:00 [ERR] The view 'Unauthorized' was not found. Searched locations: ["/Views/Home/Unauthorized.cshtml","/Views/Shared/Unauthorized.cshtml","/Pages/Shared/Unauthorized.cshtml"]
+2025-05-18 16:54:58.088 +02:00 [INF] Executed action ClientWebApp.Controllers.HomeController.StatusCodeHandler (ClientWebApp) in 6.6033ms
+2025-05-18 16:54:58.089 +02:00 [INF] Executed endpoint 'ClientWebApp.Controllers.HomeController.StatusCodeHandler (ClientWebApp)'
+2025-05-18 16:54:58.091 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: The view 'Unauthorized' was not found. The following locations were searched:
+/Views/Home/Unauthorized.cshtml
+/Views/Shared/Unauthorized.cshtml
+/Pages/Shared/Unauthorized.cshtml
+   at Microsoft.AspNetCore.Mvc.ViewEngines.ViewEngineResult.EnsureSuccessful(IEnumerable`1 originalLocations)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Builder.StatusCodePagesExtensions.<>c__DisplayClass7_0.<<CreateHandler>b__0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Diagnostics.StatusCodePagesMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+2025-05-18 16:54:58.113 +02:00 [INF] Executing endpoint 'ClientWebApp.Controllers.HomeController.Error (ClientWebApp)'
+2025-05-18 16:54:58.113 +02:00 [INF] Route matched with {action = "Error", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Error() on controller ClientWebApp.Controllers.HomeController (ClientWebApp).
+2025-05-18 16:54:58.114 +02:00 [INF] Executing ViewResult, running view Error.
+2025-05-18 16:54:58.121 +02:00 [INF] Executed ViewResult - view Error executed in 7.3919ms.
+2025-05-18 16:54:58.121 +02:00 [INF] Executed action ClientWebApp.Controllers.HomeController.Error (ClientWebApp) in 7.6003ms
+2025-05-18 16:54:58.121 +02:00 [INF] Executed endpoint 'ClientWebApp.Controllers.HomeController.Error (ClientWebApp)'
+2025-05-18 16:54:58.121 +02:00 [INF] Request finished HTTP/1.1 POST https://localhost:7130/test/login - 500 null text/html; charset=utf-8 2072.5903ms
+2025-05-18 16:54:58.144 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:7130/_vs/browserLink - null null
+2025-05-18 16:54:58.153 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:7130/_vs/browserLink - 200 null text/javascript; charset=UTF-8 8.7125ms
+2025-05-18 16:54:58.154 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:7130/_framework/aspnetcore-browser-refresh.js - null null
+2025-05-18 16:54:58.154 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:7130/_framework/aspnetcore-browser-refresh.js - 200 16509 application/javascript; charset=utf-8 0.2399ms
+2025-05-18 16:55:21.052 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7130/test/login - null null
+2025-05-18 16:55:21.061 +02:00 [INF] Executing endpoint 'ClientWebApp.Controllers.TestController.Login (ClientWebApp)'
+2025-05-18 16:55:21.061 +02:00 [INF] Route matched with {action = "Login", controller = "Test", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller ClientWebApp.Controllers.TestController (ClientWebApp).
+2025-05-18 16:55:21.061 +02:00 [INF] Executing ViewResult, running view Login.
+2025-05-18 16:55:21.064 +02:00 [INF] Executed ViewResult - view Login executed in 2.4915ms.
+2025-05-18 16:55:21.071 +02:00 [INF] Executed action ClientWebApp.Controllers.TestController.Login (ClientWebApp) in 9.6475ms
+2025-05-18 16:55:21.071 +02:00 [INF] Executed endpoint 'ClientWebApp.Controllers.TestController.Login (ClientWebApp)'
+2025-05-18 16:55:21.073 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7130/test/login - 200 null text/html; charset=utf-8 21.9514ms
+2025-05-18 16:55:21.094 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7130/_vs/browserLink - null null
+2025-05-18 16:55:21.094 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7130/_framework/aspnetcore-browser-refresh.js - null null
+2025-05-18 16:55:21.095 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7130/_framework/aspnetcore-browser-refresh.js - 200 16509 application/javascript; charset=utf-8 1.2163ms
+2025-05-18 16:55:21.105 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7130/_vs/browserLink - 200 null text/javascript; charset=UTF-8 11.5236ms
+2025-05-18 16:55:21.911 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7130/jasddas - null null
+2025-05-18 16:55:21.916 +02:00 [INF] Executing endpoint 'ClientWebApp.Controllers.HomeController.StatusCodeHandler (ClientWebApp)'
+2025-05-18 16:55:21.916 +02:00 [INF] Route matched with {action = "StatusCodeHandler", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult StatusCodeHandler(Int32) on controller ClientWebApp.Controllers.HomeController (ClientWebApp).
+2025-05-18 16:55:21.917 +02:00 [INF] Executing ViewResult, running view NotFound.
+2025-05-18 16:55:21.917 +02:00 [ERR] The view 'NotFound' was not found. Searched locations: ["/Views/Home/NotFound.cshtml","/Views/Shared/NotFound.cshtml","/Pages/Shared/NotFound.cshtml"]
+2025-05-18 16:55:21.918 +02:00 [INF] Executed action ClientWebApp.Controllers.HomeController.StatusCodeHandler (ClientWebApp) in 1.6652ms
+2025-05-18 16:55:21.918 +02:00 [INF] Executed endpoint 'ClientWebApp.Controllers.HomeController.StatusCodeHandler (ClientWebApp)'
+2025-05-18 16:55:21.919 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: The view 'NotFound' was not found. The following locations were searched:
+/Views/Home/NotFound.cshtml
+/Views/Shared/NotFound.cshtml
+/Pages/Shared/NotFound.cshtml
+   at Microsoft.AspNetCore.Mvc.ViewEngines.ViewEngineResult.EnsureSuccessful(IEnumerable`1 originalLocations)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Builder.StatusCodePagesExtensions.<>c__DisplayClass7_0.<<CreateHandler>b__0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Diagnostics.StatusCodePagesMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+2025-05-18 16:55:21.921 +02:00 [INF] Executing endpoint 'ClientWebApp.Controllers.HomeController.Error (ClientWebApp)'
+2025-05-18 16:55:21.922 +02:00 [INF] Route matched with {action = "Error", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Error() on controller ClientWebApp.Controllers.HomeController (ClientWebApp).
+2025-05-18 16:55:21.922 +02:00 [INF] Executing ViewResult, running view Error.
+2025-05-18 16:55:21.924 +02:00 [INF] Executed ViewResult - view Error executed in 2.3516ms.
+2025-05-18 16:55:21.925 +02:00 [INF] Executed action ClientWebApp.Controllers.HomeController.Error (ClientWebApp) in 2.926ms
+2025-05-18 16:55:21.925 +02:00 [INF] Executed endpoint 'ClientWebApp.Controllers.HomeController.Error (ClientWebApp)'
+2025-05-18 16:55:21.926 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7130/jasddas - 500 null text/html; charset=utf-8 15.5051ms
+2025-05-18 16:55:21.927 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7130/jasddas, Response status code: 500
+2025-05-18 16:55:21.938 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7130/_vs/browserLink - null null
+2025-05-18 16:55:21.940 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7130/_framework/aspnetcore-browser-refresh.js - null null
+2025-05-18 16:55:21.942 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7130/_framework/aspnetcore-browser-refresh.js - 200 16509 application/javascript; charset=utf-8 1.7287ms
+2025-05-18 16:55:21.952 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7130/_vs/browserLink - 200 null text/javascript; charset=UTF-8 14.6906ms
+2025-05-18 16:55:48.616 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:7130/test/login - null null
+2025-05-18 16:55:48.617 +02:00 [INF] Executing endpoint 'ClientWebApp.Controllers.TestController.Login (ClientWebApp)'
+2025-05-18 16:55:48.618 +02:00 [INF] Route matched with {action = "Login", controller = "Test", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller ClientWebApp.Controllers.TestController (ClientWebApp).
+2025-05-18 16:55:48.618 +02:00 [INF] Executing ViewResult, running view Login.
+2025-05-18 16:55:48.618 +02:00 [INF] Executed ViewResult - view Login executed in 0.7356ms.
+2025-05-18 16:55:48.618 +02:00 [INF] Executed action ClientWebApp.Controllers.TestController.Login (ClientWebApp) in 0.8223ms
+2025-05-18 16:55:48.618 +02:00 [INF] Executed endpoint 'ClientWebApp.Controllers.TestController.Login (ClientWebApp)'
+2025-05-18 16:55:48.618 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:7130/test/login - 200 null text/html; charset=utf-8 2.3092ms
+2025-05-18 16:55:48.643 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:7130/_framework/aspnetcore-browser-refresh.js - null null
+2025-05-18 16:55:48.643 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:7130/_framework/aspnetcore-browser-refresh.js - 200 16509 application/javascript; charset=utf-8 0.1663ms
+2025-05-18 16:55:51.073 +02:00 [INF] Request starting HTTP/1.1 POST https://localhost:7130/test/login - application/x-www-form-urlencoded 213
+2025-05-18 16:55:51.075 +02:00 [INF] Executing endpoint 'ClientWebApp.Controllers.TestController.Login (ClientWebApp)'
+2025-05-18 16:55:51.075 +02:00 [INF] Route matched with {action = "Login", controller = "Test", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(System.String, System.String) on controller ClientWebApp.Controllers.TestController (ClientWebApp).
+2025-05-18 16:55:53.076 +02:00 [INF] Executing StatusCodeResult, setting HTTP status code 401
+2025-05-18 16:55:53.076 +02:00 [INF] Executed action ClientWebApp.Controllers.TestController.Login (ClientWebApp) in 2001.3442ms
+2025-05-18 16:55:53.076 +02:00 [INF] Executed endpoint 'ClientWebApp.Controllers.TestController.Login (ClientWebApp)'
+2025-05-18 16:55:53.076 +02:00 [INF] Executing endpoint 'ClientWebApp.Controllers.HomeController.StatusCodeHandler (ClientWebApp)'
+2025-05-18 16:55:53.077 +02:00 [INF] Route matched with {action = "StatusCodeHandler", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult StatusCodeHandler(Int32) on controller ClientWebApp.Controllers.HomeController (ClientWebApp).
+2025-05-18 16:55:53.077 +02:00 [INF] Executing ViewResult, running view Unauthorized.
+2025-05-18 16:55:53.077 +02:00 [ERR] The view 'Unauthorized' was not found. Searched locations: ["/Views/Home/Unauthorized.cshtml","/Views/Shared/Unauthorized.cshtml","/Pages/Shared/Unauthorized.cshtml"]
+2025-05-18 16:55:53.080 +02:00 [INF] Executed action ClientWebApp.Controllers.HomeController.StatusCodeHandler (ClientWebApp) in 2.9382ms
+2025-05-18 16:55:53.080 +02:00 [INF] Executed endpoint 'ClientWebApp.Controllers.HomeController.StatusCodeHandler (ClientWebApp)'
+2025-05-18 16:55:53.081 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: The view 'Unauthorized' was not found. The following locations were searched:
+/Views/Home/Unauthorized.cshtml
+/Views/Shared/Unauthorized.cshtml
+/Pages/Shared/Unauthorized.cshtml
+   at Microsoft.AspNetCore.Mvc.ViewEngines.ViewEngineResult.EnsureSuccessful(IEnumerable`1 originalLocations)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Builder.StatusCodePagesExtensions.<>c__DisplayClass7_0.<<CreateHandler>b__0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Diagnostics.StatusCodePagesMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+2025-05-18 16:55:53.081 +02:00 [INF] Executing endpoint 'ClientWebApp.Controllers.HomeController.Error (ClientWebApp)'
+2025-05-18 16:55:53.081 +02:00 [INF] Route matched with {action = "Error", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Error() on controller ClientWebApp.Controllers.HomeController (ClientWebApp).
+2025-05-18 16:55:53.081 +02:00 [INF] Executing ViewResult, running view Error.
+2025-05-18 16:55:53.082 +02:00 [INF] Executed ViewResult - view Error executed in 0.7577ms.
+2025-05-18 16:55:53.082 +02:00 [INF] Executed action ClientWebApp.Controllers.HomeController.Error (ClientWebApp) in 0.8441ms
+2025-05-18 16:55:53.082 +02:00 [INF] Executed endpoint 'ClientWebApp.Controllers.HomeController.Error (ClientWebApp)'
+2025-05-18 16:55:53.082 +02:00 [INF] Request finished HTTP/1.1 POST https://localhost:7130/test/login - 500 null text/html; charset=utf-8 2009.0958ms
+2025-05-18 16:55:53.100 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:7130/_vs/browserLink - null null
+2025-05-18 16:55:53.104 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:7130/_vs/browserLink - 200 null text/javascript; charset=UTF-8 3.4669ms
+2025-05-18 16:55:53.106 +02:00 [INF] Request starting HTTP/1.1 GET https://localhost:7130/_framework/aspnetcore-browser-refresh.js - null null
+2025-05-18 16:55:53.106 +02:00 [INF] Request finished HTTP/1.1 GET https://localhost:7130/_framework/aspnetcore-browser-refresh.js - 200 16509 application/javascript; charset=utf-8 0.1178ms
+2025-05-18 16:56:21.639 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7130/ - null null
+2025-05-18 16:56:21.646 +02:00 [INF] Executing endpoint 'ClientWebApp.Controllers.HomeController.Index (ClientWebApp)'
+2025-05-18 16:56:21.646 +02:00 [INF] Route matched with {action = "Index", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ClientWebApp.Controllers.HomeController (ClientWebApp).
+2025-05-18 16:56:21.646 +02:00 [INF] Executing ViewResult, running view Index.
+2025-05-18 16:56:21.648 +02:00 [INF] Executed ViewResult - view Index executed in 1.774ms.
+2025-05-18 16:56:21.648 +02:00 [INF] Executed action ClientWebApp.Controllers.HomeController.Index (ClientWebApp) in 2.0694ms
+2025-05-18 16:56:21.648 +02:00 [INF] Executed endpoint 'ClientWebApp.Controllers.HomeController.Index (ClientWebApp)'
+2025-05-18 16:56:21.652 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7130/ - 200 null text/html; charset=utf-8 13.3238ms
+2025-05-18 16:56:21.703 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7130/_framework/aspnetcore-browser-refresh.js - null null
+2025-05-18 16:56:21.704 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7130/_framework/aspnetcore-browser-refresh.js - 200 16509 application/javascript; charset=utf-8 0.8461ms
