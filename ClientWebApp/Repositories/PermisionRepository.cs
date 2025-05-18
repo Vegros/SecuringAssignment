@@ -12,5 +12,12 @@ namespace ClientWebApp.Repositories
             _dbContext.AccessPermissions.Add(permission);
             _dbContext.SaveChanges();
         }
+
+        public void Downloaded(AccessPermission permission)
+        {
+            permission.IsDownloaded = true;
+            _dbContext.Update(permission);
+            _dbContext.SaveChangesAsync();
+        }
     }
 }

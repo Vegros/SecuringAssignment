@@ -53,7 +53,7 @@ namespace LawyerApp
 
             try
             {
-                var response = await client.PostAsJsonAsync("https://localhost:7130/api/FileDownload/Download", requestPayload);
+                var response = await client.PostAsJsonAsync("https://localhost:7130/Download", requestPayload);
 
                 if (response.StatusCode == System.Net.HttpStatusCode.Forbidden)
                 {

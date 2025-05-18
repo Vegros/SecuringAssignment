@@ -1,0 +1,155 @@
+2025-05-18 18:38:24.667 +02:00 [INF] User profile is available. Using 'C:\Users\matti\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-05-18 18:38:24.877 +02:00 [INF] Now listening on: https://localhost:7130
+2025-05-18 18:38:24.877 +02:00 [INF] Now listening on: http://localhost:5248
+2025-05-18 18:38:24.905 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-05-18 18:38:24.905 +02:00 [INF] Hosting environment: Development
+2025-05-18 18:38:24.905 +02:00 [INF] Content root path: C:\Users\matti\Desktop\assignment enterprise\ClientWebApp
+2025-05-18 18:38:25.545 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7130/ - null null
+2025-05-18 18:38:25.639 +02:00 [INF] Executing endpoint 'ClientWebApp.Controllers.HomeController.Index (ClientWebApp)'
+2025-05-18 18:38:25.655 +02:00 [INF] Route matched with {action = "Index", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ClientWebApp.Controllers.HomeController (ClientWebApp).
+2025-05-18 18:38:25.659 +02:00 [INF] Executing ViewResult, running view Index.
+2025-05-18 18:38:25.790 +02:00 [INF] Executed ViewResult - view Index executed in 131.3217ms.
+2025-05-18 18:38:25.790 +02:00 [INF] Executed action ClientWebApp.Controllers.HomeController.Index (ClientWebApp) in 134.9399ms
+2025-05-18 18:38:25.790 +02:00 [INF] Executed endpoint 'ClientWebApp.Controllers.HomeController.Index (ClientWebApp)'
+2025-05-18 18:38:25.793 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7130/ - 200 null text/html; charset=utf-8 251.4651ms
+2025-05-18 18:38:25.835 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7130/_framework/aspnetcore-browser-refresh.js - null null
+2025-05-18 18:38:25.835 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7130/_vs/browserLink - null null
+2025-05-18 18:38:25.846 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7130/_framework/aspnetcore-browser-refresh.js - 200 16509 application/javascript; charset=utf-8 10.0789ms
+2025-05-18 18:38:25.867 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7130/_vs/browserLink - 200 null text/javascript; charset=UTF-8 32.034ms
+2025-05-18 18:38:29.883 +02:00 [INF] Request starting HTTP/1.1 POST https://localhost:7130/api/FileDownload/Download - application/json 375
+2025-05-18 18:38:29.887 +02:00 [INF] Executing endpoint 'ClientWebApp.Controllers.HomeController.StatusCodeHandler (ClientWebApp)'
+2025-05-18 18:38:29.890 +02:00 [INF] Route matched with {action = "StatusCodeHandler", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult StatusCodeHandler(Int32) on controller ClientWebApp.Controllers.HomeController (ClientWebApp).
+2025-05-18 18:38:29.896 +02:00 [INF] Executing ViewResult, running view Error.
+2025-05-18 18:38:29.903 +02:00 [INF] Executed ViewResult - view Error executed in 7.3141ms.
+2025-05-18 18:38:29.903 +02:00 [INF] Executed action ClientWebApp.Controllers.HomeController.StatusCodeHandler (ClientWebApp) in 12.4761ms
+2025-05-18 18:38:29.903 +02:00 [INF] Executed endpoint 'ClientWebApp.Controllers.HomeController.StatusCodeHandler (ClientWebApp)'
+2025-05-18 18:38:29.903 +02:00 [INF] Request finished HTTP/1.1 POST https://localhost:7130/api/FileDownload/Download - 404 null text/html; charset=utf-8 20.2222ms
+2025-05-18 18:38:29.903 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: POST https://localhost:7130/api/FileDownload/Download, Response status code: 404
+2025-05-18 18:38:40.523 +02:00 [INF] Request starting HTTP/1.1 POST https://localhost:7130/api/FileDownload/Download - application/json 375
+2025-05-18 18:38:40.524 +02:00 [INF] Executing endpoint 'ClientWebApp.Controllers.HomeController.StatusCodeHandler (ClientWebApp)'
+2025-05-18 18:38:40.525 +02:00 [INF] Route matched with {action = "StatusCodeHandler", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult StatusCodeHandler(Int32) on controller ClientWebApp.Controllers.HomeController (ClientWebApp).
+2025-05-18 18:38:40.525 +02:00 [INF] Executing ViewResult, running view Error.
+2025-05-18 18:38:40.530 +02:00 [INF] Executed ViewResult - view Error executed in 5.3355ms.
+2025-05-18 18:38:40.530 +02:00 [INF] Executed action ClientWebApp.Controllers.HomeController.StatusCodeHandler (ClientWebApp) in 5.7173ms
+2025-05-18 18:38:40.530 +02:00 [INF] Executed endpoint 'ClientWebApp.Controllers.HomeController.StatusCodeHandler (ClientWebApp)'
+2025-05-18 18:38:40.530 +02:00 [INF] Request finished HTTP/1.1 POST https://localhost:7130/api/FileDownload/Download - 404 null text/html; charset=utf-8 7.8104ms
+2025-05-18 18:38:40.530 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: POST https://localhost:7130/api/FileDownload/Download, Response status code: 404
+2025-05-18 18:43:33.278 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7130/ - null null
+2025-05-18 18:43:33.282 +02:00 [INF] Executing endpoint 'ClientWebApp.Controllers.HomeController.Index (ClientWebApp)'
+2025-05-18 18:43:33.283 +02:00 [INF] Route matched with {action = "Index", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ClientWebApp.Controllers.HomeController (ClientWebApp).
+2025-05-18 18:43:33.285 +02:00 [INF] Executing ViewResult, running view Index.
+2025-05-18 18:43:33.288 +02:00 [INF] Executed ViewResult - view Index executed in 4.1653ms.
+2025-05-18 18:43:33.288 +02:00 [INF] Executed action ClientWebApp.Controllers.HomeController.Index (ClientWebApp) in 4.2844ms
+2025-05-18 18:43:33.288 +02:00 [INF] Executed endpoint 'ClientWebApp.Controllers.HomeController.Index (ClientWebApp)'
+2025-05-18 18:43:33.288 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7130/ - 200 null text/html; charset=utf-8 10.4201ms
+2025-05-18 18:43:33.302 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7130/_framework/aspnetcore-browser-refresh.js - null null
+2025-05-18 18:43:33.302 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7130/_vs/browserLink - null null
+2025-05-18 18:43:33.303 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7130/_framework/aspnetcore-browser-refresh.js - 200 16509 application/javascript; charset=utf-8 1.1001ms
+2025-05-18 18:43:33.315 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7130/_vs/browserLink - 200 null text/javascript; charset=UTF-8 12.8686ms
+2025-05-18 18:43:46.574 +02:00 [INF] Request starting HTTP/1.1 POST https://localhost:7130/DownloadFile - application/json 375
+2025-05-18 18:43:46.575 +02:00 [INF] Executing endpoint 'ClientWebApp.Controllers.HomeController.StatusCodeHandler (ClientWebApp)'
+2025-05-18 18:43:46.578 +02:00 [INF] Route matched with {action = "StatusCodeHandler", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult StatusCodeHandler(Int32) on controller ClientWebApp.Controllers.HomeController (ClientWebApp).
+2025-05-18 18:43:46.579 +02:00 [INF] Executing ViewResult, running view Error.
+2025-05-18 18:43:46.582 +02:00 [INF] Executed ViewResult - view Error executed in 3.9465ms.
+2025-05-18 18:43:46.582 +02:00 [INF] Executed action ClientWebApp.Controllers.HomeController.StatusCodeHandler (ClientWebApp) in 4.6152ms
+2025-05-18 18:43:46.582 +02:00 [INF] Executed endpoint 'ClientWebApp.Controllers.HomeController.StatusCodeHandler (ClientWebApp)'
+2025-05-18 18:43:46.583 +02:00 [INF] Request finished HTTP/1.1 POST https://localhost:7130/DownloadFile - 404 null text/html; charset=utf-8 8.8051ms
+2025-05-18 18:43:46.583 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: POST https://localhost:7130/DownloadFile, Response status code: 404
+2025-05-18 18:43:50.810 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7130/FileUpload/Upload - null null
+2025-05-18 18:43:50.817 +02:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-05-18 18:43:50.821 +02:00 [INF] AuthenticationScheme: Identity.Application was challenged.
+2025-05-18 18:43:50.821 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7130/FileUpload/Upload - 302 0 null 10.972ms
+2025-05-18 18:43:50.823 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7130/Identity/Account/Login?ReturnUrl=%2FFileUpload%2FUpload - null null
+2025-05-18 18:43:50.826 +02:00 [INF] Executing endpoint '/Account/Login'
+2025-05-18 18:43:50.836 +02:00 [INF] Route matched with {page = "/Account/Login", area = "Identity", action = "", controller = ""}. Executing page /Account/Login
+2025-05-18 18:43:50.843 +02:00 [INF] Executing handler method ClientWebApp.Areas.Identity.Pages.Account.LoginModel.OnGetAsync - ModelState is "Valid"
+2025-05-18 18:43:50.848 +02:00 [INF] AuthenticationScheme: Identity.External signed out.
+2025-05-18 18:43:50.850 +02:00 [INF] Executed handler method OnGetAsync, returned result .
+2025-05-18 18:43:50.853 +02:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2025-05-18 18:43:50.853 +02:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2025-05-18 18:43:50.902 +02:00 [INF] Executed page /Account/Login in 65.6373ms
+2025-05-18 18:43:50.902 +02:00 [INF] Executed endpoint '/Account/Login'
+2025-05-18 18:43:50.903 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7130/Identity/Account/Login?ReturnUrl=%2FFileUpload%2FUpload - 200 null text/html; charset=utf-8 79.2888ms
+2025-05-18 18:43:50.911 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7130/_framework/aspnetcore-browser-refresh.js - null null
+2025-05-18 18:43:50.911 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7130/_vs/browserLink - null null
+2025-05-18 18:43:50.912 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7130/_framework/aspnetcore-browser-refresh.js - 200 16509 application/javascript; charset=utf-8 1.7522ms
+2025-05-18 18:43:50.925 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7130/_vs/browserLink - 200 null text/javascript; charset=UTF-8 14.0415ms
+2025-05-18 18:43:53.734 +02:00 [INF] Request starting HTTP/2 POST https://localhost:7130/Identity/Account/ExternalLogin?returnUrl=%2FFileUpload%2FUpload - application/x-www-form-urlencoded 201
+2025-05-18 18:43:53.739 +02:00 [INF] Executing endpoint '/Account/ExternalLogin'
+2025-05-18 18:43:53.748 +02:00 [INF] Route matched with {page = "/Account/ExternalLogin", area = "Identity", action = "", controller = ""}. Executing page /Account/ExternalLogin
+2025-05-18 18:43:53.762 +02:00 [INF] Executing handler method Microsoft.AspNetCore.Identity.UI.V5.Pages.Account.Internal.ExternalLoginModel.OnPost - ModelState is "Invalid"
+2025-05-18 18:43:53.764 +02:00 [INF] Executed handler method OnPost, returned result Microsoft.AspNetCore.Mvc.ChallengeResult.
+2025-05-18 18:43:53.765 +02:00 [INF] Executing ChallengeResult with authentication schemes (["Microsoft"]).
+2025-05-18 18:43:53.769 +02:00 [INF] AuthenticationScheme: Microsoft was challenged.
+2025-05-18 18:43:53.769 +02:00 [INF] Executed page /Account/ExternalLogin in 20.4923ms
+2025-05-18 18:43:53.769 +02:00 [INF] Executed endpoint '/Account/ExternalLogin'
+2025-05-18 18:43:53.769 +02:00 [INF] Request finished HTTP/2 POST https://localhost:7130/Identity/Account/ExternalLogin?returnUrl=%2FFileUpload%2FUpload - 302 0 null 34.9435ms
+2025-05-18 18:43:55.531 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7130/signin-microsoft?code=1.ATwAtutbJeivRU2sydx93JR5_rLKp1acN6ZMk02eIlTJYWwaAV08AA.AgABBAIAAABVrSpeuWamRam2jAF1XRQEAwDs_wUA9P9g44opspX9qe-fR-Q63mYGSZRGIaVFWtZi2r6cIXjpzg3vskvrW-iFZZXlQ0-43uuWZamE_K4T5vj1HYdtLahpkH_Z8DmU3Sy2bdWan4lxQ5kPhbQo1z_7-K4HWl_a7Zu9Dy_qTGkjQQaozVPH2ykgp3e4NWmL185gDdqgjnpSXLp7c4cTwAloa_gnhZetWX_GcMHaUgG0iPp6qyLRNyKuQNk6c3D1WYn7fi_gEAzW6KZHioZVjiUebV4ZL7SF4VFdAU7oE1SO6C57wzxU1HIaL1tN-G3gZJAe-q_EQsmLOpTIMbSadeJV2zhTVXgySkqPfpoTkHV-dCP5iqKsP9cBWaU7NdUDgMxjg9uNVL06X3UjO-VYKzfwfCvEp3cn2v6Gs0Q8EEuDV1FPBvxd2ojKEjgnXSCZ0xM_CbqlP4uNW10V8f4hK-r35lpTtTDiskapIixwezWvBqB_5Kj1hKUeun9GPdxhHq8LZWJQXJ1NSrQUqEJiBvLenb3p8u2TwiKH1KoO89i5QWyF-6LqjsgI_RKYKlza4rSGYux0WLBaxWd_WeOaH-LM7D38CO683KOAD-Dpm5P_JzWN8Boi7sChxszw_6_i5Xb8rtZDyKgPi1n4cVQ3pShKcpz6mCu364zzTP07aAlVejw8OB03ALACz8dLfVKxh5uFv9v-SR7z-MpZQuLdwlKeY9aqYc5KzF1x5Vqm8TYgZNLipMTjKnf6oIYADt9jFaVj6TB-mF4QHBLl2Wu680AT38w9Hg-0hj5v1N58bg&state=CfDJ8JMTMR3Bp8hChzsCWG7tb9gYM2GYJ0AYhyLZyCv6UAqD2CyShYjK-DUBSmirN4nA43jP5FJHChpBsVTlLS8bFmxdqxv_SAw592LeFOL0tfUgcOsuYkrz_g-76lM8z3J-RIiBsb8WHd-YzY6-_JkmPqr6XANdO4yk6BQE3pPt98mL4s2jXcFf8BgdedMz8Rs3CxZ8QfAU-gATj9H8_PKxXBq-u0QSY0lydyVSAgwYcKJ1Kt0x38wBQsuvODSJWASHjV42NpzrIva3TSBP81izihgZyZKtEVp-8kIYGVVLiON26QF4VvxdxQV3tis8MwYqlB8Vutb_BsMsUJnZbYL82eN9rL_TR4SCFPUxeajmMoG9C1Ej1fSgiC4nzeJoo0-6wqgnROERd_R4nZSF7h-nJgBqciqsZd48k9b1dpFx0K_D&session_state=004f1249-ee53-c47e-777a-c703cf3783e4 - null null
+2025-05-18 18:43:56.207 +02:00 [INF] AuthenticationScheme: Identity.External signed in.
+2025-05-18 18:43:56.210 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7130/signin-microsoft?code=1.ATwAtutbJeivRU2sydx93JR5_rLKp1acN6ZMk02eIlTJYWwaAV08AA.AgABBAIAAABVrSpeuWamRam2jAF1XRQEAwDs_wUA9P9g44opspX9qe-fR-Q63mYGSZRGIaVFWtZi2r6cIXjpzg3vskvrW-iFZZXlQ0-43uuWZamE_K4T5vj1HYdtLahpkH_Z8DmU3Sy2bdWan4lxQ5kPhbQo1z_7-K4HWl_a7Zu9Dy_qTGkjQQaozVPH2ykgp3e4NWmL185gDdqgjnpSXLp7c4cTwAloa_gnhZetWX_GcMHaUgG0iPp6qyLRNyKuQNk6c3D1WYn7fi_gEAzW6KZHioZVjiUebV4ZL7SF4VFdAU7oE1SO6C57wzxU1HIaL1tN-G3gZJAe-q_EQsmLOpTIMbSadeJV2zhTVXgySkqPfpoTkHV-dCP5iqKsP9cBWaU7NdUDgMxjg9uNVL06X3UjO-VYKzfwfCvEp3cn2v6Gs0Q8EEuDV1FPBvxd2ojKEjgnXSCZ0xM_CbqlP4uNW10V8f4hK-r35lpTtTDiskapIixwezWvBqB_5Kj1hKUeun9GPdxhHq8LZWJQXJ1NSrQUqEJiBvLenb3p8u2TwiKH1KoO89i5QWyF-6LqjsgI_RKYKlza4rSGYux0WLBaxWd_WeOaH-LM7D38CO683KOAD-Dpm5P_JzWN8Boi7sChxszw_6_i5Xb8rtZDyKgPi1n4cVQ3pShKcpz6mCu364zzTP07aAlVejw8OB03ALACz8dLfVKxh5uFv9v-SR7z-MpZQuLdwlKeY9aqYc5KzF1x5Vqm8TYgZNLipMTjKnf6oIYADt9jFaVj6TB-mF4QHBLl2Wu680AT38w9Hg-0hj5v1N58bg&state=CfDJ8JMTMR3Bp8hChzsCWG7tb9gYM2GYJ0AYhyLZyCv6UAqD2CyShYjK-DUBSmirN4nA43jP5FJHChpBsVTlLS8bFmxdqxv_SAw592LeFOL0tfUgcOsuYkrz_g-76lM8z3J-RIiBsb8WHd-YzY6-_JkmPqr6XANdO4yk6BQE3pPt98mL4s2jXcFf8BgdedMz8Rs3CxZ8QfAU-gATj9H8_PKxXBq-u0QSY0lydyVSAgwYcKJ1Kt0x38wBQsuvODSJWASHjV42NpzrIva3TSBP81izihgZyZKtEVp-8kIYGVVLiON26QF4VvxdxQV3tis8MwYqlB8Vutb_BsMsUJnZbYL82eN9rL_TR4SCFPUxeajmMoG9C1Ej1fSgiC4nzeJoo0-6wqgnROERd_R4nZSF7h-nJgBqciqsZd48k9b1dpFx0K_D&session_state=004f1249-ee53-c47e-777a-c703cf3783e4 - 302 0 null 678.6464ms
+2025-05-18 18:43:56.213 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7130/Identity/Account/ExternalLogin?returnUrl=%2FFileUpload%2FUpload&handler=Callback - null null
+2025-05-18 18:43:56.219 +02:00 [INF] Executing endpoint '/Account/ExternalLogin'
+2025-05-18 18:43:56.220 +02:00 [INF] Route matched with {page = "/Account/ExternalLogin", area = "Identity", action = "", controller = ""}. Executing page /Account/ExternalLogin
+2025-05-18 18:43:56.223 +02:00 [INF] Executing handler method Microsoft.AspNetCore.Identity.UI.V5.Pages.Account.Internal.ExternalLoginModel.OnGetCallbackAsync - ModelState is "Valid"
+2025-05-18 18:43:57.373 +02:00 [INF] Executed DbCommand (56ms) [Parameters=[@__loginProvider_0='?', @__providerKey_1='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT a."LoginProvider", a."ProviderKey", a."ProviderDisplayName", a."UserId"
+FROM "AspNetUserLogins" AS a
+WHERE a."LoginProvider" = @__loginProvider_0 AND a."ProviderKey" = @__providerKey_1
+LIMIT 2
+2025-05-18 18:43:57.473 +02:00 [INF] Executed DbCommand (6ms) [Parameters=[@__userId_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT a."Id", a."AccessFailedCount", a."ConcurrencyStamp", a."Email", a."EmailConfirmed", a."LockoutEnabled", a."LockoutEnd", a."NormalizedEmail", a."NormalizedUserName", a."PasswordHash", a."PhoneNumber", a."PhoneNumberConfirmed", a."SecurityStamp", a."TwoFactorEnabled", a."UserName"
+FROM "AspNetUsers" AS a
+WHERE a."Id" = @__userId_0
+LIMIT 2
+2025-05-18 18:43:57.517 +02:00 [INF] AuthenticationScheme: Identity.External signed out.
+2025-05-18 18:43:57.538 +02:00 [INF] Executed DbCommand (2ms) [Parameters=[@__user_Id_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT a."Id", a."ClaimType", a."ClaimValue", a."UserId"
+FROM "AspNetUserClaims" AS a
+WHERE a."UserId" = @__user_Id_0
+2025-05-18 18:43:57.547 +02:00 [INF] AuthenticationScheme: Identity.Application signed in.
+2025-05-18 18:43:57.548 +02:00 [INF] User logged in with Microsoft provider.
+2025-05-18 18:43:57.550 +02:00 [INF] Executed handler method OnGetCallbackAsync, returned result Microsoft.AspNetCore.Mvc.LocalRedirectResult.
+2025-05-18 18:43:57.552 +02:00 [INF] Executing LocalRedirectResult, redirecting to /FileUpload/Upload.
+2025-05-18 18:43:57.553 +02:00 [INF] Executed page /Account/ExternalLogin in 1332.5559ms
+2025-05-18 18:43:57.553 +02:00 [INF] Executed endpoint '/Account/ExternalLogin'
+2025-05-18 18:43:57.556 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7130/FileUpload/Upload - null null
+2025-05-18 18:43:57.559 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7130/Identity/Account/ExternalLogin?returnUrl=%2FFileUpload%2FUpload&handler=Callback - 302 0 null 1346.6415ms
+2025-05-18 18:43:57.562 +02:00 [INF] Executing endpoint 'ClientWebApp.Controllers.FileUploadController.Upload (ClientWebApp)'
+2025-05-18 18:43:57.564 +02:00 [INF] Route matched with {action = "Upload", controller = "FileUpload", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Upload() on controller ClientWebApp.Controllers.FileUploadController (ClientWebApp).
+2025-05-18 18:43:57.565 +02:00 [INF] Executing ViewResult, running view Upload.
+2025-05-18 18:43:57.582 +02:00 [INF] Executed ViewResult - view Upload executed in 17.2551ms.
+2025-05-18 18:43:57.588 +02:00 [INF] Executed action ClientWebApp.Controllers.FileUploadController.Upload (ClientWebApp) in 24.4416ms
+2025-05-18 18:43:57.588 +02:00 [INF] Executed endpoint 'ClientWebApp.Controllers.FileUploadController.Upload (ClientWebApp)'
+2025-05-18 18:43:57.588 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7130/FileUpload/Upload - 200 null text/html; charset=utf-8 32.6224ms
+2025-05-18 18:43:57.603 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7130/_framework/aspnetcore-browser-refresh.js - null null
+2025-05-18 18:43:57.604 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7130/_framework/aspnetcore-browser-refresh.js - 200 16509 application/javascript; charset=utf-8 1.614ms
+2025-05-18 18:43:57.605 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7130/_vs/browserLink - null null
+2025-05-18 18:43:57.617 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7130/_vs/browserLink - 200 null text/javascript; charset=UTF-8 12.4182ms
+2025-05-18 18:44:10.305 +02:00 [INF] Request starting HTTP/1.1 POST https://localhost:7130/FileUpload/DownloadFile - application/json 375
+2025-05-18 18:44:10.306 +02:00 [INF] Executing endpoint 'ClientWebApp.Controllers.HomeController.StatusCodeHandler (ClientWebApp)'
+2025-05-18 18:44:10.307 +02:00 [INF] Route matched with {action = "StatusCodeHandler", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult StatusCodeHandler(Int32) on controller ClientWebApp.Controllers.HomeController (ClientWebApp).
+2025-05-18 18:44:10.307 +02:00 [INF] Executing ViewResult, running view Error.
+2025-05-18 18:44:10.308 +02:00 [INF] Executed ViewResult - view Error executed in 0.853ms.
+2025-05-18 18:44:10.308 +02:00 [INF] Executed action ClientWebApp.Controllers.HomeController.StatusCodeHandler (ClientWebApp) in 1.067ms
+2025-05-18 18:44:10.308 +02:00 [INF] Executed endpoint 'ClientWebApp.Controllers.HomeController.StatusCodeHandler (ClientWebApp)'
+2025-05-18 18:44:10.308 +02:00 [INF] Request finished HTTP/1.1 POST https://localhost:7130/FileUpload/DownloadFile - 404 null text/html; charset=utf-8 2.7487ms
+2025-05-18 18:44:10.308 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: POST https://localhost:7130/FileUpload/DownloadFile, Response status code: 404
+2025-05-18 18:44:13.902 +02:00 [INF] Request starting HTTP/1.1 POST https://localhost:7130/FileUpload/DownloadFile - application/json 375
+2025-05-18 18:44:13.903 +02:00 [INF] Executing endpoint 'ClientWebApp.Controllers.HomeController.StatusCodeHandler (ClientWebApp)'
+2025-05-18 18:44:13.903 +02:00 [INF] Route matched with {action = "StatusCodeHandler", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult StatusCodeHandler(Int32) on controller ClientWebApp.Controllers.HomeController (ClientWebApp).
+2025-05-18 18:44:13.903 +02:00 [INF] Executing ViewResult, running view Error.
+2025-05-18 18:44:13.904 +02:00 [INF] Executed ViewResult - view Error executed in 0.99ms.
+2025-05-18 18:44:13.904 +02:00 [INF] Executed action ClientWebApp.Controllers.HomeController.StatusCodeHandler (ClientWebApp) in 1.2411ms
+2025-05-18 18:44:13.904 +02:00 [INF] Executed endpoint 'ClientWebApp.Controllers.HomeController.StatusCodeHandler (ClientWebApp)'
+2025-05-18 18:44:13.904 +02:00 [INF] Request finished HTTP/1.1 POST https://localhost:7130/FileUpload/DownloadFile - 404 null text/html; charset=utf-8 1.8768ms
+2025-05-18 18:44:13.904 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: POST https://localhost:7130/FileUpload/DownloadFile, Response status code: 404
+2025-05-18 18:44:27.779 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7130/FileUpload/DownloadFile - null null
+2025-05-18 18:44:27.782 +02:00 [INF] Executing endpoint 'ClientWebApp.Controllers.HomeController.StatusCodeHandler (ClientWebApp)'
+2025-05-18 18:44:27.782 +02:00 [INF] Route matched with {action = "StatusCodeHandler", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult StatusCodeHandler(Int32) on controller ClientWebApp.Controllers.HomeController (ClientWebApp).
+2025-05-18 18:44:27.782 +02:00 [INF] Executing ViewResult, running view Error.
+2025-05-18 18:44:27.782 +02:00 [INF] Executed ViewResult - view Error executed in 0.7152ms.
+2025-05-18 18:44:27.783 +02:00 [INF] Executed action ClientWebApp.Controllers.HomeController.StatusCodeHandler (ClientWebApp) in 0.8973ms
+2025-05-18 18:44:27.783 +02:00 [INF] Executed endpoint 'ClientWebApp.Controllers.HomeController.StatusCodeHandler (ClientWebApp)'
+2025-05-18 18:44:27.783 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7130/FileUpload/DownloadFile - 404 null text/html; charset=utf-8 3.5645ms
+2025-05-18 18:44:27.783 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7130/FileUpload/DownloadFile, Response status code: 404
