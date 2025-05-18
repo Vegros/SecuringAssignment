@@ -1,15 +1,30 @@
 ﻿@model UploadFileViewModel
 
-<h2>Upload File</h2>
+<div class="container mt-5">
+    <div class="card shadow p-4">
+        <h2 class="mb-4 text-primary">📄 Upload Secure File</h2>
 
-<form asp-controller="FileUpload" asp-action="Upload" method="post" enctype="multipart/form-data">
-    <div>
-        <label>Select File (.docx, .pdf):</label>
-        <input type="file" name="File" />
+        <form asp-controller="FileUpload" asp-action="Upload" method="post" enctype="multipart/form-data">
+            <div class="mb-3">
+                <label class="form-label">Select Word File (.docx)</label>
+                <input type="file" name="File" class="form-control" accept=".docx" required />
+            </div>
+
+            <div class="mb-3">
+                <label class="form-label">Lawyer's Email</label>
+                <input type="email" name="LawyerEmail" class="form-control" placeholder="lawyer@example.com" required />
+            </div>
+
+            <button type="submit" class="btn btn-primary w-100">🔐 Upload File</button>
+        </form>
+
+        @if (TempData["Message"] != null)
+        {
+            <div class="alert alert-success mt-3">@TempData["Message"]</div>
+        }
+        @if (TempData["Error"] != null)
+        {
+            <div class="alert alert-danger mt-3">@TempData["Error"]</div>
+        }
     </div>
-    <div>
-        <label>Lawyer's Email:</label>
-        <input type="email" name="LawyerEmail" required />
-    </div>
-    <button type="submit">Upload</button>
-</form>
+</div>

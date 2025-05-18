@@ -2633,6 +2633,88 @@
       ]
     },
     {
+      "Route": "SecureFiles/a9b3458f-aae6-426d-bf64-3939602f5cdb.dh72lk5m5v.docx",
+      "AssetFile": "SecureFiles/a9b3458f-aae6-426d-bf64-3939602f5cdb.docx",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "306165"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"YWf2/Yp/cBMZmwNANjwnitnBU5NW4JHS61pVI45vnDk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 18 May 2025 11:22:19 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "dh72lk5m5v"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-YWf2/Yp/cBMZmwNANjwnitnBU5NW4JHS61pVI45vnDk="
+        },
+        {
+          "Name": "label",
+          "Value": "SecureFiles/a9b3458f-aae6-426d-bf64-3939602f5cdb.docx"
+        }
+      ]
+    },
+    {
+      "Route": "SecureFiles/a9b3458f-aae6-426d-bf64-3939602f5cdb.docx",
+      "AssetFile": "SecureFiles/a9b3458f-aae6-426d-bf64-3939602f5cdb.docx",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "306165"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"YWf2/Yp/cBMZmwNANjwnitnBU5NW4JHS61pVI45vnDk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 18 May 2025 11:22:19 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-YWf2/Yp/cBMZmwNANjwnitnBU5NW4JHS61pVI45vnDk="
+        }
+      ]
+    },
+    {
       "Route": "SecureFiles/c012635d-2d50-4392-89b7-2bc52b91a6c0.cccnft1nfi.docx",
       "AssetFile": "SecureFiles/c012635d-2d50-4392-89b7-2bc52b91a6c0.docx",
       "Selectors": [],

@@ -1,8 +1,23 @@
 ﻿@{
-    ViewData["Title"] = "Home Page";
+    ViewData["Title"] = "Home";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+<div class="container mt-5">
+    <div class="text-center">
+        <h1 class="display-3 fw-bold text-primary mb-4">🔐 Welcome to SecureShare</h1>
+        <p class="lead text-muted mb-4">
+            Safely upload and share confidential documents with full end-to-end encryption and logging.
+        </p>
+
+        <a href="/FileUpload/Upload" class="btn btn-lg btn-outline-primary px-4 me-3">
+            📤 Upload a File
+        </a>
+
+        <div class="mt-5">
+            <p class="text-muted small">
+                Built with <a href="https://learn.microsoft.com/aspnet/core" target="_blank">ASP.NET Core</a> |
+                Powered by Hybrid Encryption & Serilog
+            </p>
+        </div>
+    </div>
 </div>

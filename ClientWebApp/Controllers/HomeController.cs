@@ -4,19 +4,8 @@ namespace ClientWebApp.Controllers
 {
     public class HomeController : Controller
     {
-        private readonly ILogger<HomeController> _logger;
-
-        public HomeController(ILogger<HomeController> logger)
-        {
-            _logger = logger;
-        }
 
         public IActionResult Index()
-        {
-            return View();
-        }
-
-        public IActionResult Privacy()
         {
             return View();
         }
@@ -30,11 +19,15 @@ namespace ClientWebApp.Controllers
         [Route("Home/StatusCode")]
         public IActionResult StatusCodeHandler(int code)
         {
-            if (code == 404)
+            return code switch
             {
-                return View("NotFound");
-            }
-            return View("Error");
+                400 => View("BadRequest"),
+                401 => View("Unauthorized"),
+                403 => View("Forbidden"),
+                404 => View("NotFound"),
+                500 => View("ServerError"),
+                _ => View("Error")
+            };
         }
     }
 }

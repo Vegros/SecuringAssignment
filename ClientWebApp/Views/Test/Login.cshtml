@@ -2,10 +2,24 @@
     ViewData["Title"] = "Test Login";
 }
 
-<h2>Test Login</h2>
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-5 bg-light p-4 shadow rounded">
+            <h3 class="text-center text-primary mb-4">🔐 Test Login</h3>
 
-<form asp-controller="Test" method="post">
-    <input name="username" />
-    <input name="password" type="password" />
-    <button type="submit">Login</button>
-</form>
+            <form asp-controller="Test" method="post">
+                <div class="form-floating mb-3">
+                    <input class="form-control" name="username" placeholder="Username" required />
+                    <label for="username">Username</label>
+                </div>
+
+                <div class="form-floating mb-3">
+                    <input type="password" class="form-control" name="password" placeholder="Password" required />
+                    <label for="password">Password</label>
+                </div>
+
+                <button type="submit" class="btn btn-primary w-100">Login</button>
+            </form>
+        </div>
+    </div>
+</div>
