@@ -64,6 +64,7 @@ wwwroot\lib\qrcode.min.js
 wwwroot\SecureFiles\0d5a45a6-c6b8-4eaa-9916-655ca0db460f.docx
 wwwroot\SecureFiles\0fb132ac-37b6-419e-b6f7-5987bfb86148.docx
 wwwroot\SecureFiles\22dac421-df7f-4fe7-89e7-6d9f044df025.docx
+wwwroot\SecureFiles\290e2f67-029e-4fb5-953b-69b8b108cdb2.docx
 wwwroot\SecureFiles\6ff8de8e-1f90-45ad-aebc-41878abf114d.docx
 wwwroot\SecureFiles\92ecd1cf-f9f7-446c-a514-e6127a0f7882.docx
 wwwroot\SecureFiles\9d1b81ac-3e9d-485c-ba4a-dd4a803f833c.docx

@@ -1206,6 +1206,24 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\SecureFiles\22dac421-df7f-4fe7-89e7-6d9f044df025.docx'))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\SecureFiles\290e2f67-029e-4fb5-953b-69b8b108cdb2.docx'))">
+      <SourceType>Package</SourceType>
+      <SourceId>ClientWebApp</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ClientWebApp</BasePath>
+      <RelativePath>SecureFiles/290e2f67-029e-4fb5-953b-69b8b108cdb2.docx</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>dh72lk5m5v</Fingerprint>
+      <Integrity>YWf2/Yp/cBMZmwNANjwnitnBU5NW4JHS61pVI45vnDk=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\SecureFiles\290e2f67-029e-4fb5-953b-69b8b108cdb2.docx'))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\SecureFiles\6ff8de8e-1f90-45ad-aebc-41878abf114d.docx'))">
       <SourceType>Package</SourceType>
       <SourceId>ClientWebApp</SourceId>

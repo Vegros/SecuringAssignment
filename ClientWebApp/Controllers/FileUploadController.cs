@@ -38,6 +38,7 @@ namespace ClientWebApp.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Upload(UploadFileViewModel model, [FromServices] IWebHostEnvironment host)
         {
+            //check if file is empty
             if (model.File == null || model.File.Length == 0)
             {
                 ModelState.AddModelError("File", "Please select a file.");
@@ -45,6 +46,7 @@ namespace ClientWebApp.Controllers
                 return View(model);
             }
 
+            //check if file is a word document
             var extension = Path.GetExtension(model.File.FileName).ToLower();
             if (extension != ".docx")
             {
@@ -73,6 +75,7 @@ namespace ClientWebApp.Controllers
             string fileHash = _encryptionUtility.Hash(ms);
             ms.Position = 0;
 
+            //upload file to secure file folder
             var fileName = Guid.NewGuid() + extension;
             var filePath = Path.Combine(host.WebRootPath, "SecureFiles", fileName);
 
@@ -93,6 +96,7 @@ namespace ClientWebApp.Controllers
             var accessCode = Guid.NewGuid().ToString();
             var uploadedBy = User.FindFirst(ClaimTypes.Email)?.Value ?? "unknown";
 
+            //upload file to the database
             var uploadedFile = new UploadedFile
             {
                 Id = Guid.NewGuid(),
@@ -106,6 +110,7 @@ namespace ClientWebApp.Controllers
             _fileRepository.UploadFile(uploadedFile);
             _logger.LogInformation("File metadata saved for {FileName} by {User}", model.File.FileName, uploadedBy);
 
+            //add permsisions of the file to the database
             var permission = new AccessPermission
             {
                 Id = Guid.NewGuid(),
@@ -148,9 +153,12 @@ namespace ClientWebApp.Controllers
 
             _logger.LogInformation("Received download request for {Email}", request.Email);
 
+            //check permissions 
+
             var permission = HttpContext.Items["permission"] as AccessPermission;
             var filePath = permission.UploadedFile.FilePath;
 
+            //check that file exists
             if (!System.IO.File.Exists(filePath))
             {
                 _logger.LogError("File not found at path: {Path}", filePath);
@@ -159,9 +167,10 @@ namespace ClientWebApp.Controllers
 
             _logger.LogInformation("File found: {Path}. Proceeding with encryption.", filePath);
 
+            //encypt the file with hybrid encryption
             byte[] fileBytes = await System.IO.File.ReadAllBytesAsync(filePath);
             MemoryStream fileStream = new(fileBytes);
-            byte[] decryptedBytes = fileStream.ToArray(); // before encryption
+            byte[] decryptedBytes = fileStream.ToArray();
 
             MemoryStream hybridEncrypted;
             try
@@ -174,8 +183,10 @@ namespace ClientWebApp.Controllers
                 return StatusCode(500, "Encryption error.");
             }
 
+            //generate server keys
             var serverKeys = _encryptionUtility.GenerateAsymmetricKeys();
 
+            //digital sign the file
             string signature;
             try
             {
@@ -190,6 +201,7 @@ namespace ClientWebApp.Controllers
             hybridEncrypted.Position = 0;
             var base64Encrypted = Convert.ToBase64String(hybridEncrypted.ToArray());
 
+            //create logs to the database
             var log = new AccessLog
             {
                 Id = Guid.NewGuid(),

@@ -1,0 +1,435 @@
+2025-05-18 19:07:11.216 +02:00 [INF] User profile is available. Using 'C:\Users\matti\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-05-18 19:07:11.432 +02:00 [INF] Now listening on: https://localhost:7130
+2025-05-18 19:07:11.432 +02:00 [INF] Now listening on: http://localhost:5248
+2025-05-18 19:07:11.468 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-05-18 19:07:11.468 +02:00 [INF] Hosting environment: Development
+2025-05-18 19:07:11.468 +02:00 [INF] Content root path: C:\Users\matti\Desktop\assignment enterprise\ClientWebApp
+2025-05-18 19:07:12.873 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7130/ - null null
+2025-05-18 19:07:13.078 +02:00 [INF] Executing endpoint 'ClientWebApp.Controllers.HomeController.Index (ClientWebApp)'
+2025-05-18 19:07:13.095 +02:00 [INF] Route matched with {action = "Index", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ClientWebApp.Controllers.HomeController (ClientWebApp).
+2025-05-18 19:07:13.102 +02:00 [INF] Executing ViewResult, running view Index.
+2025-05-18 19:07:13.411 +02:00 [INF] Executed ViewResult - view Index executed in 309.8774ms.
+2025-05-18 19:07:13.412 +02:00 [INF] Executed action ClientWebApp.Controllers.HomeController.Index (ClientWebApp) in 315.9987ms
+2025-05-18 19:07:13.412 +02:00 [INF] Executed endpoint 'ClientWebApp.Controllers.HomeController.Index (ClientWebApp)'
+2025-05-18 19:07:13.416 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7130/ - 200 null text/html; charset=utf-8 548.5202ms
+2025-05-18 19:07:13.450 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7130/_framework/aspnetcore-browser-refresh.js - null null
+2025-05-18 19:07:13.454 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7130/_vs/browserLink - null null
+2025-05-18 19:07:13.458 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7130/_framework/aspnetcore-browser-refresh.js - 200 16509 application/javascript; charset=utf-8 7.9285ms
+2025-05-18 19:07:13.501 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7130/_vs/browserLink - 200 null text/javascript; charset=UTF-8 47.2974ms
+2025-05-18 19:07:18.822 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7130/FileUpload/Upload - null null
+2025-05-18 19:07:18.828 +02:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-05-18 19:07:18.831 +02:00 [INF] AuthenticationScheme: Identity.Application was challenged.
+2025-05-18 19:07:18.831 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7130/FileUpload/Upload - 302 0 null 10.0792ms
+2025-05-18 19:07:18.834 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7130/Identity/Account/Login?ReturnUrl=%2FFileUpload%2FUpload - null null
+2025-05-18 19:07:18.837 +02:00 [INF] Executing endpoint '/Account/Login'
+2025-05-18 19:07:18.848 +02:00 [INF] Route matched with {page = "/Account/Login", area = "Identity", action = "", controller = ""}. Executing page /Account/Login
+2025-05-18 19:07:18.861 +02:00 [INF] Executing handler method ClientWebApp.Areas.Identity.Pages.Account.LoginModel.OnGetAsync - ModelState is "Valid"
+2025-05-18 19:07:18.864 +02:00 [INF] AuthenticationScheme: Identity.External signed out.
+2025-05-18 19:07:18.865 +02:00 [INF] Executed handler method OnGetAsync, returned result .
+2025-05-18 19:07:18.867 +02:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2025-05-18 19:07:18.867 +02:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2025-05-18 19:07:18.901 +02:00 [INF] Executed page /Account/Login in 52.9279ms
+2025-05-18 19:07:18.901 +02:00 [INF] Executed endpoint '/Account/Login'
+2025-05-18 19:07:18.904 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7130/Identity/Account/Login?ReturnUrl=%2FFileUpload%2FUpload - 200 null text/html; charset=utf-8 70.3623ms
+2025-05-18 19:07:18.911 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7130/_framework/aspnetcore-browser-refresh.js - null null
+2025-05-18 19:07:18.911 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7130/_vs/browserLink - null null
+2025-05-18 19:07:18.912 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7130/_framework/aspnetcore-browser-refresh.js - 200 16509 application/javascript; charset=utf-8 1.407ms
+2025-05-18 19:07:18.925 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7130/_vs/browserLink - 200 null text/javascript; charset=UTF-8 13.8848ms
+2025-05-18 19:07:21.087 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7130/Identity/Account/Login - null null
+2025-05-18 19:07:21.090 +02:00 [INF] Executing endpoint '/Account/Login'
+2025-05-18 19:07:21.090 +02:00 [INF] Route matched with {page = "/Account/Login", area = "Identity", action = "", controller = ""}. Executing page /Account/Login
+2025-05-18 19:07:21.095 +02:00 [INF] Executing handler method ClientWebApp.Areas.Identity.Pages.Account.LoginModel.OnGetAsync - ModelState is "Valid"
+2025-05-18 19:07:21.095 +02:00 [INF] AuthenticationScheme: Identity.External signed out.
+2025-05-18 19:07:21.095 +02:00 [INF] Executed handler method OnGetAsync, returned result .
+2025-05-18 19:07:21.095 +02:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2025-05-18 19:07:21.095 +02:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2025-05-18 19:07:21.098 +02:00 [INF] Executed page /Account/Login in 8.3542ms
+2025-05-18 19:07:21.099 +02:00 [INF] Executed endpoint '/Account/Login'
+2025-05-18 19:07:21.099 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7130/Identity/Account/Login - 200 null text/html; charset=utf-8 12.5022ms
+2025-05-18 19:07:21.106 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7130/_vs/browserLink - null null
+2025-05-18 19:07:21.107 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7130/_framework/aspnetcore-browser-refresh.js - null null
+2025-05-18 19:07:21.107 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7130/_framework/aspnetcore-browser-refresh.js - 200 16509 application/javascript; charset=utf-8 1.1594ms
+2025-05-18 19:07:21.115 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7130/_vs/browserLink - 200 null text/javascript; charset=UTF-8 8.7211ms
+2025-05-18 19:07:22.088 +02:00 [INF] Request starting HTTP/2 POST https://localhost:7130/Identity/Account/ExternalLogin?returnUrl=%2F - application/x-www-form-urlencoded 201
+2025-05-18 19:07:22.090 +02:00 [INF] Executing endpoint '/Account/ExternalLogin'
+2025-05-18 19:07:22.095 +02:00 [INF] Route matched with {page = "/Account/ExternalLogin", area = "Identity", action = "", controller = ""}. Executing page /Account/ExternalLogin
+2025-05-18 19:07:22.104 +02:00 [INF] Executing handler method Microsoft.AspNetCore.Identity.UI.V5.Pages.Account.Internal.ExternalLoginModel.OnPost - ModelState is "Invalid"
+2025-05-18 19:07:22.105 +02:00 [INF] Executed handler method OnPost, returned result Microsoft.AspNetCore.Mvc.ChallengeResult.
+2025-05-18 19:07:22.105 +02:00 [INF] Executing ChallengeResult with authentication schemes (["Microsoft"]).
+2025-05-18 19:07:22.107 +02:00 [INF] AuthenticationScheme: Microsoft was challenged.
+2025-05-18 19:07:22.107 +02:00 [INF] Executed page /Account/ExternalLogin in 11.6314ms
+2025-05-18 19:07:22.107 +02:00 [INF] Executed endpoint '/Account/ExternalLogin'
+2025-05-18 19:07:22.107 +02:00 [INF] Request finished HTTP/2 POST https://localhost:7130/Identity/Account/ExternalLogin?returnUrl=%2F - 302 0 null 19.3604ms
+2025-05-18 19:07:23.771 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7130/signin-microsoft?code=M.C518_SN1.2.U.6e9c19d2-5b26-821c-6e1e-19844f49385e&state=CfDJ8JMTMR3Bp8hChzsCWG7tb9hLAYam2nYNxL2ce26aTaHcqXlZfAbAnMvO0xa6Dgeyz45Lmr4iIdABKmB1lCy9-rMNwpYRQo8D0VI4gfKd5CXNx-w7aoidpAZeD94-SCQqUSytlt4o_YczkPH8gWWiN6DiPjowDiNLppds1mQyNjiBtJgDvg8LNlrUX6aAPB4-_J6ZbEMIvBMavCbz8M2a4Yby7d2SV3YHvEegTNpnU0uTUy2N-NF5ZTfx6LijEtw9FAtfvIEWoJUEW38IKzPBkXt50P3PYv5DpfbClK2HP7FMX2UaHMDkLVeVOjCSU4fnDmc6kaQ4ox4imTDtgud76UPFeEapQdrklp4y3xOW_Yim7o0MG761veOhZJqxdTIhzmuIiz4SPVRYvwvqvv3QMjs - null null
+2025-05-18 19:07:24.880 +02:00 [INF] AuthenticationScheme: Identity.External signed in.
+2025-05-18 19:07:24.880 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7130/signin-microsoft?code=M.C518_SN1.2.U.6e9c19d2-5b26-821c-6e1e-19844f49385e&state=CfDJ8JMTMR3Bp8hChzsCWG7tb9hLAYam2nYNxL2ce26aTaHcqXlZfAbAnMvO0xa6Dgeyz45Lmr4iIdABKmB1lCy9-rMNwpYRQo8D0VI4gfKd5CXNx-w7aoidpAZeD94-SCQqUSytlt4o_YczkPH8gWWiN6DiPjowDiNLppds1mQyNjiBtJgDvg8LNlrUX6aAPB4-_J6ZbEMIvBMavCbz8M2a4Yby7d2SV3YHvEegTNpnU0uTUy2N-NF5ZTfx6LijEtw9FAtfvIEWoJUEW38IKzPBkXt50P3PYv5DpfbClK2HP7FMX2UaHMDkLVeVOjCSU4fnDmc6kaQ4ox4imTDtgud76UPFeEapQdrklp4y3xOW_Yim7o0MG761veOhZJqxdTIhzmuIiz4SPVRYvwvqvv3QMjs - 302 0 null 1110.0607ms
+2025-05-18 19:07:24.883 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7130/Identity/Account/ExternalLogin?returnUrl=%2F&handler=Callback - null null
+2025-05-18 19:07:24.885 +02:00 [INF] Executing endpoint '/Account/ExternalLogin'
+2025-05-18 19:07:24.885 +02:00 [INF] Route matched with {page = "/Account/ExternalLogin", area = "Identity", action = "", controller = ""}. Executing page /Account/ExternalLogin
+2025-05-18 19:07:24.885 +02:00 [INF] Executing handler method Microsoft.AspNetCore.Identity.UI.V5.Pages.Account.Internal.ExternalLoginModel.OnGetCallbackAsync - ModelState is "Valid"
+2025-05-18 19:07:25.419 +02:00 [INF] Executed DbCommand (28ms) [Parameters=[@__loginProvider_0='?', @__providerKey_1='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT a."LoginProvider", a."ProviderKey", a."ProviderDisplayName", a."UserId"
+FROM "AspNetUserLogins" AS a
+WHERE a."LoginProvider" = @__loginProvider_0 AND a."ProviderKey" = @__providerKey_1
+LIMIT 2
+2025-05-18 19:07:25.428 +02:00 [INF] Executed handler method OnGetCallbackAsync, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2025-05-18 19:07:25.435 +02:00 [INF] Executed page /Account/ExternalLogin in 549.8966ms
+2025-05-18 19:07:25.435 +02:00 [INF] Executed endpoint '/Account/ExternalLogin'
+2025-05-18 19:07:25.438 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7130/Identity/Account/ExternalLogin?returnUrl=%2F&handler=Callback - 200 null text/html; charset=utf-8 555.2402ms
+2025-05-18 19:07:25.465 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7130/_framework/aspnetcore-browser-refresh.js - null null
+2025-05-18 19:07:25.466 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7130/_vs/browserLink - null null
+2025-05-18 19:07:25.467 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7130/_framework/aspnetcore-browser-refresh.js - 200 16509 application/javascript; charset=utf-8 1.3688ms
+2025-05-18 19:07:25.474 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7130/_vs/browserLink - 200 null text/javascript; charset=UTF-8 8.2286ms
+2025-05-18 19:07:31.451 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7130/Identity/Account/Login - null null
+2025-05-18 19:07:31.453 +02:00 [INF] Executing endpoint '/Account/Login'
+2025-05-18 19:07:31.453 +02:00 [INF] Route matched with {page = "/Account/Login", area = "Identity", action = "", controller = ""}. Executing page /Account/Login
+2025-05-18 19:07:31.453 +02:00 [INF] Executing handler method ClientWebApp.Areas.Identity.Pages.Account.LoginModel.OnGetAsync - ModelState is "Valid"
+2025-05-18 19:07:31.454 +02:00 [INF] AuthenticationScheme: Identity.External signed out.
+2025-05-18 19:07:31.454 +02:00 [INF] Executed handler method OnGetAsync, returned result .
+2025-05-18 19:07:31.454 +02:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2025-05-18 19:07:31.454 +02:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2025-05-18 19:07:31.456 +02:00 [INF] Executed page /Account/Login in 2.5365ms
+2025-05-18 19:07:31.456 +02:00 [INF] Executed endpoint '/Account/Login'
+2025-05-18 19:07:31.456 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7130/Identity/Account/Login - 200 null text/html; charset=utf-8 5.4908ms
+2025-05-18 19:07:31.468 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7130/_vs/browserLink - null null
+2025-05-18 19:07:31.469 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7130/_framework/aspnetcore-browser-refresh.js - null null
+2025-05-18 19:07:31.470 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7130/_framework/aspnetcore-browser-refresh.js - 200 16509 application/javascript; charset=utf-8 0.5973ms
+2025-05-18 19:07:31.476 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7130/_vs/browserLink - 200 null text/javascript; charset=UTF-8 8.1572ms
+2025-05-18 19:07:32.623 +02:00 [INF] Request starting HTTP/2 POST https://localhost:7130/Identity/Account/ExternalLogin?returnUrl=%2F - application/x-www-form-urlencoded 201
+2025-05-18 19:07:32.624 +02:00 [INF] Executing endpoint '/Account/ExternalLogin'
+2025-05-18 19:07:32.624 +02:00 [INF] Route matched with {page = "/Account/ExternalLogin", area = "Identity", action = "", controller = ""}. Executing page /Account/ExternalLogin
+2025-05-18 19:07:32.625 +02:00 [INF] Executing handler method Microsoft.AspNetCore.Identity.UI.V5.Pages.Account.Internal.ExternalLoginModel.OnPost - ModelState is "Invalid"
+2025-05-18 19:07:32.625 +02:00 [INF] Executed handler method OnPost, returned result Microsoft.AspNetCore.Mvc.ChallengeResult.
+2025-05-18 19:07:32.625 +02:00 [INF] Executing ChallengeResult with authentication schemes (["Microsoft"]).
+2025-05-18 19:07:32.626 +02:00 [INF] AuthenticationScheme: Microsoft was challenged.
+2025-05-18 19:07:32.626 +02:00 [INF] Executed page /Account/ExternalLogin in 1.2278ms
+2025-05-18 19:07:32.626 +02:00 [INF] Executed endpoint '/Account/ExternalLogin'
+2025-05-18 19:07:32.626 +02:00 [INF] Request finished HTTP/2 POST https://localhost:7130/Identity/Account/ExternalLogin?returnUrl=%2F - 302 0 null 2.9212ms
+2025-05-18 19:07:33.744 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7130/signin-microsoft?code=M.C518_SN1.2.U.6c502e5f-6a4f-fdfa-5771-7d3568734365&state=CfDJ8JMTMR3Bp8hChzsCWG7tb9gikFU_fumm8GqqkUBN40AxQ9ADzawhY3EWoCpVb0lPT1TJkMpRhbGOgE2CJQSTBOA4XVINQ-I7R_arGxCbFo-bcCqu7Ktr16C-87DBgJIYw_sXrIMqXhcg-C7clwjLQJ-w816kKWUMXeX0jCgHuUXNnIx7_GkwXDaBl6icd2khd4P-OfzatVNu8DwdmUPxhJ6OoytAFhs0vcMDwYjYpRmI4QU4ERhbjn8fdZgXRPMPuVQsSwDhSOosK3IyHfepKb5xVLEfoQya-6iEfWMM01gLQ-MQRWqwuClhQqG7X3o1QRAdvSPHMlj7y663uPlHJMDARViCPRmm6s86rIdCJKKaqUWHc9D4ArUti0UtfwLDUyibHFMO_CXgxT6Ror1y-As - null null
+2025-05-18 19:07:34.282 +02:00 [INF] AuthenticationScheme: Identity.External signed in.
+2025-05-18 19:07:34.282 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7130/signin-microsoft?code=M.C518_SN1.2.U.6c502e5f-6a4f-fdfa-5771-7d3568734365&state=CfDJ8JMTMR3Bp8hChzsCWG7tb9gikFU_fumm8GqqkUBN40AxQ9ADzawhY3EWoCpVb0lPT1TJkMpRhbGOgE2CJQSTBOA4XVINQ-I7R_arGxCbFo-bcCqu7Ktr16C-87DBgJIYw_sXrIMqXhcg-C7clwjLQJ-w816kKWUMXeX0jCgHuUXNnIx7_GkwXDaBl6icd2khd4P-OfzatVNu8DwdmUPxhJ6OoytAFhs0vcMDwYjYpRmI4QU4ERhbjn8fdZgXRPMPuVQsSwDhSOosK3IyHfepKb5xVLEfoQya-6iEfWMM01gLQ-MQRWqwuClhQqG7X3o1QRAdvSPHMlj7y663uPlHJMDARViCPRmm6s86rIdCJKKaqUWHc9D4ArUti0UtfwLDUyibHFMO_CXgxT6Ror1y-As - 302 0 null 538.234ms
+2025-05-18 19:07:34.285 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7130/Identity/Account/ExternalLogin?returnUrl=%2F&handler=Callback - null null
+2025-05-18 19:07:34.287 +02:00 [INF] Executing endpoint '/Account/ExternalLogin'
+2025-05-18 19:07:34.287 +02:00 [INF] Route matched with {page = "/Account/ExternalLogin", area = "Identity", action = "", controller = ""}. Executing page /Account/ExternalLogin
+2025-05-18 19:07:34.288 +02:00 [INF] Executing handler method Microsoft.AspNetCore.Identity.UI.V5.Pages.Account.Internal.ExternalLoginModel.OnGetCallbackAsync - ModelState is "Valid"
+2025-05-18 19:07:34.316 +02:00 [INF] Executed DbCommand (1ms) [Parameters=[@__loginProvider_0='?', @__providerKey_1='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT a."LoginProvider", a."ProviderKey", a."ProviderDisplayName", a."UserId"
+FROM "AspNetUserLogins" AS a
+WHERE a."LoginProvider" = @__loginProvider_0 AND a."ProviderKey" = @__providerKey_1
+LIMIT 2
+2025-05-18 19:07:34.316 +02:00 [INF] Executed handler method OnGetCallbackAsync, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2025-05-18 19:07:34.318 +02:00 [INF] Executed page /Account/ExternalLogin in 30.7632ms
+2025-05-18 19:07:34.318 +02:00 [INF] Executed endpoint '/Account/ExternalLogin'
+2025-05-18 19:07:34.318 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7130/Identity/Account/ExternalLogin?returnUrl=%2F&handler=Callback - 200 null text/html; charset=utf-8 33.7708ms
+2025-05-18 19:07:34.344 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7130/_framework/aspnetcore-browser-refresh.js - null null
+2025-05-18 19:07:34.345 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7130/_framework/aspnetcore-browser-refresh.js - 200 16509 application/javascript; charset=utf-8 0.9339ms
+2025-05-18 19:07:34.346 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7130/_vs/browserLink - null null
+2025-05-18 19:07:34.354 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7130/_vs/browserLink - 200 null text/javascript; charset=UTF-8 7.5782ms
+2025-05-18 19:07:40.167 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7130/Identity/Account/Register - null null
+2025-05-18 19:07:40.169 +02:00 [INF] Executing endpoint '/Account/Register'
+2025-05-18 19:07:40.172 +02:00 [INF] Route matched with {page = "/Account/Register", area = "Identity", action = "", controller = ""}. Executing page /Account/Register
+2025-05-18 19:07:40.173 +02:00 [INF] Executing handler method ClientWebApp.Areas.Identity.Pages.Account.RegisterModel.OnGetAsync - ModelState is "Valid"
+2025-05-18 19:07:40.173 +02:00 [INF] Executed handler method OnGetAsync, returned result .
+2025-05-18 19:07:40.173 +02:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2025-05-18 19:07:40.173 +02:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2025-05-18 19:07:40.182 +02:00 [INF] Executed page /Account/Register in 9.9083ms
+2025-05-18 19:07:40.183 +02:00 [INF] Executed endpoint '/Account/Register'
+2025-05-18 19:07:40.183 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7130/Identity/Account/Register - 200 null text/html; charset=utf-8 15.9672ms
+2025-05-18 19:07:40.191 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7130/_vs/browserLink - null null
+2025-05-18 19:07:40.191 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7130/_framework/aspnetcore-browser-refresh.js - null null
+2025-05-18 19:07:40.192 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7130/_framework/aspnetcore-browser-refresh.js - 200 16509 application/javascript; charset=utf-8 0.8173ms
+2025-05-18 19:07:40.198 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7130/_vs/browserLink - 200 null text/javascript; charset=UTF-8 7.1813ms
+2025-05-18 19:07:42.026 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7130/Identity/Account/Login - null null
+2025-05-18 19:07:42.027 +02:00 [INF] Executing endpoint '/Account/Login'
+2025-05-18 19:07:42.027 +02:00 [INF] Route matched with {page = "/Account/Login", area = "Identity", action = "", controller = ""}. Executing page /Account/Login
+2025-05-18 19:07:42.028 +02:00 [INF] Executing handler method ClientWebApp.Areas.Identity.Pages.Account.LoginModel.OnGetAsync - ModelState is "Valid"
+2025-05-18 19:07:42.028 +02:00 [INF] AuthenticationScheme: Identity.External signed out.
+2025-05-18 19:07:42.028 +02:00 [INF] Executed handler method OnGetAsync, returned result .
+2025-05-18 19:07:42.028 +02:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2025-05-18 19:07:42.028 +02:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2025-05-18 19:07:42.030 +02:00 [INF] Executed page /Account/Login in 2.2524ms
+2025-05-18 19:07:42.030 +02:00 [INF] Executed endpoint '/Account/Login'
+2025-05-18 19:07:42.030 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7130/Identity/Account/Login - 200 null text/html; charset=utf-8 4.3839ms
+2025-05-18 19:07:42.038 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7130/_vs/browserLink - null null
+2025-05-18 19:07:42.038 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7130/_framework/aspnetcore-browser-refresh.js - null null
+2025-05-18 19:07:42.039 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7130/_framework/aspnetcore-browser-refresh.js - 200 16509 application/javascript; charset=utf-8 0.7011ms
+2025-05-18 19:07:42.047 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7130/_vs/browserLink - 200 null text/javascript; charset=UTF-8 9.0433ms
+2025-05-18 19:07:44.549 +02:00 [INF] Request starting HTTP/2 POST https://localhost:7130/Identity/Account/ExternalLogin?returnUrl=%2F - application/x-www-form-urlencoded 201
+2025-05-18 19:07:44.551 +02:00 [INF] Executing endpoint '/Account/ExternalLogin'
+2025-05-18 19:07:44.551 +02:00 [INF] Route matched with {page = "/Account/ExternalLogin", area = "Identity", action = "", controller = ""}. Executing page /Account/ExternalLogin
+2025-05-18 19:07:44.551 +02:00 [INF] Executing handler method Microsoft.AspNetCore.Identity.UI.V5.Pages.Account.Internal.ExternalLoginModel.OnPost - ModelState is "Invalid"
+2025-05-18 19:07:44.551 +02:00 [INF] Executed handler method OnPost, returned result Microsoft.AspNetCore.Mvc.ChallengeResult.
+2025-05-18 19:07:44.551 +02:00 [INF] Executing ChallengeResult with authentication schemes (["Microsoft"]).
+2025-05-18 19:07:44.552 +02:00 [INF] AuthenticationScheme: Microsoft was challenged.
+2025-05-18 19:07:44.552 +02:00 [INF] Executed page /Account/ExternalLogin in 0.8958ms
+2025-05-18 19:07:44.552 +02:00 [INF] Executed endpoint '/Account/ExternalLogin'
+2025-05-18 19:07:44.552 +02:00 [INF] Request finished HTTP/2 POST https://localhost:7130/Identity/Account/ExternalLogin?returnUrl=%2F - 302 0 null 2.7981ms
+2025-05-18 19:07:45.352 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7130/signin-microsoft?code=M.C518_BL2.2.U.b7ac63e3-cc7f-709f-3a6f-8bde9ee34647&state=CfDJ8JMTMR3Bp8hChzsCWG7tb9hkCac84pYkxA-Xe757iH7yAHUirK2INwllxjEIvfOnNGZffu1_nhAX_qyxdHgMg9pw-44pz6aogiJcv_NtA20ZWRgvxk5siPvqQiAC9p3AXmN-O4xCzvGNq36XeGYs6ifB82C-KASl4_QjMIT5wDWWfSvXDFD4JHOZrkWuQSCw6nyMjHfx3OOouLju3j3WYeoNzJTIjopQS8i6pTQyB6IP5wzsgmThLLeqOBueOAB5pEoAeimODekztu7BAt1RqLDJOxs1CNJO7SqvvCJ-Aee-xLBxrtAZLP90j3-ThxbwqTycVz2338d_PJJU-1MUOEdgyAowbWQPcfcU7fqFXcWQwykvOxPm4VS2Ny59TmKK4d13DODo8oxm7VwmItILeF4 - null null
+2025-05-18 19:07:45.859 +02:00 [INF] AuthenticationScheme: Identity.External signed in.
+2025-05-18 19:07:45.859 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7130/signin-microsoft?code=M.C518_BL2.2.U.b7ac63e3-cc7f-709f-3a6f-8bde9ee34647&state=CfDJ8JMTMR3Bp8hChzsCWG7tb9hkCac84pYkxA-Xe757iH7yAHUirK2INwllxjEIvfOnNGZffu1_nhAX_qyxdHgMg9pw-44pz6aogiJcv_NtA20ZWRgvxk5siPvqQiAC9p3AXmN-O4xCzvGNq36XeGYs6ifB82C-KASl4_QjMIT5wDWWfSvXDFD4JHOZrkWuQSCw6nyMjHfx3OOouLju3j3WYeoNzJTIjopQS8i6pTQyB6IP5wzsgmThLLeqOBueOAB5pEoAeimODekztu7BAt1RqLDJOxs1CNJO7SqvvCJ-Aee-xLBxrtAZLP90j3-ThxbwqTycVz2338d_PJJU-1MUOEdgyAowbWQPcfcU7fqFXcWQwykvOxPm4VS2Ny59TmKK4d13DODo8oxm7VwmItILeF4 - 302 0 null 506.4059ms
+2025-05-18 19:07:45.860 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7130/Identity/Account/ExternalLogin?returnUrl=%2F&handler=Callback - null null
+2025-05-18 19:07:45.862 +02:00 [INF] Executing endpoint '/Account/ExternalLogin'
+2025-05-18 19:07:45.862 +02:00 [INF] Route matched with {page = "/Account/ExternalLogin", area = "Identity", action = "", controller = ""}. Executing page /Account/ExternalLogin
+2025-05-18 19:07:45.862 +02:00 [INF] Executing handler method Microsoft.AspNetCore.Identity.UI.V5.Pages.Account.Internal.ExternalLoginModel.OnGetCallbackAsync - ModelState is "Valid"
+2025-05-18 19:07:45.871 +02:00 [INF] Executed DbCommand (3ms) [Parameters=[@__loginProvider_0='?', @__providerKey_1='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT a."LoginProvider", a."ProviderKey", a."ProviderDisplayName", a."UserId"
+FROM "AspNetUserLogins" AS a
+WHERE a."LoginProvider" = @__loginProvider_0 AND a."ProviderKey" = @__providerKey_1
+LIMIT 2
+2025-05-18 19:07:45.872 +02:00 [INF] Executed handler method OnGetCallbackAsync, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2025-05-18 19:07:45.874 +02:00 [INF] Executed page /Account/ExternalLogin in 11.9912ms
+2025-05-18 19:07:45.874 +02:00 [INF] Executed endpoint '/Account/ExternalLogin'
+2025-05-18 19:07:45.874 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7130/Identity/Account/ExternalLogin?returnUrl=%2F&handler=Callback - 200 null text/html; charset=utf-8 13.6917ms
+2025-05-18 19:07:45.898 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7130/_framework/aspnetcore-browser-refresh.js - null null
+2025-05-18 19:07:45.899 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7130/_framework/aspnetcore-browser-refresh.js - 200 16509 application/javascript; charset=utf-8 0.7565ms
+2025-05-18 19:07:45.901 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7130/_vs/browserLink - null null
+2025-05-18 19:07:45.911 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7130/_vs/browserLink - 200 null text/javascript; charset=UTF-8 10.8821ms
+2025-05-18 19:07:47.261 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7130/Identity/Account/Login - null null
+2025-05-18 19:07:47.262 +02:00 [INF] Executing endpoint '/Account/Login'
+2025-05-18 19:07:47.262 +02:00 [INF] Route matched with {page = "/Account/Login", area = "Identity", action = "", controller = ""}. Executing page /Account/Login
+2025-05-18 19:07:47.262 +02:00 [INF] Executing handler method ClientWebApp.Areas.Identity.Pages.Account.LoginModel.OnGetAsync - ModelState is "Valid"
+2025-05-18 19:07:47.262 +02:00 [INF] AuthenticationScheme: Identity.External signed out.
+2025-05-18 19:07:47.263 +02:00 [INF] Executed handler method OnGetAsync, returned result .
+2025-05-18 19:07:47.263 +02:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2025-05-18 19:07:47.263 +02:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2025-05-18 19:07:47.264 +02:00 [INF] Executed page /Account/Login in 1.8258ms
+2025-05-18 19:07:47.264 +02:00 [INF] Executed endpoint '/Account/Login'
+2025-05-18 19:07:47.265 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7130/Identity/Account/Login - 200 null text/html; charset=utf-8 3.9156ms
+2025-05-18 19:07:47.273 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7130/_framework/aspnetcore-browser-refresh.js - null null
+2025-05-18 19:07:47.274 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7130/_framework/aspnetcore-browser-refresh.js - 200 16509 application/javascript; charset=utf-8 0.9671ms
+2025-05-18 19:07:50.370 +02:00 [INF] Request starting HTTP/2 POST https://localhost:7130/Identity/Account/ExternalLogin?returnUrl=%2F - application/x-www-form-urlencoded 201
+2025-05-18 19:07:50.371 +02:00 [INF] Executing endpoint '/Account/ExternalLogin'
+2025-05-18 19:07:50.371 +02:00 [INF] Route matched with {page = "/Account/ExternalLogin", area = "Identity", action = "", controller = ""}. Executing page /Account/ExternalLogin
+2025-05-18 19:07:50.372 +02:00 [INF] Executing handler method Microsoft.AspNetCore.Identity.UI.V5.Pages.Account.Internal.ExternalLoginModel.OnPost - ModelState is "Invalid"
+2025-05-18 19:07:50.372 +02:00 [INF] Executed handler method OnPost, returned result Microsoft.AspNetCore.Mvc.ChallengeResult.
+2025-05-18 19:07:50.372 +02:00 [INF] Executing ChallengeResult with authentication schemes (["Microsoft"]).
+2025-05-18 19:07:50.372 +02:00 [INF] AuthenticationScheme: Microsoft was challenged.
+2025-05-18 19:07:50.372 +02:00 [INF] Executed page /Account/ExternalLogin in 0.9671ms
+2025-05-18 19:07:50.372 +02:00 [INF] Executed endpoint '/Account/ExternalLogin'
+2025-05-18 19:07:50.372 +02:00 [INF] Request finished HTTP/2 POST https://localhost:7130/Identity/Account/ExternalLogin?returnUrl=%2F - 302 0 null 2.464ms
+2025-05-18 19:07:51.765 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7130/signin-microsoft?code=M.C518_BAY.2.U.95fc33d8-6fa0-78ce-8c9d-a90a51fd811d&state=CfDJ8JMTMR3Bp8hChzsCWG7tb9hMD-JAyKzdyOA0qubtvnzvTGXxaaXWiVzRn11QjdmOy9q2cMbu-YCNs2t4Loi9cIVuJDq8dHRCx6efZCZ9U-UwMzpcHfHJ2fqw0lLg_3Lf1A3lhiq1v3fclA_WJQ59mFmEL-nhTPjPDjPt9fwKG2HDYlJD0ReYViMfaxX7qNyMd00lf6B55sdr73LPpQr_kVHb7xcig7p4bDjXadpyFmTzsEwN_kct-XS3MSMQKh7HrUp_UMtrmIx6krT91wrijzoCJrApzfgsH2ChYr6X78B9pDJ2wUCmy0PHF9BxxXPWZQ-Hc6uac_L2TbqVkeIqXTgKY7lqEY0jtkgThElDT3TESuQ8UGWT9gw7IirXmz_w5nRbyg-3uXRVGlRvBkcuXwM - null null
+2025-05-18 19:07:52.383 +02:00 [INF] AuthenticationScheme: Identity.External signed in.
+2025-05-18 19:07:52.383 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7130/signin-microsoft?code=M.C518_BAY.2.U.95fc33d8-6fa0-78ce-8c9d-a90a51fd811d&state=CfDJ8JMTMR3Bp8hChzsCWG7tb9hMD-JAyKzdyOA0qubtvnzvTGXxaaXWiVzRn11QjdmOy9q2cMbu-YCNs2t4Loi9cIVuJDq8dHRCx6efZCZ9U-UwMzpcHfHJ2fqw0lLg_3Lf1A3lhiq1v3fclA_WJQ59mFmEL-nhTPjPDjPt9fwKG2HDYlJD0ReYViMfaxX7qNyMd00lf6B55sdr73LPpQr_kVHb7xcig7p4bDjXadpyFmTzsEwN_kct-XS3MSMQKh7HrUp_UMtrmIx6krT91wrijzoCJrApzfgsH2ChYr6X78B9pDJ2wUCmy0PHF9BxxXPWZQ-Hc6uac_L2TbqVkeIqXTgKY7lqEY0jtkgThElDT3TESuQ8UGWT9gw7IirXmz_w5nRbyg-3uXRVGlRvBkcuXwM - 302 0 null 619.1516ms
+2025-05-18 19:07:52.385 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7130/Identity/Account/ExternalLogin?returnUrl=%2F&handler=Callback - null null
+2025-05-18 19:07:52.387 +02:00 [INF] Executing endpoint '/Account/ExternalLogin'
+2025-05-18 19:07:52.387 +02:00 [INF] Route matched with {page = "/Account/ExternalLogin", area = "Identity", action = "", controller = ""}. Executing page /Account/ExternalLogin
+2025-05-18 19:07:52.387 +02:00 [INF] Executing handler method Microsoft.AspNetCore.Identity.UI.V5.Pages.Account.Internal.ExternalLoginModel.OnGetCallbackAsync - ModelState is "Valid"
+2025-05-18 19:07:52.389 +02:00 [INF] Executed DbCommand (1ms) [Parameters=[@__loginProvider_0='?', @__providerKey_1='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT a."LoginProvider", a."ProviderKey", a."ProviderDisplayName", a."UserId"
+FROM "AspNetUserLogins" AS a
+WHERE a."LoginProvider" = @__loginProvider_0 AND a."ProviderKey" = @__providerKey_1
+LIMIT 2
+2025-05-18 19:07:52.390 +02:00 [INF] Executed handler method OnGetCallbackAsync, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2025-05-18 19:07:52.391 +02:00 [INF] Executed page /Account/ExternalLogin in 4.379ms
+2025-05-18 19:07:52.391 +02:00 [INF] Executed endpoint '/Account/ExternalLogin'
+2025-05-18 19:07:52.391 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7130/Identity/Account/ExternalLogin?returnUrl=%2F&handler=Callback - 200 null text/html; charset=utf-8 6.4339ms
+2025-05-18 19:07:52.426 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7130/_framework/aspnetcore-browser-refresh.js - null null
+2025-05-18 19:07:52.426 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7130/_vs/browserLink - null null
+2025-05-18 19:07:52.427 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7130/_framework/aspnetcore-browser-refresh.js - 200 16509 application/javascript; charset=utf-8 1.5919ms
+2025-05-18 19:07:52.434 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7130/_vs/browserLink - 200 null text/javascript; charset=UTF-8 7.9311ms
+2025-05-18 19:07:59.441 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7130/Identity/Account/ExternalLogin?returnUrl=%2F&handler=Callback - null null
+2025-05-18 19:07:59.442 +02:00 [INF] Executing endpoint '/Account/ExternalLogin'
+2025-05-18 19:07:59.442 +02:00 [INF] Route matched with {page = "/Account/ExternalLogin", area = "Identity", action = "", controller = ""}. Executing page /Account/ExternalLogin
+2025-05-18 19:07:59.442 +02:00 [INF] Executing handler method Microsoft.AspNetCore.Identity.UI.V5.Pages.Account.Internal.ExternalLoginModel.OnGetCallbackAsync - ModelState is "Valid"
+2025-05-18 19:07:59.443 +02:00 [INF] Executed handler method OnGetCallbackAsync, returned result Microsoft.AspNetCore.Mvc.RedirectToPageResult.
+2025-05-18 19:07:59.444 +02:00 [INF] Executing RedirectToPageResult, redirecting to ./Login.
+2025-05-18 19:07:59.444 +02:00 [INF] Executed page /Account/ExternalLogin in 1.8951ms
+2025-05-18 19:07:59.444 +02:00 [INF] Executed endpoint '/Account/ExternalLogin'
+2025-05-18 19:07:59.444 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7130/Identity/Account/ExternalLogin?returnUrl=%2F&handler=Callback - 302 0 null 3.828ms
+2025-05-18 19:07:59.446 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7130/Identity/Account/Login?ReturnUrl=%2F - null null
+2025-05-18 19:07:59.447 +02:00 [INF] Executing endpoint '/Account/Login'
+2025-05-18 19:07:59.447 +02:00 [INF] Route matched with {page = "/Account/Login", area = "Identity", action = "", controller = ""}. Executing page /Account/Login
+2025-05-18 19:07:59.449 +02:00 [INF] Executing handler method ClientWebApp.Areas.Identity.Pages.Account.LoginModel.OnGetAsync - ModelState is "Valid"
+2025-05-18 19:07:59.449 +02:00 [INF] AuthenticationScheme: Identity.External signed out.
+2025-05-18 19:07:59.449 +02:00 [INF] Executed handler method OnGetAsync, returned result .
+2025-05-18 19:07:59.449 +02:00 [INF] Executing an implicit handler method - ModelState is "Invalid"
+2025-05-18 19:07:59.449 +02:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2025-05-18 19:07:59.451 +02:00 [INF] Executed page /Account/Login in 4.1287ms
+2025-05-18 19:07:59.451 +02:00 [INF] Executed endpoint '/Account/Login'
+2025-05-18 19:07:59.451 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7130/Identity/Account/Login?ReturnUrl=%2F - 200 null text/html; charset=utf-8 6.0752ms
+2025-05-18 19:07:59.459 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7130/_vs/browserLink - null null
+2025-05-18 19:07:59.463 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7130/_framework/aspnetcore-browser-refresh.js - null null
+2025-05-18 19:07:59.464 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7130/_framework/aspnetcore-browser-refresh.js - 200 16509 application/javascript; charset=utf-8 1.4872ms
+2025-05-18 19:07:59.468 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7130/_vs/browserLink - 200 null text/javascript; charset=UTF-8 8.8392ms
+2025-05-18 19:08:00.523 +02:00 [INF] Request starting HTTP/2 POST https://localhost:7130/Identity/Account/ExternalLogin?returnUrl=%2F - application/x-www-form-urlencoded 201
+2025-05-18 19:08:00.525 +02:00 [INF] Executing endpoint '/Account/ExternalLogin'
+2025-05-18 19:08:00.525 +02:00 [INF] Route matched with {page = "/Account/ExternalLogin", area = "Identity", action = "", controller = ""}. Executing page /Account/ExternalLogin
+2025-05-18 19:08:00.525 +02:00 [INF] Executing handler method Microsoft.AspNetCore.Identity.UI.V5.Pages.Account.Internal.ExternalLoginModel.OnPost - ModelState is "Invalid"
+2025-05-18 19:08:00.525 +02:00 [INF] Executed handler method OnPost, returned result Microsoft.AspNetCore.Mvc.ChallengeResult.
+2025-05-18 19:08:00.526 +02:00 [INF] Executing ChallengeResult with authentication schemes (["Microsoft"]).
+2025-05-18 19:08:00.526 +02:00 [INF] AuthenticationScheme: Microsoft was challenged.
+2025-05-18 19:08:00.526 +02:00 [INF] Executed page /Account/ExternalLogin in 0.6881ms
+2025-05-18 19:08:00.526 +02:00 [INF] Executed endpoint '/Account/ExternalLogin'
+2025-05-18 19:08:00.526 +02:00 [INF] Request finished HTTP/2 POST https://localhost:7130/Identity/Account/ExternalLogin?returnUrl=%2F - 302 0 null 2.6514ms
+2025-05-18 19:08:08.844 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7130/signin-microsoft?code=1.ATwAtutbJeivRU2sydx93JR5_rLKp1acN6ZMk02eIlTJYWwaAV08AA.AgABBAIAAABVrSpeuWamRam2jAF1XRQEAwDs_wUA9P9MCmtZpRScCPlg_0sM8rFxTxJgjTl6oM6Wrcy03PxW4n0W7Ytp9a5htZQqkCg0wkJbxUpghYJN4xTVmW-Zh6RsrVJUT5q4rO8_CmxC3fQTSl2Pz115q7NiMRJN-qYgVIJj0tq9ZJAsUB_YqtW3BpaN24tvqipXzPMutqTBJUuvpDxgquAGaH-RbLVr86kiqF4sWssbl27JzlML1WPJ7y5BAn797vxwobaPKn6uSDM_XTVYvT3gOXwjUzM7v_s-NZ18UULaKv922OrBB5X3VBj5WoUVPaaX4kNeWytvz8KvUk482izpblacZgiXrY7sQpUlj1d9iaoKEqRp2n7T804JGimaC_njafuKjQfh-nNuzXzkxt-sV-Tw47-iC9i7dKdwZBoP5p_7wJU_6J80fh9TrvusM1-NDnnMpEG6d1jtmzcMZr9G-o3qCVffr8234JD23cl2WYa7Og-WsFmru0ek3cWaC0zcHE1OgRK9QknrUkV_C2FqPvi0CnRa-fMcSoJ6JDpypz3Qp5ctgNxM09bZDRukAPgwk3vVziQ9miDvZMGBsOhx7Hwr0jOmqh7W4jlImS3swSpVCoLlL5wZfJ1zMGHCyGDY0zU0tSiBXRPxWl7lwdF3u6sw0D36-HubUQo61ASFcz_R5W7h8oQYt1Y-wPRHEh0DN0gyx53e5LDq4TBhYQXzaOXqwHVDEVgDYQ6Ec7lbbjDu2pwVtMaVWjQlFPlvE71ohGugo9hq62erPqhjrRBQR4HbZb7SKd04sjS7hm9bGiga5g&state=CfDJ8JMTMR3Bp8hChzsCWG7tb9jqwXItlmC0C_hw9nvOqCzrMVpWJP3WRxrXQgWpxXzA27Vnr5Zu5RwaEUQp65tkeNH5YDRqF4zNXENw1CChb4rFoxdCLLrteqZDlZhBPnZCtWxN-Nn0lKGEjSg7o1hiKnMmrVsSQZCYuxOgIxlvKfokbbTVnEQI9x57itVNqXyPL8wcdZPtKI25IWx_rh5PBO6UALEGhadmE9REboCkGuuyYSnWjNinJ5q_Yic2T-S_aeB9XhYtM3RitnkMS7l7EchNwpMpUvap26CQaSWgRx6AwbUyAvBwWBnUDIwEa6lwAAapIfcDVMmFCu_DvIsSHDRZueLdksYJ_55TYrkPNEcdu-4P30iSrXfW5xuSeURHwYiIdIPiMIEnDp6c8U1pRHU&session_state=004f1249-fac1-fde4-990d-f2a6261a4fb9 - null null
+2025-05-18 19:08:09.148 +02:00 [INF] AuthenticationScheme: Identity.External signed in.
+2025-05-18 19:08:09.148 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7130/signin-microsoft?code=1.ATwAtutbJeivRU2sydx93JR5_rLKp1acN6ZMk02eIlTJYWwaAV08AA.AgABBAIAAABVrSpeuWamRam2jAF1XRQEAwDs_wUA9P9MCmtZpRScCPlg_0sM8rFxTxJgjTl6oM6Wrcy03PxW4n0W7Ytp9a5htZQqkCg0wkJbxUpghYJN4xTVmW-Zh6RsrVJUT5q4rO8_CmxC3fQTSl2Pz115q7NiMRJN-qYgVIJj0tq9ZJAsUB_YqtW3BpaN24tvqipXzPMutqTBJUuvpDxgquAGaH-RbLVr86kiqF4sWssbl27JzlML1WPJ7y5BAn797vxwobaPKn6uSDM_XTVYvT3gOXwjUzM7v_s-NZ18UULaKv922OrBB5X3VBj5WoUVPaaX4kNeWytvz8KvUk482izpblacZgiXrY7sQpUlj1d9iaoKEqRp2n7T804JGimaC_njafuKjQfh-nNuzXzkxt-sV-Tw47-iC9i7dKdwZBoP5p_7wJU_6J80fh9TrvusM1-NDnnMpEG6d1jtmzcMZr9G-o3qCVffr8234JD23cl2WYa7Og-WsFmru0ek3cWaC0zcHE1OgRK9QknrUkV_C2FqPvi0CnRa-fMcSoJ6JDpypz3Qp5ctgNxM09bZDRukAPgwk3vVziQ9miDvZMGBsOhx7Hwr0jOmqh7W4jlImS3swSpVCoLlL5wZfJ1zMGHCyGDY0zU0tSiBXRPxWl7lwdF3u6sw0D36-HubUQo61ASFcz_R5W7h8oQYt1Y-wPRHEh0DN0gyx53e5LDq4TBhYQXzaOXqwHVDEVgDYQ6Ec7lbbjDu2pwVtMaVWjQlFPlvE71ohGugo9hq62erPqhjrRBQR4HbZb7SKd04sjS7hm9bGiga5g&state=CfDJ8JMTMR3Bp8hChzsCWG7tb9jqwXItlmC0C_hw9nvOqCzrMVpWJP3WRxrXQgWpxXzA27Vnr5Zu5RwaEUQp65tkeNH5YDRqF4zNXENw1CChb4rFoxdCLLrteqZDlZhBPnZCtWxN-Nn0lKGEjSg7o1hiKnMmrVsSQZCYuxOgIxlvKfokbbTVnEQI9x57itVNqXyPL8wcdZPtKI25IWx_rh5PBO6UALEGhadmE9REboCkGuuyYSnWjNinJ5q_Yic2T-S_aeB9XhYtM3RitnkMS7l7EchNwpMpUvap26CQaSWgRx6AwbUyAvBwWBnUDIwEa6lwAAapIfcDVMmFCu_DvIsSHDRZueLdksYJ_55TYrkPNEcdu-4P30iSrXfW5xuSeURHwYiIdIPiMIEnDp6c8U1pRHU&session_state=004f1249-fac1-fde4-990d-f2a6261a4fb9 - 302 0 null 304.6312ms
+2025-05-18 19:08:09.150 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7130/Identity/Account/ExternalLogin?returnUrl=%2F&handler=Callback - null null
+2025-05-18 19:08:09.151 +02:00 [INF] Executing endpoint '/Account/ExternalLogin'
+2025-05-18 19:08:09.151 +02:00 [INF] Route matched with {page = "/Account/ExternalLogin", area = "Identity", action = "", controller = ""}. Executing page /Account/ExternalLogin
+2025-05-18 19:08:09.151 +02:00 [INF] Executing handler method Microsoft.AspNetCore.Identity.UI.V5.Pages.Account.Internal.ExternalLoginModel.OnGetCallbackAsync - ModelState is "Valid"
+2025-05-18 19:08:09.154 +02:00 [INF] Executed DbCommand (1ms) [Parameters=[@__loginProvider_0='?', @__providerKey_1='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT a."LoginProvider", a."ProviderKey", a."ProviderDisplayName", a."UserId"
+FROM "AspNetUserLogins" AS a
+WHERE a."LoginProvider" = @__loginProvider_0 AND a."ProviderKey" = @__providerKey_1
+LIMIT 2
+2025-05-18 19:08:09.199 +02:00 [INF] Executed DbCommand (2ms) [Parameters=[@__userId_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT a."Id", a."AccessFailedCount", a."ConcurrencyStamp", a."Email", a."EmailConfirmed", a."LockoutEnabled", a."LockoutEnd", a."NormalizedEmail", a."NormalizedUserName", a."PasswordHash", a."PhoneNumber", a."PhoneNumberConfirmed", a."SecurityStamp", a."TwoFactorEnabled", a."UserName"
+FROM "AspNetUsers" AS a
+WHERE a."Id" = @__userId_0
+LIMIT 2
+2025-05-18 19:08:09.220 +02:00 [INF] AuthenticationScheme: Identity.External signed out.
+2025-05-18 19:08:09.231 +02:00 [INF] Executed DbCommand (1ms) [Parameters=[@__user_Id_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT a."Id", a."ClaimType", a."ClaimValue", a."UserId"
+FROM "AspNetUserClaims" AS a
+WHERE a."UserId" = @__user_Id_0
+2025-05-18 19:08:09.234 +02:00 [INF] AuthenticationScheme: Identity.Application signed in.
+2025-05-18 19:08:09.235 +02:00 [INF] User logged in with Microsoft provider.
+2025-05-18 19:08:09.235 +02:00 [INF] Executed handler method OnGetCallbackAsync, returned result Microsoft.AspNetCore.Mvc.LocalRedirectResult.
+2025-05-18 19:08:09.236 +02:00 [INF] Executing LocalRedirectResult, redirecting to /.
+2025-05-18 19:08:09.236 +02:00 [INF] Executed page /Account/ExternalLogin in 84.4804ms
+2025-05-18 19:08:09.236 +02:00 [INF] Executed endpoint '/Account/ExternalLogin'
+2025-05-18 19:08:09.236 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7130/Identity/Account/ExternalLogin?returnUrl=%2F&handler=Callback - 302 0 null 86.1844ms
+2025-05-18 19:08:09.237 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7130/ - null null
+2025-05-18 19:08:09.239 +02:00 [INF] Executing endpoint 'ClientWebApp.Controllers.HomeController.Index (ClientWebApp)'
+2025-05-18 19:08:09.240 +02:00 [INF] Route matched with {action = "Index", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ClientWebApp.Controllers.HomeController (ClientWebApp).
+2025-05-18 19:08:09.240 +02:00 [INF] Executing ViewResult, running view Index.
+2025-05-18 19:08:09.243 +02:00 [INF] Executed ViewResult - view Index executed in 3.6301ms.
+2025-05-18 19:08:09.245 +02:00 [INF] Executed action ClientWebApp.Controllers.HomeController.Index (ClientWebApp) in 5.3712ms
+2025-05-18 19:08:09.245 +02:00 [INF] Executed endpoint 'ClientWebApp.Controllers.HomeController.Index (ClientWebApp)'
+2025-05-18 19:08:09.245 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7130/ - 200 null text/html; charset=utf-8 7.8789ms
+2025-05-18 19:08:09.269 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7130/_framework/aspnetcore-browser-refresh.js - null null
+2025-05-18 19:08:09.271 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7130/_framework/aspnetcore-browser-refresh.js - 200 16509 application/javascript; charset=utf-8 1.4847ms
+2025-05-18 19:08:09.271 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7130/_vs/browserLink - null null
+2025-05-18 19:08:09.279 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7130/_vs/browserLink - 200 null text/javascript; charset=UTF-8 8.6104ms
+2025-05-18 19:08:11.234 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7130/FileUpload/Upload - null null
+2025-05-18 19:08:11.237 +02:00 [INF] Executing endpoint 'ClientWebApp.Controllers.FileUploadController.Upload (ClientWebApp)'
+2025-05-18 19:08:11.238 +02:00 [INF] Route matched with {action = "Upload", controller = "FileUpload", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Upload() on controller ClientWebApp.Controllers.FileUploadController (ClientWebApp).
+2025-05-18 19:08:11.238 +02:00 [INF] Executing ViewResult, running view Upload.
+2025-05-18 19:08:11.241 +02:00 [INF] Executed ViewResult - view Upload executed in 3.2751ms.
+2025-05-18 19:08:11.242 +02:00 [INF] Executed action ClientWebApp.Controllers.FileUploadController.Upload (ClientWebApp) in 4.1828ms
+2025-05-18 19:08:11.242 +02:00 [INF] Executed endpoint 'ClientWebApp.Controllers.FileUploadController.Upload (ClientWebApp)'
+2025-05-18 19:08:11.242 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7130/FileUpload/Upload - 200 null text/html; charset=utf-8 8.4957ms
+2025-05-18 19:08:11.250 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7130/_framework/aspnetcore-browser-refresh.js - null null
+2025-05-18 19:08:11.250 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7130/_vs/browserLink - null null
+2025-05-18 19:08:11.251 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7130/_framework/aspnetcore-browser-refresh.js - 200 16509 application/javascript; charset=utf-8 0.8911ms
+2025-05-18 19:08:11.260 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7130/_vs/browserLink - 200 null text/javascript; charset=UTF-8 10.1565ms
+2025-05-18 19:08:17.860 +02:00 [INF] Request starting HTTP/2 POST https://localhost:7130/FileUpload/Upload - multipart/form-data; boundary=----WebKitFormBoundaryNAaGtBa24kTjzB4M 306889
+2025-05-18 19:08:17.866 +02:00 [INF] Executing endpoint 'ClientWebApp.Controllers.FileUploadController.Upload (ClientWebApp)'
+2025-05-18 19:08:17.868 +02:00 [INF] Route matched with {action = "Upload", controller = "FileUpload", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Upload(ClientWebApp.Models.UploadFileViewModel, Microsoft.AspNetCore.Hosting.IWebHostEnvironment) on controller ClientWebApp.Controllers.FileUploadController (ClientWebApp).
+2025-05-18 19:08:17.890 +02:00 [INF] SHA-512 hash generated for input stream.
+2025-05-18 19:08:17.940 +02:00 [INF] Executed DbCommand (5ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?', @p2='?', @p3='?', @p4='?' (DbType = DateTime), @p5='?'], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Files" ("Id", "FileHash", "FileName", "FilePath", "UploadDate", "UploadedByEmail")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5);
+2025-05-18 19:08:17.944 +02:00 [INF] File metadata saved for Mattias Tonna SWD62A Research Proposal (2024-25).docx by mattias.tonna.g51962@mcast.edu.mt
+2025-05-18 19:08:17.959 +02:00 [INF] Executed DbCommand (4ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?', @p2='?' (DbType = Boolean), @p3='?', @p4='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "AccessPermissions" ("Id", "AccessCode", "IsDownloaded", "LawyerEmail", "UploadedFileId")
+VALUES (@p0, @p1, @p2, @p3, @p4);
+2025-05-18 19:08:17.959 +02:00 [INF] Access permission granted to mattias.tonna05@hotmail.com
+2025-05-18 19:08:17.968 +02:00 [INF] Executed DbCommand (1ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?', @p2='?', @p3='?' (DbType = DateTime), @p4='?'], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "AccessLogs" ("Id", "Action", "IPAddress", "Timestamp", "UserEmail")
+VALUES (@p0, @p1, @p2, @p3, @p4);
+2025-05-18 19:08:17.968 +02:00 [INF] Upload action logged for user mattias.tonna.g51962@mcast.edu.mt
+2025-05-18 19:08:17.969 +02:00 [INF] Executing RedirectResult, redirecting to /FileUpload/Upload.
+2025-05-18 19:08:17.969 +02:00 [INF] Executed action ClientWebApp.Controllers.FileUploadController.Upload (ClientWebApp) in 100.8508ms
+2025-05-18 19:08:17.969 +02:00 [INF] Executed endpoint 'ClientWebApp.Controllers.FileUploadController.Upload (ClientWebApp)'
+2025-05-18 19:08:17.970 +02:00 [INF] Request finished HTTP/2 POST https://localhost:7130/FileUpload/Upload - 302 0 null 109.6497ms
+2025-05-18 19:08:17.972 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7130/FileUpload/Upload - null null
+2025-05-18 19:08:17.973 +02:00 [INF] Executing endpoint 'ClientWebApp.Controllers.FileUploadController.Upload (ClientWebApp)'
+2025-05-18 19:08:17.973 +02:00 [INF] Route matched with {action = "Upload", controller = "FileUpload", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Upload() on controller ClientWebApp.Controllers.FileUploadController (ClientWebApp).
+2025-05-18 19:08:17.974 +02:00 [INF] Executing ViewResult, running view Upload.
+2025-05-18 19:08:17.976 +02:00 [INF] Executed ViewResult - view Upload executed in 1.6955ms.
+2025-05-18 19:08:17.977 +02:00 [INF] Executed action ClientWebApp.Controllers.FileUploadController.Upload (ClientWebApp) in 3.3134ms
+2025-05-18 19:08:17.977 +02:00 [INF] Executed endpoint 'ClientWebApp.Controllers.FileUploadController.Upload (ClientWebApp)'
+2025-05-18 19:08:17.977 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7130/FileUpload/Upload - 200 null text/html; charset=utf-8 5.7753ms
+2025-05-18 19:08:17.984 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7130/_vs/browserLink - null null
+2025-05-18 19:08:17.986 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7130/_framework/aspnetcore-browser-refresh.js - null null
+2025-05-18 19:08:17.988 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7130/_framework/aspnetcore-browser-refresh.js - 200 16509 application/javascript; charset=utf-8 1.7304ms
+2025-05-18 19:08:17.992 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7130/_vs/browserLink - 200 null text/javascript; charset=UTF-8 8.6376ms
+2025-05-18 19:08:45.775 +02:00 [INF] Request starting HTTP/1.1 POST https://localhost:7130/Download - application/json 379
+2025-05-18 19:08:45.776 +02:00 [INF] Executing endpoint 'ClientWebApp.Controllers.FileUploadController.DownloadFile (ClientWebApp)'
+2025-05-18 19:08:45.778 +02:00 [INF] Route matched with {action = "DownloadFile", controller = "FileUpload", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] DownloadFile(ClientWebApp.Models.DownloadFileDTO) on controller ClientWebApp.Controllers.FileUploadController (ClientWebApp).
+2025-05-18 19:08:45.802 +02:00 [INF] Executed DbCommand (2ms) [Parameters=[@__request_Email_0='?', @__request_AccessCode_1='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT a."Id", a."AccessCode", a."IsDownloaded", a."LawyerEmail", a."UploadedFileId", f."Id", f."FileHash", f."FileName", f."FilePath", f."UploadDate", f."UploadedByEmail"
+FROM "AccessPermissions" AS a
+INNER JOIN "Files" AS f ON a."UploadedFileId" = f."Id"
+WHERE a."LawyerEmail" = @__request_Email_0 AND a."AccessCode" = @__request_AccessCode_1
+LIMIT 1
+2025-05-18 19:08:45.806 +02:00 [INF] Received download request for mattias.tonna05@hotmail.com
+2025-05-18 19:08:45.807 +02:00 [INF] File found: C:\Users\matti\Desktop\assignment enterprise\ClientWebApp\wwwroot\SecureFiles\290e2f67-029e-4fb5-953b-69b8b108cdb2.docx. Proceeding with encryption.
+2025-05-18 19:08:45.810 +02:00 [INF] Symmetric AES keys generated.
+2025-05-18 19:08:45.812 +02:00 [INF] Symmetric encryption completed using AES.
+2025-05-18 19:08:45.814 +02:00 [INF] Data encrypted using RSA public key.
+2025-05-18 19:08:45.814 +02:00 [INF] Data encrypted using RSA public key.
+2025-05-18 19:08:45.814 +02:00 [INF] Hybrid encryption completed: AES data + RSA-encrypted key/IV.
+2025-05-18 19:08:45.814 +02:00 [INF] Asymmetric RSA key pair generated.
+2025-05-18 19:08:45.823 +02:00 [INF] Digital signature successfully created.
+2025-05-18 19:08:45.825 +02:00 [INF] Executed DbCommand (1ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?', @p2='?', @p3='?' (DbType = DateTime), @p4='?'], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "AccessLogs" ("Id", "Action", "IPAddress", "Timestamp", "UserEmail")
+VALUES (@p0, @p1, @p2, @p3, @p4);
+2025-05-18 19:08:45.825 +02:00 [INF] Download successfully processed and logged for mattias.tonna05@hotmail.com
+2025-05-18 19:08:45.825 +02:00 [INF] IP address: ::1, useremail: mattias.tonna05@hotmail.com, TimeStamp: "2025-05-18T17:08:45.8259496Z", action: download
+2025-05-18 19:08:45.835 +02:00 [INF] Executed DbCommand (1ms) [Parameters=[@p4='?' (DbType = Guid), @p0='?', @p1='?' (DbType = Boolean), @p2='?', @p3='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+UPDATE "AccessPermissions" SET "AccessCode" = @p0, "IsDownloaded" = @p1, "LawyerEmail" = @p2, "UploadedFileId" = @p3
+WHERE "Id" = @p4;
+2025-05-18 19:08:45.840 +02:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType3`4[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-05-18 19:08:45.852 +02:00 [INF] Executed action ClientWebApp.Controllers.FileUploadController.DownloadFile (ClientWebApp) in 73.8016ms
+2025-05-18 19:08:45.852 +02:00 [INF] Executed endpoint 'ClientWebApp.Controllers.FileUploadController.DownloadFile (ClientWebApp)'
+2025-05-18 19:08:45.852 +02:00 [INF] Request finished HTTP/1.1 POST https://localhost:7130/Download - 200 null application/json; charset=utf-8 76.5555ms
+2025-05-18 19:09:01.206 +02:00 [INF] Request starting HTTP/1.1 POST https://localhost:7130/Download - application/json 379
+2025-05-18 19:09:01.206 +02:00 [INF] Executing endpoint 'ClientWebApp.Controllers.FileUploadController.DownloadFile (ClientWebApp)'
+2025-05-18 19:09:01.207 +02:00 [INF] Route matched with {action = "DownloadFile", controller = "FileUpload", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] DownloadFile(ClientWebApp.Models.DownloadFileDTO) on controller ClientWebApp.Controllers.FileUploadController (ClientWebApp).
+2025-05-18 19:09:01.208 +02:00 [INF] Executed DbCommand (1ms) [Parameters=[@__request_Email_0='?', @__request_AccessCode_1='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT a."Id", a."AccessCode", a."IsDownloaded", a."LawyerEmail", a."UploadedFileId", f."Id", f."FileHash", f."FileName", f."FilePath", f."UploadDate", f."UploadedByEmail"
+FROM "AccessPermissions" AS a
+INNER JOIN "Files" AS f ON a."UploadedFileId" = f."Id"
+WHERE a."LawyerEmail" = @__request_Email_0 AND a."AccessCode" = @__request_AccessCode_1
+LIMIT 1
+2025-05-18 19:09:01.209 +02:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2025-05-18 19:09:01.210 +02:00 [INF] Executed action ClientWebApp.Controllers.FileUploadController.DownloadFile (ClientWebApp) in 3.0039ms
+2025-05-18 19:09:01.210 +02:00 [INF] Executed endpoint 'ClientWebApp.Controllers.FileUploadController.DownloadFile (ClientWebApp)'
+2025-05-18 19:09:01.210 +02:00 [INF] Request finished HTTP/1.1 POST https://localhost:7130/Download - 403 null text/plain; charset=utf-8 3.8221ms
+2025-05-18 19:10:00.882 +02:00 [INF] Request starting HTTP/1.1 POST https://localhost:7130/Download - application/json; charset=utf-8 null
+2025-05-18 19:10:00.882 +02:00 [INF] Executing endpoint 'ClientWebApp.Controllers.FileUploadController.DownloadFile (ClientWebApp)'
+2025-05-18 19:10:00.883 +02:00 [INF] Route matched with {action = "DownloadFile", controller = "FileUpload", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] DownloadFile(ClientWebApp.Models.DownloadFileDTO) on controller ClientWebApp.Controllers.FileUploadController (ClientWebApp).
+2025-05-18 19:10:00.888 +02:00 [INF] Executed DbCommand (1ms) [Parameters=[@__request_Email_0='?', @__request_AccessCode_1='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT a."Id", a."AccessCode", a."IsDownloaded", a."LawyerEmail", a."UploadedFileId", f."Id", f."FileHash", f."FileName", f."FilePath", f."UploadDate", f."UploadedByEmail"
+FROM "AccessPermissions" AS a
+INNER JOIN "Files" AS f ON a."UploadedFileId" = f."Id"
+WHERE a."LawyerEmail" = @__request_Email_0 AND a."AccessCode" = @__request_AccessCode_1
+LIMIT 1
+2025-05-18 19:10:00.889 +02:00 [INF] Received download request for mattias.tonna05@hotmail.com
+2025-05-18 19:10:00.889 +02:00 [INF] File found: C:\Users\matti\Desktop\assignment enterprise\ClientWebApp\wwwroot\SecureFiles\290e2f67-029e-4fb5-953b-69b8b108cdb2.docx. Proceeding with encryption.
+2025-05-18 19:10:00.890 +02:00 [INF] Symmetric AES keys generated.
+2025-05-18 19:10:00.897 +02:00 [INF] Symmetric encryption completed using AES.
+2025-05-18 19:10:00.897 +02:00 [INF] Data encrypted using RSA public key.
+2025-05-18 19:10:00.898 +02:00 [INF] Data encrypted using RSA public key.
+2025-05-18 19:10:00.898 +02:00 [INF] Hybrid encryption completed: AES data + RSA-encrypted key/IV.
+2025-05-18 19:10:00.898 +02:00 [INF] Asymmetric RSA key pair generated.
+2025-05-18 19:10:00.912 +02:00 [INF] Digital signature successfully created.
+2025-05-18 19:10:00.914 +02:00 [INF] Executed DbCommand (1ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?', @p2='?', @p3='?' (DbType = DateTime), @p4='?'], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "AccessLogs" ("Id", "Action", "IPAddress", "Timestamp", "UserEmail")
+VALUES (@p0, @p1, @p2, @p3, @p4);
+2025-05-18 19:10:00.914 +02:00 [INF] Download successfully processed and logged for mattias.tonna05@hotmail.com
+2025-05-18 19:10:00.914 +02:00 [INF] IP address: ::1, useremail: mattias.tonna05@hotmail.com, TimeStamp: "2025-05-18T17:10:00.9143353Z", action: download
+2025-05-18 19:10:00.916 +02:00 [INF] Executed DbCommand (1ms) [Parameters=[@p4='?' (DbType = Guid), @p0='?', @p1='?' (DbType = Boolean), @p2='?', @p3='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+UPDATE "AccessPermissions" SET "AccessCode" = @p0, "IsDownloaded" = @p1, "LawyerEmail" = @p2, "UploadedFileId" = @p3
+WHERE "Id" = @p4;
+2025-05-18 19:10:00.917 +02:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType3`4[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-05-18 19:10:00.925 +02:00 [INF] Executed action ClientWebApp.Controllers.FileUploadController.DownloadFile (ClientWebApp) in 42.1388ms
+2025-05-18 19:10:00.925 +02:00 [INF] Executed endpoint 'ClientWebApp.Controllers.FileUploadController.DownloadFile (ClientWebApp)'
+2025-05-18 19:10:00.925 +02:00 [INF] Request finished HTTP/1.1 POST https://localhost:7130/Download - 200 null application/json; charset=utf-8 43.4539ms
+2025-05-18 19:10:45.242 +02:00 [INF] Request starting HTTP/1.1 POST https://localhost:7130/Download - application/json; charset=utf-8 null
+2025-05-18 19:10:45.242 +02:00 [INF] Executing endpoint 'ClientWebApp.Controllers.FileUploadController.DownloadFile (ClientWebApp)'
+2025-05-18 19:10:45.242 +02:00 [INF] Route matched with {action = "DownloadFile", controller = "FileUpload", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] DownloadFile(ClientWebApp.Models.DownloadFileDTO) on controller ClientWebApp.Controllers.FileUploadController (ClientWebApp).
+2025-05-18 19:10:45.247 +02:00 [INF] Executed DbCommand (1ms) [Parameters=[@__request_Email_0='?', @__request_AccessCode_1='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT a."Id", a."AccessCode", a."IsDownloaded", a."LawyerEmail", a."UploadedFileId", f."Id", f."FileHash", f."FileName", f."FilePath", f."UploadDate", f."UploadedByEmail"
+FROM "AccessPermissions" AS a
+INNER JOIN "Files" AS f ON a."UploadedFileId" = f."Id"
+WHERE a."LawyerEmail" = @__request_Email_0 AND a."AccessCode" = @__request_AccessCode_1
+LIMIT 1
+2025-05-18 19:10:45.247 +02:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2025-05-18 19:10:45.248 +02:00 [INF] Executed action ClientWebApp.Controllers.FileUploadController.DownloadFile (ClientWebApp) in 3.8963ms
+2025-05-18 19:10:45.248 +02:00 [INF] Executed endpoint 'ClientWebApp.Controllers.FileUploadController.DownloadFile (ClientWebApp)'
+2025-05-18 19:10:45.248 +02:00 [INF] Request finished HTTP/1.1 POST https://localhost:7130/Download - 403 null text/plain; charset=utf-8 6.0035ms
