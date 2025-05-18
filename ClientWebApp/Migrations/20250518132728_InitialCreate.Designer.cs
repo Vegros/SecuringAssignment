@@ -12,7 +12,7 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 namespace ClientWebApp.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20250421144047_InitialCreate")]
+    [Migration("20250518132728_InitialCreate")]
     partial class InitialCreate
     {
         /// <inheritdoc />
@@ -60,6 +60,9 @@ namespace ClientWebApp.Migrations
                     b.Property<string>("AccessCode")
                         .IsRequired()
                         .HasColumnType("text");
+
+                    b.Property<bool>("IsDownloaded")
+                        .HasColumnType("boolean");
 
                     b.Property<string>("LawyerEmail")
                         .IsRequired()

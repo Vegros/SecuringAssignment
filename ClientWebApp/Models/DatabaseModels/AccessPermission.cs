@@ -14,6 +14,7 @@ namespace ClientWebApp.Models.DatabaseModels
 
         [ForeignKey("UploadedFile")]
         public Guid UploadedFileId { get; set; }
+        public bool IsDownloaded { get; set; } = false;
         [Required]
         public UploadedFile UploadedFile { get; set; }
     }

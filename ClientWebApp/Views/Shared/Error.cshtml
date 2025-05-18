@@ -1,19 +1,38 @@
 ﻿@{
     ViewData["Title"] = "Error";
+    var code = ViewData["code"]?.ToString() ?? "Unknown";
 }
 
 <div class="container text-center mt-5">
     <h1 class="display-4 text-danger">Oops! Something went wrong.</h1>
-    <p class="lead text-muted">An unexpected error has occurred. Please try again later.</p>
+
+    <p class="lead text-muted">
+        @if (code == "404")
+        {
+            <span>The page you are looking for doesn't exist.</span>
+        }
+        else if (code == "401")
+        {
+            <span>You are not authorized to view this page.</span>
+        }
+        else if (code == "500")
+        {
+            <span>There was an internal server error.</span>
+        }
+        else
+        {
+            <span>An unexpected error occurred. Please try again later.</span>
+        }
+    </p>
 
     <div class="mt-4">
-        <a asp-controller="Home" asp-action="Index" class="btn btn-outline-primary">
+        <a asp-controller="Home" asp-action="Index" class="btn btn-outline-primary btn-lg">
             <i class="bi bi-house-door"></i> Back to Home
         </a>
     </div>
 
     <div class="mt-5 text-muted small">
         <p>If this issue persists, please contact the site administrator.</p>
-        <p>Error Code: <strong>500</strong></p>
+        <p>Error Code: <strong>@code</strong></p>
     </div>
 </div>

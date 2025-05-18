@@ -1,0 +1,368 @@
+2025-05-18 16:03:35.227 +02:00 [INF] User profile is available. Using 'C:\Users\matti\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-05-18 16:03:35.402 +02:00 [INF] Now listening on: https://localhost:7130
+2025-05-18 16:03:35.402 +02:00 [INF] Now listening on: http://localhost:5248
+2025-05-18 16:03:35.437 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-05-18 16:03:35.438 +02:00 [INF] Hosting environment: Development
+2025-05-18 16:03:35.438 +02:00 [INF] Content root path: C:\Users\matti\Desktop\assignment enterprise\ClientWebApp
+2025-05-18 16:03:35.935 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7130/ - null null
+2025-05-18 16:03:36.113 +02:00 [INF] Executing endpoint 'ClientWebApp.Controllers.HomeController.Index (ClientWebApp)'
+2025-05-18 16:03:36.121 +02:00 [INF] Route matched with {action = "Index", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ClientWebApp.Controllers.HomeController (ClientWebApp).
+2025-05-18 16:03:36.126 +02:00 [INF] Executing ViewResult, running view Index.
+2025-05-18 16:03:36.178 +02:00 [INF] Executed ViewResult - view Index executed in 52.4685ms.
+2025-05-18 16:03:36.180 +02:00 [INF] Executed action ClientWebApp.Controllers.HomeController.Index (ClientWebApp) in 58.2603ms
+2025-05-18 16:03:36.181 +02:00 [INF] Executed endpoint 'ClientWebApp.Controllers.HomeController.Index (ClientWebApp)'
+2025-05-18 16:03:36.183 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7130/_framework/aspnetcore-browser-refresh.js - null null
+2025-05-18 16:03:36.188 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7130/ - 200 null text/html; charset=utf-8 257.21ms
+2025-05-18 16:03:36.188 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7130/_framework/aspnetcore-browser-refresh.js - 200 16509 application/javascript; charset=utf-8 4.4787ms
+2025-05-18 16:03:36.192 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7130/_vs/browserLink - null null
+2025-05-18 16:03:36.212 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7130/_vs/browserLink - 200 null text/javascript; charset=UTF-8 20.4154ms
+2025-05-18 16:03:44.859 +02:00 [INF] Request starting HTTP/1.1 POST https://localhost:7130/api/FileDownload/Download - application/json; charset=utf-8 null
+2025-05-18 16:03:44.861 +02:00 [INF] Executing endpoint 'ClientWebApp.Controllers.FileDownloadController.DownloadFile (ClientWebApp)'
+2025-05-18 16:03:44.868 +02:00 [INF] Route matched with {action = "DownloadFile", controller = "FileDownload", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] DownloadFile(ClientWebApp.Models.DownloadFileDTO) on controller ClientWebApp.Controllers.FileDownloadController (ClientWebApp).
+2025-05-18 16:03:45.488 +02:00 [INF] Executed DbCommand (30ms) [Parameters=[@__request_Email_0='?', @__request_AccessCode_1='?', @__request_FileId_2='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT a."Id", a."AccessCode", a."IsDownloaded", a."LawyerEmail", a."UploadedFileId", f."Id", f."FileHash", f."FileName", f."FilePath", f."UploadDate", f."UploadedByEmail"
+FROM "AccessPermissions" AS a
+INNER JOIN "Files" AS f ON a."UploadedFileId" = f."Id"
+WHERE a."LawyerEmail" = @__request_Email_0 AND a."AccessCode" = @__request_AccessCode_1 AND a."UploadedFileId" = @__request_FileId_2
+LIMIT 1
+2025-05-18 16:03:45.536 +02:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2025-05-18 16:03:45.537 +02:00 [INF] Executed action ClientWebApp.Controllers.FileDownloadController.DownloadFile (ClientWebApp) in 668.2704ms
+2025-05-18 16:03:45.537 +02:00 [INF] Executed endpoint 'ClientWebApp.Controllers.FileDownloadController.DownloadFile (ClientWebApp)'
+2025-05-18 16:03:45.540 +02:00 [INF] Request finished HTTP/1.1 POST https://localhost:7130/api/FileDownload/Download - 403 null text/plain; charset=utf-8 680.9519ms
+2025-05-18 16:03:53.512 +02:00 [INF] Request starting HTTP/1.1 POST https://localhost:7130/api/FileDownload/Download - application/json 429
+2025-05-18 16:03:53.514 +02:00 [INF] Executing endpoint 'ClientWebApp.Controllers.FileDownloadController.DownloadFile (ClientWebApp)'
+2025-05-18 16:03:53.515 +02:00 [INF] Route matched with {action = "DownloadFile", controller = "FileDownload", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] DownloadFile(ClientWebApp.Models.DownloadFileDTO) on controller ClientWebApp.Controllers.FileDownloadController (ClientWebApp).
+2025-05-18 16:03:53.524 +02:00 [INF] Executed DbCommand (1ms) [Parameters=[@__request_Email_0='?', @__request_AccessCode_1='?', @__request_FileId_2='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT a."Id", a."AccessCode", a."IsDownloaded", a."LawyerEmail", a."UploadedFileId", f."Id", f."FileHash", f."FileName", f."FilePath", f."UploadDate", f."UploadedByEmail"
+FROM "AccessPermissions" AS a
+INNER JOIN "Files" AS f ON a."UploadedFileId" = f."Id"
+WHERE a."LawyerEmail" = @__request_Email_0 AND a."AccessCode" = @__request_AccessCode_1 AND a."UploadedFileId" = @__request_FileId_2
+LIMIT 1
+2025-05-18 16:03:53.525 +02:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2025-05-18 16:03:53.525 +02:00 [INF] Executed action ClientWebApp.Controllers.FileDownloadController.DownloadFile (ClientWebApp) in 10.7753ms
+2025-05-18 16:03:53.526 +02:00 [INF] Executed endpoint 'ClientWebApp.Controllers.FileDownloadController.DownloadFile (ClientWebApp)'
+2025-05-18 16:03:53.526 +02:00 [INF] Request finished HTTP/1.1 POST https://localhost:7130/api/FileDownload/Download - 403 null text/plain; charset=utf-8 13.3848ms
+2025-05-18 16:05:56.761 +02:00 [INF] Request starting HTTP/1.1 POST https://localhost:7130/api/FileDownload/Download - application/json; charset=utf-8 null
+2025-05-18 16:05:56.761 +02:00 [INF] Executing endpoint 'ClientWebApp.Controllers.FileDownloadController.DownloadFile (ClientWebApp)'
+2025-05-18 16:05:56.762 +02:00 [INF] Route matched with {action = "DownloadFile", controller = "FileDownload", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] DownloadFile(ClientWebApp.Models.DownloadFileDTO) on controller ClientWebApp.Controllers.FileDownloadController (ClientWebApp).
+2025-05-18 16:05:56.816 +02:00 [INF] Executed DbCommand (1ms) [Parameters=[@__request_Email_0='?', @__request_AccessCode_1='?', @__request_FileId_2='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT a."Id", a."AccessCode", a."IsDownloaded", a."LawyerEmail", a."UploadedFileId", f."Id", f."FileHash", f."FileName", f."FilePath", f."UploadDate", f."UploadedByEmail"
+FROM "AccessPermissions" AS a
+INNER JOIN "Files" AS f ON a."UploadedFileId" = f."Id"
+WHERE a."LawyerEmail" = @__request_Email_0 AND a."AccessCode" = @__request_AccessCode_1 AND a."UploadedFileId" = @__request_FileId_2
+LIMIT 1
+2025-05-18 16:05:56.817 +02:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2025-05-18 16:05:56.817 +02:00 [INF] Executed action ClientWebApp.Controllers.FileDownloadController.DownloadFile (ClientWebApp) in 54.8608ms
+2025-05-18 16:05:56.817 +02:00 [INF] Executed endpoint 'ClientWebApp.Controllers.FileDownloadController.DownloadFile (ClientWebApp)'
+2025-05-18 16:05:56.817 +02:00 [INF] Request finished HTTP/1.1 POST https://localhost:7130/api/FileDownload/Download - 403 null text/plain; charset=utf-8 56.4591ms
+2025-05-18 16:07:08.732 +02:00 [INF] Request starting HTTP/1.1 POST https://localhost:7130/api/FileDownload/Download - application/json; charset=utf-8 null
+2025-05-18 16:07:08.733 +02:00 [INF] Executing endpoint 'ClientWebApp.Controllers.FileDownloadController.DownloadFile (ClientWebApp)'
+2025-05-18 16:07:08.733 +02:00 [INF] Route matched with {action = "DownloadFile", controller = "FileDownload", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] DownloadFile(ClientWebApp.Models.DownloadFileDTO) on controller ClientWebApp.Controllers.FileDownloadController (ClientWebApp).
+2025-05-18 16:07:08.736 +02:00 [INF] Executed DbCommand (1ms) [Parameters=[@__request_Email_0='?', @__request_AccessCode_1='?', @__request_FileId_2='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT a."Id", a."AccessCode", a."IsDownloaded", a."LawyerEmail", a."UploadedFileId", f."Id", f."FileHash", f."FileName", f."FilePath", f."UploadDate", f."UploadedByEmail"
+FROM "AccessPermissions" AS a
+INNER JOIN "Files" AS f ON a."UploadedFileId" = f."Id"
+WHERE a."LawyerEmail" = @__request_Email_0 AND a."AccessCode" = @__request_AccessCode_1 AND a."UploadedFileId" = @__request_FileId_2
+LIMIT 1
+2025-05-18 16:07:08.736 +02:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2025-05-18 16:07:08.736 +02:00 [INF] Executed action ClientWebApp.Controllers.FileDownloadController.DownloadFile (ClientWebApp) in 3.4402ms
+2025-05-18 16:07:08.736 +02:00 [INF] Executed endpoint 'ClientWebApp.Controllers.FileDownloadController.DownloadFile (ClientWebApp)'
+2025-05-18 16:07:08.736 +02:00 [INF] Request finished HTTP/1.1 POST https://localhost:7130/api/FileDownload/Download - 403 null text/plain; charset=utf-8 4.5831ms
+2025-05-18 16:08:53.734 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7130/FileUpload/Upload - null null
+2025-05-18 16:08:53.751 +02:00 [INF] Executing endpoint 'ClientWebApp.Controllers.FileUploadController.Upload (ClientWebApp)'
+2025-05-18 16:08:53.753 +02:00 [INF] Route matched with {action = "Upload", controller = "FileUpload", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Upload() on controller ClientWebApp.Controllers.FileUploadController (ClientWebApp).
+2025-05-18 16:08:53.754 +02:00 [INF] Executing ViewResult, running view Upload.
+2025-05-18 16:08:53.769 +02:00 [INF] Executed ViewResult - view Upload executed in 15.4982ms.
+2025-05-18 16:08:53.769 +02:00 [INF] Executed action ClientWebApp.Controllers.FileUploadController.Upload (ClientWebApp) in 16.5704ms
+2025-05-18 16:08:53.769 +02:00 [INF] Executed endpoint 'ClientWebApp.Controllers.FileUploadController.Upload (ClientWebApp)'
+2025-05-18 16:08:53.792 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7130/FileUpload/Upload - 200 null text/html; charset=utf-8 56.987ms
+2025-05-18 16:08:53.801 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7130/_vs/browserLink - null null
+2025-05-18 16:08:53.803 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7130/_framework/aspnetcore-browser-refresh.js - null null
+2025-05-18 16:08:53.805 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7130/_framework/aspnetcore-browser-refresh.js - 200 16509 application/javascript; charset=utf-8 1.633ms
+2025-05-18 16:08:53.824 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7130/_vs/browserLink - 200 null text/javascript; charset=UTF-8 22.9636ms
+2025-05-18 16:09:00.159 +02:00 [INF] Request starting HTTP/2 POST https://localhost:7130/FileUpload/Upload - multipart/form-data; boundary=----WebKitFormBoundarygFiloPW9Ay1KdMoO 9206
+2025-05-18 16:09:00.172 +02:00 [INF] Executing endpoint 'ClientWebApp.Controllers.FileUploadController.Upload (ClientWebApp)'
+2025-05-18 16:09:00.179 +02:00 [INF] Route matched with {action = "Upload", controller = "FileUpload", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Upload(ClientWebApp.Models.UploadFileViewModel, Microsoft.AspNetCore.Hosting.IWebHostEnvironment) on controller ClientWebApp.Controllers.FileUploadController (ClientWebApp).
+2025-05-18 16:09:00.204 +02:00 [INF] SHA-512 hash generated for input stream.
+2025-05-18 16:09:00.302 +02:00 [INF] Executed DbCommand (4ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?', @p2='?', @p3='?', @p4='?' (DbType = DateTime), @p5='?'], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Files" ("Id", "FileHash", "FileName", "FilePath", "UploadDate", "UploadedByEmail")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5);
+2025-05-18 16:09:00.308 +02:00 [INF] File metadata saved for Application Support Engineer (2).docx by mattias.tonna.g51962@mcast.edu.mt
+2025-05-18 16:09:00.321 +02:00 [INF] Executed DbCommand (2ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?', @p2='?' (DbType = Boolean), @p3='?', @p4='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "AccessPermissions" ("Id", "AccessCode", "IsDownloaded", "LawyerEmail", "UploadedFileId")
+VALUES (@p0, @p1, @p2, @p3, @p4);
+2025-05-18 16:09:00.322 +02:00 [INF] Access permission granted to joeborg@gmail.com
+2025-05-18 16:09:00.335 +02:00 [INF] Executed DbCommand (1ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?', @p2='?', @p3='?' (DbType = DateTime), @p4='?'], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "AccessLogs" ("Id", "Action", "IPAddress", "Timestamp", "UserEmail")
+VALUES (@p0, @p1, @p2, @p3, @p4);
+2025-05-18 16:09:00.335 +02:00 [INF] Upload action logged for user mattias.tonna.g51962@mcast.edu.mt
+2025-05-18 16:09:00.338 +02:00 [INF] Executing RedirectResult, redirecting to /FileUpload/Upload.
+2025-05-18 16:09:00.338 +02:00 [INF] Executed action ClientWebApp.Controllers.FileUploadController.Upload (ClientWebApp) in 159.5388ms
+2025-05-18 16:09:00.338 +02:00 [INF] Executed endpoint 'ClientWebApp.Controllers.FileUploadController.Upload (ClientWebApp)'
+2025-05-18 16:09:00.339 +02:00 [INF] Request finished HTTP/2 POST https://localhost:7130/FileUpload/Upload - 302 0 null 180.3477ms
+2025-05-18 16:09:00.341 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7130/FileUpload/Upload - null null
+2025-05-18 16:09:00.345 +02:00 [INF] Executing endpoint 'ClientWebApp.Controllers.FileUploadController.Upload (ClientWebApp)'
+2025-05-18 16:09:00.345 +02:00 [INF] Route matched with {action = "Upload", controller = "FileUpload", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Upload() on controller ClientWebApp.Controllers.FileUploadController (ClientWebApp).
+2025-05-18 16:09:00.346 +02:00 [INF] Executing ViewResult, running view Upload.
+2025-05-18 16:09:00.350 +02:00 [INF] Executed ViewResult - view Upload executed in 3.758ms.
+2025-05-18 16:09:00.350 +02:00 [INF] Executed action ClientWebApp.Controllers.FileUploadController.Upload (ClientWebApp) in 4.8685ms
+2025-05-18 16:09:00.350 +02:00 [INF] Executed endpoint 'ClientWebApp.Controllers.FileUploadController.Upload (ClientWebApp)'
+2025-05-18 16:09:00.350 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7130/FileUpload/Upload - 200 null text/html; charset=utf-8 9.1088ms
+2025-05-18 16:09:00.357 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7130/_vs/browserLink - null null
+2025-05-18 16:09:00.360 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7130/_framework/aspnetcore-browser-refresh.js - null null
+2025-05-18 16:09:00.361 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7130/_framework/aspnetcore-browser-refresh.js - 200 16509 application/javascript; charset=utf-8 1.275ms
+2025-05-18 16:09:00.370 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7130/_vs/browserLink - 200 null text/javascript; charset=UTF-8 12.7373ms
+2025-05-18 16:09:44.714 +02:00 [INF] Request starting HTTP/1.1 POST https://localhost:7130/api/FileDownload/Download - application/json; charset=utf-8 null
+2025-05-18 16:09:44.714 +02:00 [INF] Executing endpoint 'ClientWebApp.Controllers.FileDownloadController.DownloadFile (ClientWebApp)'
+2025-05-18 16:09:44.714 +02:00 [INF] Route matched with {action = "DownloadFile", controller = "FileDownload", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] DownloadFile(ClientWebApp.Models.DownloadFileDTO) on controller ClientWebApp.Controllers.FileDownloadController (ClientWebApp).
+2025-05-18 16:09:44.718 +02:00 [INF] Executed DbCommand (2ms) [Parameters=[@__request_Email_0='?', @__request_AccessCode_1='?', @__request_FileId_2='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT a."Id", a."AccessCode", a."IsDownloaded", a."LawyerEmail", a."UploadedFileId", f."Id", f."FileHash", f."FileName", f."FilePath", f."UploadDate", f."UploadedByEmail"
+FROM "AccessPermissions" AS a
+INNER JOIN "Files" AS f ON a."UploadedFileId" = f."Id"
+WHERE a."LawyerEmail" = @__request_Email_0 AND a."AccessCode" = @__request_AccessCode_1 AND a."UploadedFileId" = @__request_FileId_2
+LIMIT 1
+2025-05-18 16:09:44.720 +02:00 [INF] Received download request for fileId="79028270-5740-44d6-8b49-af4002037056" by joeborg@gmail.com
+2025-05-18 16:09:44.721 +02:00 [INF] File found: C:\Users\matti\Desktop\assignment enterprise\ClientWebApp\wwwroot\SecureFiles\92ecd1cf-f9f7-446c-a514-e6127a0f7882.docx. Proceeding with encryption.
+2025-05-18 16:09:44.733 +02:00 [INF] Symmetric AES keys generated.
+2025-05-18 16:09:44.738 +02:00 [INF] Symmetric encryption completed using AES.
+2025-05-18 16:09:44.741 +02:00 [INF] Data encrypted using RSA public key.
+2025-05-18 16:09:44.742 +02:00 [INF] Data encrypted using RSA public key.
+2025-05-18 16:09:44.742 +02:00 [INF] Hybrid encryption completed: AES data + RSA-encrypted key/IV.
+2025-05-18 16:09:44.742 +02:00 [INF] Asymmetric RSA key pair generated.
+2025-05-18 16:09:44.759 +02:00 [INF] Digital signature successfully created.
+2025-05-18 16:09:44.761 +02:00 [INF] Executed DbCommand (1ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?', @p2='?', @p3='?' (DbType = DateTime), @p4='?'], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "AccessLogs" ("Id", "Action", "IPAddress", "Timestamp", "UserEmail")
+VALUES (@p0, @p1, @p2, @p3, @p4);
+2025-05-18 16:09:44.761 +02:00 [INF] Download successfully processed and logged for joeborg@gmail.com
+2025-05-18 16:09:44.761 +02:00 [INF] IP address: ::1, useremail: joeborg@gmail.com, TimeStamp: "2025-05-18T14:09:44.7611907Z", action: download
+2025-05-18 16:09:44.788 +02:00 [INF] Executed DbCommand (10ms) [Parameters=[@p4='?' (DbType = Guid), @p0='?', @p1='?' (DbType = Boolean), @p2='?', @p3='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+UPDATE "AccessPermissions" SET "AccessCode" = @p0, "IsDownloaded" = @p1, "LawyerEmail" = @p2, "UploadedFileId" = @p3
+WHERE "Id" = @p4;
+2025-05-18 16:09:44.795 +02:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType3`3[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-05-18 16:09:44.799 +02:00 [INF] Executed action ClientWebApp.Controllers.FileDownloadController.DownloadFile (ClientWebApp) in 84.959ms
+2025-05-18 16:09:44.799 +02:00 [INF] Executed endpoint 'ClientWebApp.Controllers.FileDownloadController.DownloadFile (ClientWebApp)'
+2025-05-18 16:09:44.799 +02:00 [INF] Request finished HTTP/1.1 POST https://localhost:7130/api/FileDownload/Download - 200 null application/json; charset=utf-8 85.791ms
+2025-05-18 16:09:56.967 +02:00 [INF] Request starting HTTP/1.1 POST https://localhost:7130/api/FileDownload/Download - application/json; charset=utf-8 null
+2025-05-18 16:09:56.967 +02:00 [INF] Executing endpoint 'ClientWebApp.Controllers.FileDownloadController.DownloadFile (ClientWebApp)'
+2025-05-18 16:09:56.967 +02:00 [INF] Route matched with {action = "DownloadFile", controller = "FileDownload", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] DownloadFile(ClientWebApp.Models.DownloadFileDTO) on controller ClientWebApp.Controllers.FileDownloadController (ClientWebApp).
+2025-05-18 16:09:56.970 +02:00 [INF] Executed DbCommand (1ms) [Parameters=[@__request_Email_0='?', @__request_AccessCode_1='?', @__request_FileId_2='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT a."Id", a."AccessCode", a."IsDownloaded", a."LawyerEmail", a."UploadedFileId", f."Id", f."FileHash", f."FileName", f."FilePath", f."UploadDate", f."UploadedByEmail"
+FROM "AccessPermissions" AS a
+INNER JOIN "Files" AS f ON a."UploadedFileId" = f."Id"
+WHERE a."LawyerEmail" = @__request_Email_0 AND a."AccessCode" = @__request_AccessCode_1 AND a."UploadedFileId" = @__request_FileId_2
+LIMIT 1
+2025-05-18 16:09:56.970 +02:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2025-05-18 16:09:56.970 +02:00 [INF] Executed action ClientWebApp.Controllers.FileDownloadController.DownloadFile (ClientWebApp) in 3.0802ms
+2025-05-18 16:09:56.970 +02:00 [INF] Executed endpoint 'ClientWebApp.Controllers.FileDownloadController.DownloadFile (ClientWebApp)'
+2025-05-18 16:09:56.970 +02:00 [INF] Request finished HTTP/1.1 POST https://localhost:7130/api/FileDownload/Download - 403 null text/plain; charset=utf-8 3.7766ms
+2025-05-18 16:10:22.575 +02:00 [INF] Request starting HTTP/1.1 POST https://localhost:7130/api/FileDownload/Download - application/json; charset=utf-8 null
+2025-05-18 16:10:22.575 +02:00 [INF] Executing endpoint 'ClientWebApp.Controllers.FileDownloadController.DownloadFile (ClientWebApp)'
+2025-05-18 16:10:22.575 +02:00 [INF] Route matched with {action = "DownloadFile", controller = "FileDownload", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] DownloadFile(ClientWebApp.Models.DownloadFileDTO) on controller ClientWebApp.Controllers.FileDownloadController (ClientWebApp).
+2025-05-18 16:10:22.577 +02:00 [INF] Executed DbCommand (1ms) [Parameters=[@__request_Email_0='?', @__request_AccessCode_1='?', @__request_FileId_2='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT a."Id", a."AccessCode", a."IsDownloaded", a."LawyerEmail", a."UploadedFileId", f."Id", f."FileHash", f."FileName", f."FilePath", f."UploadDate", f."UploadedByEmail"
+FROM "AccessPermissions" AS a
+INNER JOIN "Files" AS f ON a."UploadedFileId" = f."Id"
+WHERE a."LawyerEmail" = @__request_Email_0 AND a."AccessCode" = @__request_AccessCode_1 AND a."UploadedFileId" = @__request_FileId_2
+LIMIT 1
+2025-05-18 16:10:22.578 +02:00 [INF] Received download request for fileId="79028270-5740-44d6-8b49-af4002037056" by joeborg@gmail.com
+2025-05-18 16:10:22.578 +02:00 [INF] File found: C:\Users\matti\Desktop\assignment enterprise\ClientWebApp\wwwroot\SecureFiles\92ecd1cf-f9f7-446c-a514-e6127a0f7882.docx. Proceeding with encryption.
+2025-05-18 16:10:22.579 +02:00 [INF] Symmetric AES keys generated.
+2025-05-18 16:10:22.581 +02:00 [INF] Symmetric encryption completed using AES.
+2025-05-18 16:10:22.582 +02:00 [INF] Data encrypted using RSA public key.
+2025-05-18 16:10:22.582 +02:00 [INF] Data encrypted using RSA public key.
+2025-05-18 16:10:22.582 +02:00 [INF] Hybrid encryption completed: AES data + RSA-encrypted key/IV.
+2025-05-18 16:10:22.582 +02:00 [INF] Asymmetric RSA key pair generated.
+2025-05-18 16:10:22.610 +02:00 [INF] Digital signature successfully created.
+2025-05-18 16:10:22.611 +02:00 [INF] Executed DbCommand (1ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?', @p2='?', @p3='?' (DbType = DateTime), @p4='?'], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "AccessLogs" ("Id", "Action", "IPAddress", "Timestamp", "UserEmail")
+VALUES (@p0, @p1, @p2, @p3, @p4);
+2025-05-18 16:10:22.611 +02:00 [INF] Download successfully processed and logged for joeborg@gmail.com
+2025-05-18 16:10:22.611 +02:00 [INF] IP address: ::1, useremail: joeborg@gmail.com, TimeStamp: "2025-05-18T14:10:22.6115207Z", action: download
+2025-05-18 16:10:22.613 +02:00 [INF] Executed DbCommand (2ms) [Parameters=[@p4='?' (DbType = Guid), @p0='?', @p1='?' (DbType = Boolean), @p2='?', @p3='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+UPDATE "AccessPermissions" SET "AccessCode" = @p0, "IsDownloaded" = @p1, "LawyerEmail" = @p2, "UploadedFileId" = @p3
+WHERE "Id" = @p4;
+2025-05-18 16:10:22.614 +02:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType3`3[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-05-18 16:10:22.614 +02:00 [INF] Executed action ClientWebApp.Controllers.FileDownloadController.DownloadFile (ClientWebApp) in 38.9285ms
+2025-05-18 16:10:22.614 +02:00 [INF] Executed endpoint 'ClientWebApp.Controllers.FileDownloadController.DownloadFile (ClientWebApp)'
+2025-05-18 16:10:22.614 +02:00 [INF] Request finished HTTP/1.1 POST https://localhost:7130/api/FileDownload/Download - 200 null application/json; charset=utf-8 39.5278ms
+2025-05-18 16:20:59.966 +02:00 [INF] Request starting HTTP/1.1 POST https://localhost:7130/api/FileDownload/Download - application/json; charset=utf-8 null
+2025-05-18 16:20:59.966 +02:00 [INF] Executing endpoint 'ClientWebApp.Controllers.FileDownloadController.DownloadFile (ClientWebApp)'
+2025-05-18 16:20:59.967 +02:00 [INF] Route matched with {action = "DownloadFile", controller = "FileDownload", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] DownloadFile(ClientWebApp.Models.DownloadFileDTO) on controller ClientWebApp.Controllers.FileDownloadController (ClientWebApp).
+2025-05-18 16:21:00.104 +02:00 [INF] Executed DbCommand (4ms) [Parameters=[@__request_Email_0='?', @__request_AccessCode_1='?', @__request_FileId_2='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT a."Id", a."AccessCode", a."IsDownloaded", a."LawyerEmail", a."UploadedFileId", f."Id", f."FileHash", f."FileName", f."FilePath", f."UploadDate", f."UploadedByEmail"
+FROM "AccessPermissions" AS a
+INNER JOIN "Files" AS f ON a."UploadedFileId" = f."Id"
+WHERE a."LawyerEmail" = @__request_Email_0 AND a."AccessCode" = @__request_AccessCode_1 AND a."UploadedFileId" = @__request_FileId_2
+LIMIT 1
+2025-05-18 16:21:00.105 +02:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2025-05-18 16:21:00.105 +02:00 [INF] Executed action ClientWebApp.Controllers.FileDownloadController.DownloadFile (ClientWebApp) in 138.1036ms
+2025-05-18 16:21:00.105 +02:00 [INF] Executed endpoint 'ClientWebApp.Controllers.FileDownloadController.DownloadFile (ClientWebApp)'
+2025-05-18 16:21:00.105 +02:00 [INF] Request finished HTTP/1.1 POST https://localhost:7130/api/FileDownload/Download - 403 null text/plain; charset=utf-8 138.9051ms
+2025-05-18 16:24:05.334 +02:00 [INF] Request starting HTTP/1.1 POST https://localhost:7130/api/FileDownload/Download - application/json; charset=utf-8 null
+2025-05-18 16:24:05.334 +02:00 [INF] Executing endpoint 'ClientWebApp.Controllers.FileDownloadController.DownloadFile (ClientWebApp)'
+2025-05-18 16:24:05.334 +02:00 [INF] Route matched with {action = "DownloadFile", controller = "FileDownload", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] DownloadFile(ClientWebApp.Models.DownloadFileDTO) on controller ClientWebApp.Controllers.FileDownloadController (ClientWebApp).
+2025-05-18 16:24:05.337 +02:00 [INF] Executed DbCommand (2ms) [Parameters=[@__request_Email_0='?', @__request_AccessCode_1='?', @__request_FileId_2='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT a."Id", a."AccessCode", a."IsDownloaded", a."LawyerEmail", a."UploadedFileId", f."Id", f."FileHash", f."FileName", f."FilePath", f."UploadDate", f."UploadedByEmail"
+FROM "AccessPermissions" AS a
+INNER JOIN "Files" AS f ON a."UploadedFileId" = f."Id"
+WHERE a."LawyerEmail" = @__request_Email_0 AND a."AccessCode" = @__request_AccessCode_1 AND a."UploadedFileId" = @__request_FileId_2
+LIMIT 1
+2025-05-18 16:24:05.337 +02:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2025-05-18 16:24:05.337 +02:00 [INF] Executed action ClientWebApp.Controllers.FileDownloadController.DownloadFile (ClientWebApp) in 3.3955ms
+2025-05-18 16:24:05.337 +02:00 [INF] Executed endpoint 'ClientWebApp.Controllers.FileDownloadController.DownloadFile (ClientWebApp)'
+2025-05-18 16:24:05.338 +02:00 [INF] Request finished HTTP/1.1 POST https://localhost:7130/api/FileDownload/Download - 403 null text/plain; charset=utf-8 3.9875ms
+2025-05-18 16:25:39.320 +02:00 [INF] Request starting HTTP/1.1 POST https://localhost:7130/api/FileDownload/Download - application/json; charset=utf-8 null
+2025-05-18 16:25:39.320 +02:00 [INF] Executing endpoint 'ClientWebApp.Controllers.FileDownloadController.DownloadFile (ClientWebApp)'
+2025-05-18 16:25:39.320 +02:00 [INF] Route matched with {action = "DownloadFile", controller = "FileDownload", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] DownloadFile(ClientWebApp.Models.DownloadFileDTO) on controller ClientWebApp.Controllers.FileDownloadController (ClientWebApp).
+2025-05-18 16:25:39.322 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[@__request_Email_0='?', @__request_AccessCode_1='?', @__request_FileId_2='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT a."Id", a."AccessCode", a."IsDownloaded", a."LawyerEmail", a."UploadedFileId", f."Id", f."FileHash", f."FileName", f."FilePath", f."UploadDate", f."UploadedByEmail"
+FROM "AccessPermissions" AS a
+INNER JOIN "Files" AS f ON a."UploadedFileId" = f."Id"
+WHERE a."LawyerEmail" = @__request_Email_0 AND a."AccessCode" = @__request_AccessCode_1 AND a."UploadedFileId" = @__request_FileId_2
+LIMIT 1
+2025-05-18 16:25:39.322 +02:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2025-05-18 16:25:39.322 +02:00 [INF] Executed action ClientWebApp.Controllers.FileDownloadController.DownloadFile (ClientWebApp) in 2.033ms
+2025-05-18 16:25:39.322 +02:00 [INF] Executed endpoint 'ClientWebApp.Controllers.FileDownloadController.DownloadFile (ClientWebApp)'
+2025-05-18 16:25:39.322 +02:00 [INF] Request finished HTTP/1.1 POST https://localhost:7130/api/FileDownload/Download - 403 null text/plain; charset=utf-8 2.5732ms
+2025-05-18 16:26:31.232 +02:00 [INF] Request starting HTTP/1.1 POST https://localhost:7130/api/FileDownload/Download - application/json; charset=utf-8 null
+2025-05-18 16:26:31.232 +02:00 [INF] Executing endpoint 'ClientWebApp.Controllers.FileDownloadController.DownloadFile (ClientWebApp)'
+2025-05-18 16:26:31.232 +02:00 [INF] Route matched with {action = "DownloadFile", controller = "FileDownload", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] DownloadFile(ClientWebApp.Models.DownloadFileDTO) on controller ClientWebApp.Controllers.FileDownloadController (ClientWebApp).
+2025-05-18 16:26:31.259 +02:00 [INF] Executed DbCommand (2ms) [Parameters=[@__request_Email_0='?', @__request_AccessCode_1='?', @__request_FileId_2='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT a."Id", a."AccessCode", a."IsDownloaded", a."LawyerEmail", a."UploadedFileId", f."Id", f."FileHash", f."FileName", f."FilePath", f."UploadDate", f."UploadedByEmail"
+FROM "AccessPermissions" AS a
+INNER JOIN "Files" AS f ON a."UploadedFileId" = f."Id"
+WHERE a."LawyerEmail" = @__request_Email_0 AND a."AccessCode" = @__request_AccessCode_1 AND a."UploadedFileId" = @__request_FileId_2
+LIMIT 1
+2025-05-18 16:26:31.259 +02:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2025-05-18 16:26:31.259 +02:00 [INF] Executed action ClientWebApp.Controllers.FileDownloadController.DownloadFile (ClientWebApp) in 26.5729ms
+2025-05-18 16:26:31.259 +02:00 [INF] Executed endpoint 'ClientWebApp.Controllers.FileDownloadController.DownloadFile (ClientWebApp)'
+2025-05-18 16:26:31.259 +02:00 [INF] Request finished HTTP/1.1 POST https://localhost:7130/api/FileDownload/Download - 403 null text/plain; charset=utf-8 26.9838ms
+2025-05-18 16:27:22.101 +02:00 [INF] Request starting HTTP/1.1 POST https://localhost:7130/api/FileDownload/Download - application/json; charset=utf-8 null
+2025-05-18 16:27:22.101 +02:00 [INF] Executing endpoint 'ClientWebApp.Controllers.FileDownloadController.DownloadFile (ClientWebApp)'
+2025-05-18 16:27:22.101 +02:00 [INF] Route matched with {action = "DownloadFile", controller = "FileDownload", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] DownloadFile(ClientWebApp.Models.DownloadFileDTO) on controller ClientWebApp.Controllers.FileDownloadController (ClientWebApp).
+2025-05-18 16:27:22.103 +02:00 [INF] Executed DbCommand (1ms) [Parameters=[@__request_Email_0='?', @__request_AccessCode_1='?', @__request_FileId_2='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT a."Id", a."AccessCode", a."IsDownloaded", a."LawyerEmail", a."UploadedFileId", f."Id", f."FileHash", f."FileName", f."FilePath", f."UploadDate", f."UploadedByEmail"
+FROM "AccessPermissions" AS a
+INNER JOIN "Files" AS f ON a."UploadedFileId" = f."Id"
+WHERE a."LawyerEmail" = @__request_Email_0 AND a."AccessCode" = @__request_AccessCode_1 AND a."UploadedFileId" = @__request_FileId_2
+LIMIT 1
+2025-05-18 16:27:22.103 +02:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2025-05-18 16:27:22.103 +02:00 [INF] Executed action ClientWebApp.Controllers.FileDownloadController.DownloadFile (ClientWebApp) in 2.2288ms
+2025-05-18 16:27:22.103 +02:00 [INF] Executed endpoint 'ClientWebApp.Controllers.FileDownloadController.DownloadFile (ClientWebApp)'
+2025-05-18 16:27:22.103 +02:00 [INF] Request finished HTTP/1.1 POST https://localhost:7130/api/FileDownload/Download - 403 null text/plain; charset=utf-8 2.7147ms
+2025-05-18 16:29:18.401 +02:00 [INF] Request starting HTTP/1.1 POST https://localhost:7130/api/FileDownload/Download - application/json; charset=utf-8 null
+2025-05-18 16:29:18.401 +02:00 [INF] Executing endpoint 'ClientWebApp.Controllers.FileDownloadController.DownloadFile (ClientWebApp)'
+2025-05-18 16:29:18.401 +02:00 [INF] Route matched with {action = "DownloadFile", controller = "FileDownload", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] DownloadFile(ClientWebApp.Models.DownloadFileDTO) on controller ClientWebApp.Controllers.FileDownloadController (ClientWebApp).
+2025-05-18 16:29:18.403 +02:00 [INF] Executed DbCommand (1ms) [Parameters=[@__request_Email_0='?', @__request_AccessCode_1='?', @__request_FileId_2='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT a."Id", a."AccessCode", a."IsDownloaded", a."LawyerEmail", a."UploadedFileId", f."Id", f."FileHash", f."FileName", f."FilePath", f."UploadDate", f."UploadedByEmail"
+FROM "AccessPermissions" AS a
+INNER JOIN "Files" AS f ON a."UploadedFileId" = f."Id"
+WHERE a."LawyerEmail" = @__request_Email_0 AND a."AccessCode" = @__request_AccessCode_1 AND a."UploadedFileId" = @__request_FileId_2
+LIMIT 1
+2025-05-18 16:29:18.403 +02:00 [INF] Received download request for fileId="42fe68a7-cd46-45c4-b44d-2767272cf50d" by mattias.tonna@gmail.com
+2025-05-18 16:29:18.403 +02:00 [INF] File found: C:\Users\matti\Desktop\assignment enterprise\ClientWebApp\wwwroot\SecureFiles\9d1b81ac-3e9d-485c-ba4a-dd4a803f833c.docx. Proceeding with encryption.
+2025-05-18 16:29:18.406 +02:00 [INF] Symmetric AES keys generated.
+2025-05-18 16:29:18.408 +02:00 [INF] Symmetric encryption completed using AES.
+2025-05-18 16:29:18.408 +02:00 [INF] Data encrypted using RSA public key.
+2025-05-18 16:29:18.408 +02:00 [INF] Data encrypted using RSA public key.
+2025-05-18 16:29:18.409 +02:00 [INF] Hybrid encryption completed: AES data + RSA-encrypted key/IV.
+2025-05-18 16:29:18.409 +02:00 [INF] Asymmetric RSA key pair generated.
+2025-05-18 16:29:18.417 +02:00 [INF] Digital signature successfully created.
+2025-05-18 16:29:18.421 +02:00 [INF] Executed DbCommand (3ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?', @p2='?', @p3='?' (DbType = DateTime), @p4='?'], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "AccessLogs" ("Id", "Action", "IPAddress", "Timestamp", "UserEmail")
+VALUES (@p0, @p1, @p2, @p3, @p4);
+2025-05-18 16:29:18.421 +02:00 [INF] Download successfully processed and logged for mattias.tonna@gmail.com
+2025-05-18 16:29:18.421 +02:00 [INF] IP address: ::1, useremail: mattias.tonna@gmail.com, TimeStamp: "2025-05-18T14:29:18.4218956Z", action: download
+2025-05-18 16:29:18.425 +02:00 [INF] Executed DbCommand (4ms) [Parameters=[@p4='?' (DbType = Guid), @p0='?', @p1='?' (DbType = Boolean), @p2='?', @p3='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+UPDATE "AccessPermissions" SET "AccessCode" = @p0, "IsDownloaded" = @p1, "LawyerEmail" = @p2, "UploadedFileId" = @p3
+WHERE "Id" = @p4;
+2025-05-18 16:29:18.427 +02:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType3`3[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-05-18 16:29:18.440 +02:00 [INF] Executed action ClientWebApp.Controllers.FileDownloadController.DownloadFile (ClientWebApp) in 39.2519ms
+2025-05-18 16:29:18.440 +02:00 [INF] Executed endpoint 'ClientWebApp.Controllers.FileDownloadController.DownloadFile (ClientWebApp)'
+2025-05-18 16:29:18.440 +02:00 [INF] Request finished HTTP/1.1 POST https://localhost:7130/api/FileDownload/Download - 200 null application/json; charset=utf-8 39.8685ms
+2025-05-18 16:29:31.511 +02:00 [INF] Request starting HTTP/1.1 POST https://localhost:7130/api/FileDownload/Download - application/json; charset=utf-8 null
+2025-05-18 16:29:31.511 +02:00 [INF] Executing endpoint 'ClientWebApp.Controllers.FileDownloadController.DownloadFile (ClientWebApp)'
+2025-05-18 16:29:31.511 +02:00 [INF] Route matched with {action = "DownloadFile", controller = "FileDownload", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] DownloadFile(ClientWebApp.Models.DownloadFileDTO) on controller ClientWebApp.Controllers.FileDownloadController (ClientWebApp).
+2025-05-18 16:29:31.512 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[@__request_Email_0='?', @__request_AccessCode_1='?', @__request_FileId_2='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT a."Id", a."AccessCode", a."IsDownloaded", a."LawyerEmail", a."UploadedFileId", f."Id", f."FileHash", f."FileName", f."FilePath", f."UploadDate", f."UploadedByEmail"
+FROM "AccessPermissions" AS a
+INNER JOIN "Files" AS f ON a."UploadedFileId" = f."Id"
+WHERE a."LawyerEmail" = @__request_Email_0 AND a."AccessCode" = @__request_AccessCode_1 AND a."UploadedFileId" = @__request_FileId_2
+LIMIT 1
+2025-05-18 16:29:31.513 +02:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2025-05-18 16:29:31.513 +02:00 [INF] Executed action ClientWebApp.Controllers.FileDownloadController.DownloadFile (ClientWebApp) in 1.6188ms
+2025-05-18 16:29:31.513 +02:00 [INF] Executed endpoint 'ClientWebApp.Controllers.FileDownloadController.DownloadFile (ClientWebApp)'
+2025-05-18 16:29:31.513 +02:00 [INF] Request finished HTTP/1.1 POST https://localhost:7130/api/FileDownload/Download - 403 null text/plain; charset=utf-8 1.9769ms
+2025-05-18 16:33:36.929 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7130/FileUpload/Upload - null null
+2025-05-18 16:33:36.989 +02:00 [INF] Executed DbCommand (2ms) [Parameters=[@__p_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT a."Id", a."AccessFailedCount", a."ConcurrencyStamp", a."Email", a."EmailConfirmed", a."LockoutEnabled", a."LockoutEnd", a."NormalizedEmail", a."NormalizedUserName", a."PasswordHash", a."PhoneNumber", a."PhoneNumberConfirmed", a."SecurityStamp", a."TwoFactorEnabled", a."UserName"
+FROM "AspNetUsers" AS a
+WHERE a."Id" = @__p_0
+LIMIT 1
+2025-05-18 16:33:37.024 +02:00 [INF] Executed DbCommand (1ms) [Parameters=[@__user_Id_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT a."Id", a."ClaimType", a."ClaimValue", a."UserId"
+FROM "AspNetUserClaims" AS a
+WHERE a."UserId" = @__user_Id_0
+2025-05-18 16:33:37.028 +02:00 [INF] Executing endpoint 'ClientWebApp.Controllers.FileUploadController.Upload (ClientWebApp)'
+2025-05-18 16:33:37.029 +02:00 [INF] Route matched with {action = "Upload", controller = "FileUpload", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Upload() on controller ClientWebApp.Controllers.FileUploadController (ClientWebApp).
+2025-05-18 16:33:37.030 +02:00 [INF] Executing ViewResult, running view Upload.
+2025-05-18 16:33:37.035 +02:00 [INF] Executed ViewResult - view Upload executed in 5.9777ms.
+2025-05-18 16:33:37.035 +02:00 [INF] Executed action ClientWebApp.Controllers.FileUploadController.Upload (ClientWebApp) in 6.1711ms
+2025-05-18 16:33:37.035 +02:00 [INF] Executed endpoint 'ClientWebApp.Controllers.FileUploadController.Upload (ClientWebApp)'
+2025-05-18 16:33:37.035 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7130/FileUpload/Upload - 200 null text/html; charset=utf-8 105.6697ms
+2025-05-18 16:33:37.048 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7130/_framework/aspnetcore-browser-refresh.js - null null
+2025-05-18 16:33:37.048 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7130/_vs/browserLink - null null
+2025-05-18 16:33:37.049 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7130/_framework/aspnetcore-browser-refresh.js - 200 16509 application/javascript; charset=utf-8 0.7054ms
+2025-05-18 16:33:37.054 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7130/_vs/browserLink - 200 null text/javascript; charset=UTF-8 5.4691ms
+2025-05-18 16:33:45.976 +02:00 [INF] Request starting HTTP/1.1 POST https://localhost:7130/api/FileDownload/Download - application/json 375
+2025-05-18 16:33:45.977 +02:00 [INF] Executing endpoint 'ClientWebApp.Controllers.FileDownloadController.DownloadFile (ClientWebApp)'
+2025-05-18 16:33:45.979 +02:00 [INF] Route matched with {action = "DownloadFile", controller = "FileDownload", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] DownloadFile(ClientWebApp.Models.DownloadFileDTO) on controller ClientWebApp.Controllers.FileDownloadController (ClientWebApp).
+2025-05-18 16:33:45.988 +02:00 [INF] Executed action ClientWebApp.Controllers.FileDownloadController.DownloadFile (ClientWebApp) in 9.0759ms
+2025-05-18 16:33:45.989 +02:00 [INF] Executed endpoint 'ClientWebApp.Controllers.FileDownloadController.DownloadFile (ClientWebApp)'
+2025-05-18 16:33:45.993 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+System.TypeLoadException: Could not load type '<ExecuteAsync>d__0' from assembly 'ClientWebApp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' due to value type mismatch.
+   at System.Signature.GetSignature(Void* pCorSig, Int32 cCorSig, RuntimeFieldHandleInternal fieldHandle, IRuntimeMethodInfo methodHandle, RuntimeType declaringType)
+   at System.Reflection.RuntimeMethodInfo.<get_Signature>g__LazyCreateSignature|25_0()
+   at System.Reflection.RuntimeMethodInfo.FetchNonReturnParameters()
+   at System.Reflection.RuntimePropertyInfo.GetIndexParametersNoCopy()
+   at System.Reflection.RuntimePropertyInfo.GetIndexParameters()
+   at System.Text.Json.Serialization.Metadata.DefaultJsonTypeInfoResolver.AddMembersDeclaredBySuperType(JsonTypeInfo typeInfo, Type currentType, NullabilityInfoContext nullabilityCtx, Boolean constructorHasSetsRequiredMembersAttribute, PropertyHierarchyResolutionState& state)
+   at System.Text.Json.Serialization.Metadata.DefaultJsonTypeInfoResolver.PopulateProperties(JsonTypeInfo typeInfo, NullabilityInfoContext nullabilityCtx)
+   at System.Text.Json.Serialization.Metadata.DefaultJsonTypeInfoResolver.CreateTypeInfoCore(Type type, JsonConverter converter, JsonSerializerOptions options)
+   at System.Text.Json.Serialization.Metadata.DefaultJsonTypeInfoResolver.CreateJsonTypeInfo(Type type, JsonSerializerOptions options)
+   at System.Text.Json.Serialization.Metadata.DefaultJsonTypeInfoResolver.GetTypeInfo(Type type, JsonSerializerOptions options)
+   at System.Text.Json.JsonSerializerOptions.GetTypeInfoNoCaching(Type type)
+   at System.Text.Json.JsonSerializerOptions.CachingContext.CreateCacheEntry(Type type, CachingContext context)
+--- End of stack trace from previous location ---
+   at System.Text.Json.JsonSerializerOptions.CachingContext.CacheEntry.GetResult()
+   at System.Text.Json.JsonSerializerOptions.CachingContext.GetOrAddTypeInfo(Type type, Boolean fallBackToNearestAncestorType)
+   at System.Text.Json.JsonSerializerOptions.GetTypeInfoInternal(Type type, Boolean ensureConfigured, Nullable`1 ensureNotNull, Boolean resolveIfMutable, Boolean fallBackToNearestAncestorType)
+   at System.Text.Json.JsonSerializerOptions.GetTypeInfoForRootType(Type type, Boolean fallBackToNearestAncestorType)
+   at System.Text.Json.JsonSerializer.GetTypeInfo(JsonSerializerOptions options, Type inputType)
+   at System.Text.Json.JsonSerializer.DeserializeAsync(Stream utf8Json, Type returnType, JsonSerializerOptions options, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter.ReadRequestBodyAsync(InputFormatterContext context, Encoding encoding)
+   at Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter.ReadRequestBodyAsync(InputFormatterContext context, Encoding encoding)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinder.BindModelAsync(ModelBindingContext bindingContext)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder.BindModelAsync(ActionContext actionContext, IModelBinder modelBinder, IValueProvider valueProvider, ParameterDescriptor parameter, ModelMetadata metadata, Object value, Object container)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerBinderDelegateProvider.<>c__DisplayClass0_0.<<CreateBinderDelegate>g__Bind|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.StatusCodePagesMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+2025-05-18 16:33:46.023 +02:00 [INF] Executing endpoint 'ClientWebApp.Controllers.HomeController.Error (ClientWebApp)'
+2025-05-18 16:33:46.024 +02:00 [INF] Route matched with {action = "Error", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Error() on controller ClientWebApp.Controllers.HomeController (ClientWebApp).
+2025-05-18 16:33:46.025 +02:00 [INF] Executing ViewResult, running view Error.
+2025-05-18 16:33:46.030 +02:00 [INF] Executed ViewResult - view Error executed in 5.5054ms.
+2025-05-18 16:33:46.030 +02:00 [INF] Executed action ClientWebApp.Controllers.HomeController.Error (ClientWebApp) in 5.9614ms
+2025-05-18 16:33:46.030 +02:00 [INF] Executed endpoint 'ClientWebApp.Controllers.HomeController.Error (ClientWebApp)'
+2025-05-18 16:33:46.030 +02:00 [INF] Request finished HTTP/1.1 POST https://localhost:7130/api/FileDownload/Download - 500 null text/html; charset=utf-8 53.4788ms

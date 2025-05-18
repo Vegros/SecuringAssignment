@@ -58,6 +58,9 @@ namespace ClientWebApp.Migrations
                         .IsRequired()
                         .HasColumnType("text");
 
+                    b.Property<bool>("IsDownloaded")
+                        .HasColumnType("boolean");
+
                     b.Property<string>("LawyerEmail")
                         .IsRequired()
                         .HasColumnType("text");

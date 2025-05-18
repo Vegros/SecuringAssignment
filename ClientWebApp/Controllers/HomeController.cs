@@ -19,6 +19,7 @@ namespace ClientWebApp.Controllers
         [Route("Home/StatusCode")]
         public IActionResult StatusCodeHandler(int code)
         {
+            ViewData["code"] = code;
             return code switch
             {
                 400 => View("BadRequest"),

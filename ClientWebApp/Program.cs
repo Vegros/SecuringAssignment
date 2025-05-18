@@ -1,3 +1,4 @@
+using ClientWebApp.ActionFilters;
 using ClientWebApp.Data;
 using ClientWebApp.Repositories;
 using ClientWebApp.Utlities;
@@ -32,6 +33,7 @@ namespace ClientWebApp
             builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
                 .AddEntityFrameworkStores<ApplicationDbContext>();
 
+            builder.Services.AddScoped<DownloadActionFilter>();
             builder.Services.AddScoped<EncryptionUtility>();
             builder.Services.AddScoped<FileRepository>();
             builder.Services.AddScoped<PermisionRepository>();

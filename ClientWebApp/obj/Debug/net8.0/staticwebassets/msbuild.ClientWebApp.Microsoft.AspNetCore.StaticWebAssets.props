@@ -1224,6 +1224,42 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\SecureFiles\6ff8de8e-1f90-45ad-aebc-41878abf114d.docx'))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\SecureFiles\92ecd1cf-f9f7-446c-a514-e6127a0f7882.docx'))">
+      <SourceType>Package</SourceType>
+      <SourceId>ClientWebApp</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ClientWebApp</BasePath>
+      <RelativePath>SecureFiles/92ecd1cf-f9f7-446c-a514-e6127a0f7882.docx</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>j8n22kq4fx</Fingerprint>
+      <Integrity>3WvCT/qZUuaRVZxdAQ64rBfWwq5jZ8cTIA7uPLdr/50=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\SecureFiles\92ecd1cf-f9f7-446c-a514-e6127a0f7882.docx'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\SecureFiles\9d1b81ac-3e9d-485c-ba4a-dd4a803f833c.docx'))">
+      <SourceType>Package</SourceType>
+      <SourceId>ClientWebApp</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ClientWebApp</BasePath>
+      <RelativePath>SecureFiles/9d1b81ac-3e9d-485c-ba4a-dd4a803f833c.docx</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>of6b5zr3kb</Fingerprint>
+      <Integrity>VPZ9U4Y4BEwsecNR8wWkxQy0W6hP8nerUCnvUAEFasU=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\SecureFiles\9d1b81ac-3e9d-485c-ba4a-dd4a803f833c.docx'))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\SecureFiles\a9b3458f-aae6-426d-bf64-3939602f5cdb.docx'))">
       <SourceType>Package</SourceType>
       <SourceId>ClientWebApp</SourceId>
@@ -1259,6 +1295,24 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\SecureFiles\c012635d-2d50-4392-89b7-2bc52b91a6c0.docx'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\SecureFiles\ee10bea2-dc7f-4cb6-9c3d-32431dae8446.docx'))">
+      <SourceType>Package</SourceType>
+      <SourceId>ClientWebApp</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ClientWebApp</BasePath>
+      <RelativePath>SecureFiles/ee10bea2-dc7f-4cb6-9c3d-32431dae8446.docx</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>j8n22kq4fx</Fingerprint>
+      <Integrity>3WvCT/qZUuaRVZxdAQ64rBfWwq5jZ8cTIA7uPLdr/50=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\SecureFiles\ee10bea2-dc7f-4cb6-9c3d-32431dae8446.docx'))</OriginalItemSpec>
     </StaticWebAsset>
   </ItemGroup>
 </Project>

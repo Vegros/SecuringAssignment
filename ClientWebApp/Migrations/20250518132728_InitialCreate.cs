@@ -195,7 +195,8 @@ namespace ClientWebApp.Migrations
                     Id = table.Column<Guid>(type: "uuid", nullable: false),
                     LawyerEmail = table.Column<string>(type: "text", nullable: false),
                     AccessCode = table.Column<string>(type: "text", nullable: false),
-                    UploadedFileId = table.Column<Guid>(type: "uuid", nullable: false)
+                    UploadedFileId = table.Column<Guid>(type: "uuid", nullable: false),
+                    IsDownloaded = table.Column<bool>(type: "boolean", nullable: false)
                 },
                 constraints: table =>
                 {

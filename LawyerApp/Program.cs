@@ -7,7 +7,35 @@ namespace LawyerApp
 {
     internal class Program
     {
-        static async Task Main(string[] args)
+        public static async Task Menu()
+        {
+            Console.WriteLine("******************MENU******************");
+            Console.WriteLine("1. Download");
+            Console.WriteLine("2. Exit");
+            Console.Write("Enter your choice: ");
+            int option = Convert.ToInt32(Console.ReadLine());
+            switch (option)
+            {
+                case 1: await DownloadFile(); break;
+                case 2: Environment.Exit(0); break;
+                default:
+                    Console.WriteLine("Invalid choice.");
+                    break;
+            }
+
+        }
+
+        public static async Task DownloadFile()
+        {
+            Console.Write("Enter email: ");
+            String email = Console.ReadLine();
+            Console.Write("Enter accessCode: ");
+            String accessCode = Console.ReadLine();
+
+            await Download(email, accessCode);
+        }
+
+        public static async Task Download(String email, String accessCode)
         {
             var client = new HttpClient();
             RSACryptoServiceProvider rsa = new();
@@ -17,21 +45,29 @@ namespace LawyerApp
 
             var requestPayload = new
             {
-                fileId = "dc548746-fb69-4abd-aaf6-9c564dba96aa",
-                email = "mattias.tonna05@hotmail.com",
-                accessCode = "40107510-ba8b-4537-943c-5c124489949a",
+                email = email,
+                accessCode = accessCode,
                 lawyerPublicKey = publicKey
             };
+
 
             try
             {
                 var response = await client.PostAsJsonAsync("https://localhost:7130/api/FileDownload/Download", requestPayload);
+
+                if (response.StatusCode == System.Net.HttpStatusCode.Forbidden)
+                {
+                    var errorMessage = await response.Content.ReadAsStringAsync();
+                    Console.WriteLine("Access Denied: " + errorMessage);
+                    return;
+                }
                 response.EnsureSuccessStatusCode();
 
                 var json = await response.Content.ReadAsStringAsync();
                 using var doc = JsonDocument.Parse(json);
                 var root = doc.RootElement;
 
+                string fileName = root.GetProperty("fileName").GetString();
                 string base64EncryptedFile = root.GetProperty("file").GetString();
                 string signature = root.GetProperty("signature").GetString();
                 string serverPublicKey = root.GetProperty("serverPublicKey").GetString();
@@ -70,14 +106,21 @@ namespace LawyerApp
                 bool isValid = serverRsa.VerifyData(decrypted, new SHA512CryptoServiceProvider(), Convert.FromBase64String(signature));
                 Console.WriteLine($"Signature valid? {isValid}");
 
-                string path = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.UserProfile), "Downloads", "Decrypted_Lawyer_File.docx");
+                string path = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.UserProfile), "Downloads", fileName);
                 await File.WriteAllBytesAsync(path, decrypted);
                 Console.WriteLine("File saved at: " + path);
             }
             catch (Exception ex)
             {
-                Console.WriteLine("");
                 Console.WriteLine(ex.Message);
+            }
+        }
+
+        static async Task Main(string[] args)
+        {
+            while (true)
+            {
+                await Menu();
             }
         }
     }

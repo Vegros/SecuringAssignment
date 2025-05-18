@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "BNj1uVKbuoTuioq4buPPeHjF5vxoUVc6d7f7SHo1nkQ=",
+  "Hash": "cMBiN0afTPPAIzVwQ0aJeRaRkOq+ziayPzrK0A2ltTU=",
   "Source": "ClientWebApp",
   "BasePath": "_content/ClientWebApp",
   "Mode": "Default",
@@ -2726,6 +2726,48 @@
       "OriginalItemSpec": "wwwroot\\SecureFiles\\6ff8de8e-1f90-45ad-aebc-41878abf114d.docx"
     },
     {
+      "Identity": "C:\\Users\\matti\\Desktop\\assignment enterprise\\ClientWebApp\\wwwroot\\SecureFiles\\92ecd1cf-f9f7-446c-a514-e6127a0f7882.docx",
+      "SourceId": "ClientWebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\matti\\Desktop\\assignment enterprise\\ClientWebApp\\wwwroot\\",
+      "BasePath": "_content/ClientWebApp",
+      "RelativePath": "SecureFiles/92ecd1cf-f9f7-446c-a514-e6127a0f7882#[.{fingerprint}]?.docx",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "j8n22kq4fx",
+      "Integrity": "3WvCT/qZUuaRVZxdAQ64rBfWwq5jZ8cTIA7uPLdr/50=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\SecureFiles\\92ecd1cf-f9f7-446c-a514-e6127a0f7882.docx"
+    },
+    {
+      "Identity": "C:\\Users\\matti\\Desktop\\assignment enterprise\\ClientWebApp\\wwwroot\\SecureFiles\\9d1b81ac-3e9d-485c-ba4a-dd4a803f833c.docx",
+      "SourceId": "ClientWebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\matti\\Desktop\\assignment enterprise\\ClientWebApp\\wwwroot\\",
+      "BasePath": "_content/ClientWebApp",
+      "RelativePath": "SecureFiles/9d1b81ac-3e9d-485c-ba4a-dd4a803f833c#[.{fingerprint}]?.docx",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "of6b5zr3kb",
+      "Integrity": "VPZ9U4Y4BEwsecNR8wWkxQy0W6hP8nerUCnvUAEFasU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\SecureFiles\\9d1b81ac-3e9d-485c-ba4a-dd4a803f833c.docx"
+    },
+    {
       "Identity": "C:\\Users\\matti\\Desktop\\assignment enterprise\\ClientWebApp\\wwwroot\\SecureFiles\\a9b3458f-aae6-426d-bf64-3939602f5cdb.docx",
       "SourceId": "ClientWebApp",
       "SourceType": "Discovered",
@@ -2766,6 +2808,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\SecureFiles\\c012635d-2d50-4392-89b7-2bc52b91a6c0.docx"
+    },
+    {
+      "Identity": "C:\\Users\\matti\\Desktop\\assignment enterprise\\ClientWebApp\\wwwroot\\SecureFiles\\ee10bea2-dc7f-4cb6-9c3d-32431dae8446.docx",
+      "SourceId": "ClientWebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\matti\\Desktop\\assignment enterprise\\ClientWebApp\\wwwroot\\",
+      "BasePath": "_content/ClientWebApp",
+      "RelativePath": "SecureFiles/ee10bea2-dc7f-4cb6-9c3d-32431dae8446#[.{fingerprint}]?.docx",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "j8n22kq4fx",
+      "Integrity": "3WvCT/qZUuaRVZxdAQ64rBfWwq5jZ8cTIA7uPLdr/50=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\SecureFiles\\ee10bea2-dc7f-4cb6-9c3d-32431dae8446.docx"
     }
   ],
   "Endpoints": [
@@ -10648,6 +10711,170 @@
       ]
     },
     {
+      "Route": "SecureFiles/92ecd1cf-f9f7-446c-a514-e6127a0f7882.docx",
+      "AssetFile": "C:\\Users\\matti\\Desktop\\assignment enterprise\\ClientWebApp\\wwwroot\\SecureFiles\\92ecd1cf-f9f7-446c-a514-e6127a0f7882.docx",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8508"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3WvCT/qZUuaRVZxdAQ64rBfWwq5jZ8cTIA7uPLdr/50=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 18 May 2025 14:09:00 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-3WvCT/qZUuaRVZxdAQ64rBfWwq5jZ8cTIA7uPLdr/50="
+        }
+      ]
+    },
+    {
+      "Route": "SecureFiles/92ecd1cf-f9f7-446c-a514-e6127a0f7882.j8n22kq4fx.docx",
+      "AssetFile": "C:\\Users\\matti\\Desktop\\assignment enterprise\\ClientWebApp\\wwwroot\\SecureFiles\\92ecd1cf-f9f7-446c-a514-e6127a0f7882.docx",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8508"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3WvCT/qZUuaRVZxdAQ64rBfWwq5jZ8cTIA7uPLdr/50=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 18 May 2025 14:09:00 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "j8n22kq4fx"
+        },
+        {
+          "Name": "label",
+          "Value": "SecureFiles/92ecd1cf-f9f7-446c-a514-e6127a0f7882.docx"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-3WvCT/qZUuaRVZxdAQ64rBfWwq5jZ8cTIA7uPLdr/50="
+        }
+      ]
+    },
+    {
+      "Route": "SecureFiles/9d1b81ac-3e9d-485c-ba4a-dd4a803f833c.docx",
+      "AssetFile": "C:\\Users\\matti\\Desktop\\assignment enterprise\\ClientWebApp\\wwwroot\\SecureFiles\\9d1b81ac-3e9d-485c-ba4a-dd4a803f833c.docx",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1223218"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"VPZ9U4Y4BEwsecNR8wWkxQy0W6hP8nerUCnvUAEFasU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 18 May 2025 13:43:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-VPZ9U4Y4BEwsecNR8wWkxQy0W6hP8nerUCnvUAEFasU="
+        }
+      ]
+    },
+    {
+      "Route": "SecureFiles/9d1b81ac-3e9d-485c-ba4a-dd4a803f833c.of6b5zr3kb.docx",
+      "AssetFile": "C:\\Users\\matti\\Desktop\\assignment enterprise\\ClientWebApp\\wwwroot\\SecureFiles\\9d1b81ac-3e9d-485c-ba4a-dd4a803f833c.docx",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1223218"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"VPZ9U4Y4BEwsecNR8wWkxQy0W6hP8nerUCnvUAEFasU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 18 May 2025 13:43:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "of6b5zr3kb"
+        },
+        {
+          "Name": "label",
+          "Value": "SecureFiles/9d1b81ac-3e9d-485c-ba4a-dd4a803f833c.docx"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-VPZ9U4Y4BEwsecNR8wWkxQy0W6hP8nerUCnvUAEFasU="
+        }
+      ]
+    },
+    {
       "Route": "SecureFiles/a9b3458f-aae6-426d-bf64-3939602f5cdb.dh72lk5m5v.docx",
       "AssetFile": "C:\\Users\\matti\\Desktop\\assignment enterprise\\ClientWebApp\\wwwroot\\SecureFiles\\a9b3458f-aae6-426d-bf64-3939602f5cdb.docx",
       "Selectors": [],
@@ -10808,6 +11035,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-xI68skMkIZ2WuPxXt/e1Os7KMaAxX0fGlENTsOnSnFI="
+        }
+      ]
+    },
+    {
+      "Route": "SecureFiles/ee10bea2-dc7f-4cb6-9c3d-32431dae8446.docx",
+      "AssetFile": "C:\\Users\\matti\\Desktop\\assignment enterprise\\ClientWebApp\\wwwroot\\SecureFiles\\ee10bea2-dc7f-4cb6-9c3d-32431dae8446.docx",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8508"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3WvCT/qZUuaRVZxdAQ64rBfWwq5jZ8cTIA7uPLdr/50=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 18 May 2025 11:44:42 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-3WvCT/qZUuaRVZxdAQ64rBfWwq5jZ8cTIA7uPLdr/50="
+        }
+      ]
+    },
+    {
+      "Route": "SecureFiles/ee10bea2-dc7f-4cb6-9c3d-32431dae8446.j8n22kq4fx.docx",
+      "AssetFile": "C:\\Users\\matti\\Desktop\\assignment enterprise\\ClientWebApp\\wwwroot\\SecureFiles\\ee10bea2-dc7f-4cb6-9c3d-32431dae8446.docx",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8508"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3WvCT/qZUuaRVZxdAQ64rBfWwq5jZ8cTIA7uPLdr/50=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 18 May 2025 11:44:42 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "j8n22kq4fx"
+        },
+        {
+          "Name": "label",
+          "Value": "SecureFiles/ee10bea2-dc7f-4cb6-9c3d-32431dae8446.docx"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-3WvCT/qZUuaRVZxdAQ64rBfWwq5jZ8cTIA7uPLdr/50="
         }
       ]
     }

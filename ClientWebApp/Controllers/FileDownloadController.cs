@@ -1,16 +1,16 @@
-﻿using ClientWebApp.Data;
+﻿using ClientWebApp.ActionFilters;
+using ClientWebApp.Data;
 using ClientWebApp.Models;
 using ClientWebApp.Models.DatabaseModels;
 using ClientWebApp.Repositories;
 using ClientWebApp.Utlities;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
-
 namespace ClientWebApp.Controllers
 {
+
     [ApiController]
     [Route("api/[controller]")]
-    public class FileDownloadController : Controller
+    public class FileDownloadController : ControllerBase
     {
         private readonly ApplicationDbContext _dbContext;
         private readonly EncryptionUtility _encryptionUtility;
@@ -29,30 +29,20 @@ namespace ClientWebApp.Controllers
             _logger = logger;
         }
 
+        [ServiceFilter(typeof(DownloadActionFilter))]
         [HttpPost("Download")]
         public async Task<IActionResult> DownloadFile([FromBody] DownloadFileDTO request)
         {
+
             if (!ModelState.IsValid)
             {
                 _logger.LogWarning("Download request failed validation.");
                 return BadRequest("Invalid request");
             }
 
-            _logger.LogInformation("Received download request for fileId={FileId} by {Email}", request.FileId, request.Email);
+            _logger.LogInformation("Received download request for {Email}", request.Email);
 
-            var permission = await _dbContext.AccessPermissions
-                .Include(p => p.UploadedFile)
-                .FirstOrDefaultAsync(p =>
-                    p.LawyerEmail == request.Email &&
-                    p.AccessCode == request.AccessCode &&
-                    p.UploadedFileId == request.FileId);
-
-            if (permission == null)
-            {
-                _logger.LogWarning("Unauthorized download attempt for fileId={FileId} by {Email}", request.FileId, request.Email);
-                return Unauthorized("Invalid email or access code");
-            }
-
+            var permission = HttpContext.Items["permission"] as AccessPermission;
             var filePath = permission.UploadedFile.FilePath;
 
             if (!System.IO.File.Exists(filePath))
@@ -106,8 +96,15 @@ namespace ClientWebApp.Controllers
             _logsRepository.addLogs(log);
             _logger.LogInformation("Download successfully processed and logged for {Email}", request.Email);
 
+            _logger.LogInformation("IP address: {ipaddress}, useremail: {email}, TimeStamp: {time}, action: download", HttpContext.Connection.RemoteIpAddress?.ToString() ?? "Unknown", request.Email, DateTime.UtcNow);
+
+            permission.IsDownloaded = true;
+            _dbContext.Update(permission);
+            await _dbContext.SaveChangesAsync();
+
             return Ok(new
             {
+                fileName = permission.UploadedFile.FileName,
                 file = base64Encrypted,
                 signature = signature,
                 serverPublicKey = serverKeys.PublicKey
