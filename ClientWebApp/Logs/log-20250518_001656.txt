@@ -1,0 +1,127 @@
+2025-05-18 02:16:56.860 +02:00 [INF] User profile is available. Using 'C:\Users\matti\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-05-18 02:16:57.052 +02:00 [INF] Now listening on: https://localhost:7130
+2025-05-18 02:16:57.052 +02:00 [INF] Now listening on: http://localhost:5248
+2025-05-18 02:16:57.092 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-05-18 02:16:57.092 +02:00 [INF] Hosting environment: Development
+2025-05-18 02:16:57.092 +02:00 [INF] Content root path: C:\Users\matti\Desktop\assignment enterprise\ClientWebApp
+2025-05-18 02:16:57.343 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7130/ - null null
+2025-05-18 02:16:57.507 +02:00 [INF] Executing endpoint 'ClientWebApp.Controllers.HomeController.Index (ClientWebApp)'
+2025-05-18 02:16:57.515 +02:00 [INF] Route matched with {action = "Index", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ClientWebApp.Controllers.HomeController (ClientWebApp).
+2025-05-18 02:16:57.520 +02:00 [INF] Executing ViewResult, running view Index.
+2025-05-18 02:16:57.568 +02:00 [INF] Executed ViewResult - view Index executed in 49.2511ms.
+2025-05-18 02:16:57.568 +02:00 [INF] Executed action ClientWebApp.Controllers.HomeController.Index (ClientWebApp) in 53.1786ms
+2025-05-18 02:16:57.568 +02:00 [INF] Executed endpoint 'ClientWebApp.Controllers.HomeController.Index (ClientWebApp)'
+2025-05-18 02:16:57.571 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7130/ - 200 null text/html; charset=utf-8 231.7388ms
+2025-05-18 02:16:57.582 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7130/_framework/aspnetcore-browser-refresh.js - null null
+2025-05-18 02:16:57.586 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7130/_framework/aspnetcore-browser-refresh.js - 200 16509 application/javascript; charset=utf-8 4.371ms
+2025-05-18 02:16:57.589 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7130/_vs/browserLink - null null
+2025-05-18 02:16:57.609 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7130/_vs/browserLink - 200 null text/javascript; charset=UTF-8 19.9064ms
+2025-05-18 02:17:09.835 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7130/FileUpload/Upload - null null
+2025-05-18 02:17:09.846 +02:00 [INF] Executing endpoint 'ClientWebApp.Controllers.FileUploadController.Upload (ClientWebApp)'
+2025-05-18 02:17:09.847 +02:00 [INF] Route matched with {action = "Upload", controller = "FileUpload", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Upload() on controller ClientWebApp.Controllers.FileUploadController (ClientWebApp).
+2025-05-18 02:17:09.848 +02:00 [INF] Executing ViewResult, running view Upload.
+2025-05-18 02:17:09.857 +02:00 [INF] Executed ViewResult - view Upload executed in 9.4663ms.
+2025-05-18 02:17:09.861 +02:00 [INF] Executed action ClientWebApp.Controllers.FileUploadController.Upload (ClientWebApp) in 13.5759ms
+2025-05-18 02:17:09.861 +02:00 [INF] Executed endpoint 'ClientWebApp.Controllers.FileUploadController.Upload (ClientWebApp)'
+2025-05-18 02:17:09.863 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7130/_vs/browserLink - null null
+2025-05-18 02:17:09.864 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7130/FileUpload/Upload - 200 null text/html; charset=utf-8 29.037ms
+2025-05-18 02:17:09.867 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7130/_framework/aspnetcore-browser-refresh.js - null null
+2025-05-18 02:17:09.868 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7130/_framework/aspnetcore-browser-refresh.js - 200 16509 application/javascript; charset=utf-8 1.3872ms
+2025-05-18 02:17:09.876 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7130/_vs/browserLink - 200 null text/javascript; charset=UTF-8 12.5586ms
+2025-05-18 02:17:15.868 +02:00 [INF] Request starting HTTP/2 POST https://localhost:7130/FileUpload/Upload - multipart/form-data; boundary=----WebKitFormBoundaryQd8wr5YTI4BBlIp1 245556
+2025-05-18 02:17:15.883 +02:00 [INF] Executing endpoint 'ClientWebApp.Controllers.FileUploadController.Upload (ClientWebApp)'
+2025-05-18 02:17:15.895 +02:00 [INF] Route matched with {action = "Upload", controller = "FileUpload", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Upload(ClientWebApp.Models.UploadFileViewModel, Microsoft.AspNetCore.Hosting.IWebHostEnvironment) on controller ClientWebApp.Controllers.FileUploadController (ClientWebApp).
+2025-05-18 02:17:15.926 +02:00 [WRN] Rejected file with invalid extension: .pdf
+2025-05-18 02:17:15.926 +02:00 [INF] Executing ViewResult, running view Upload.
+2025-05-18 02:17:15.929 +02:00 [INF] Executed ViewResult - view Upload executed in 2.7859ms.
+2025-05-18 02:17:15.930 +02:00 [INF] Executed action ClientWebApp.Controllers.FileUploadController.Upload (ClientWebApp) in 34.4367ms
+2025-05-18 02:17:15.930 +02:00 [INF] Executed endpoint 'ClientWebApp.Controllers.FileUploadController.Upload (ClientWebApp)'
+2025-05-18 02:17:15.933 +02:00 [INF] Request finished HTTP/2 POST https://localhost:7130/FileUpload/Upload - 200 null text/html; charset=utf-8 64.9262ms
+2025-05-18 02:17:15.937 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7130/_vs/browserLink - null null
+2025-05-18 02:17:15.937 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7130/_framework/aspnetcore-browser-refresh.js - null null
+2025-05-18 02:17:15.939 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7130/_framework/aspnetcore-browser-refresh.js - 200 16509 application/javascript; charset=utf-8 1.1557ms
+2025-05-18 02:17:15.960 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7130/_vs/browserLink - 200 null text/javascript; charset=UTF-8 23.0123ms
+2025-05-18 02:18:17.084 +02:00 [INF] Request starting HTTP/2 POST https://localhost:7130/FileUpload/Upload - multipart/form-data; boundary=----WebKitFormBoundaryMlBU34CyB3oB24ec 30420
+2025-05-18 02:18:17.093 +02:00 [INF] Executing endpoint 'ClientWebApp.Controllers.FileUploadController.Upload (ClientWebApp)'
+2025-05-18 02:18:17.093 +02:00 [INF] Route matched with {action = "Upload", controller = "FileUpload", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Upload(ClientWebApp.Models.UploadFileViewModel, Microsoft.AspNetCore.Hosting.IWebHostEnvironment) on controller ClientWebApp.Controllers.FileUploadController (ClientWebApp).
+2025-05-18 02:18:17.101 +02:00 [INF] SHA-512 hash generated for input stream.
+2025-05-18 02:18:18.018 +02:00 [INF] Executed DbCommand (57ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?', @p2='?', @p3='?', @p4='?' (DbType = DateTime), @p5='?'], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Files" ("Id", "FileHash", "FileName", "FilePath", "UploadDate", "UploadedByEmail")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5);
+2025-05-18 02:18:18.034 +02:00 [INF] File metadata saved for Decrypted_Lawyer_File.docx by mattias.tonna.g51962@mcast.edu.mt
+2025-05-18 02:18:18.062 +02:00 [INF] Executed DbCommand (4ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?', @p2='?', @p3='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "AccessPermissions" ("Id", "AccessCode", "LawyerEmail", "UploadedFileId")
+VALUES (@p0, @p1, @p2, @p3);
+2025-05-18 02:18:18.062 +02:00 [INF] Access permission granted to joeborg@gmail.com
+2025-05-18 02:18:18.088 +02:00 [INF] Executed DbCommand (4ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?', @p2='?', @p3='?' (DbType = DateTime), @p4='?'], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "AccessLogs" ("Id", "Action", "IPAddress", "Timestamp", "UserEmail")
+VALUES (@p0, @p1, @p2, @p3, @p4);
+2025-05-18 02:18:18.088 +02:00 [INF] Upload action logged for user mattias.tonna.g51962@mcast.edu.mt
+2025-05-18 02:18:18.093 +02:00 [INF] Executing RedirectResult, redirecting to /FileUpload/Upload.
+2025-05-18 02:18:18.096 +02:00 [INF] Executed action ClientWebApp.Controllers.FileUploadController.Upload (ClientWebApp) in 1002.2176ms
+2025-05-18 02:18:18.096 +02:00 [INF] Executed endpoint 'ClientWebApp.Controllers.FileUploadController.Upload (ClientWebApp)'
+2025-05-18 02:18:18.099 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7130/FileUpload/Upload - null null
+2025-05-18 02:18:18.102 +02:00 [INF] Executing endpoint 'ClientWebApp.Controllers.FileUploadController.Upload (ClientWebApp)'
+2025-05-18 02:18:18.102 +02:00 [INF] Route matched with {action = "Upload", controller = "FileUpload", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Upload() on controller ClientWebApp.Controllers.FileUploadController (ClientWebApp).
+2025-05-18 02:18:18.103 +02:00 [INF] Executing ViewResult, running view Upload.
+2025-05-18 02:18:18.108 +02:00 [INF] Executed ViewResult - view Upload executed in 5.1712ms.
+2025-05-18 02:18:18.109 +02:00 [INF] Executed action ClientWebApp.Controllers.FileUploadController.Upload (ClientWebApp) in 6.9558ms
+2025-05-18 02:18:18.110 +02:00 [INF] Executed endpoint 'ClientWebApp.Controllers.FileUploadController.Upload (ClientWebApp)'
+2025-05-18 02:18:18.110 +02:00 [INF] Request finished HTTP/2 POST https://localhost:7130/FileUpload/Upload - 302 0 null 1025.1791ms
+2025-05-18 02:18:18.112 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7130/FileUpload/Upload - 200 null text/html; charset=utf-8 13.8692ms
+2025-05-18 02:18:18.116 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7130/_vs/browserLink - null null
+2025-05-18 02:18:18.119 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7130/_framework/aspnetcore-browser-refresh.js - null null
+2025-05-18 02:18:18.120 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7130/_framework/aspnetcore-browser-refresh.js - 200 16509 application/javascript; charset=utf-8 0.9924ms
+2025-05-18 02:18:18.128 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7130/_vs/browserLink - 200 null text/javascript; charset=UTF-8 11.8868ms
+2025-05-18 02:18:41.412 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7130/FileUpload/Download - null null
+2025-05-18 02:18:41.415 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7130/FileUpload/Download - 404 0 null 3.2779ms
+2025-05-18 02:18:41.416 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7130/FileUpload/Download, Response status code: 404
+2025-05-18 02:18:42.355 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7130/FileUpload/Upload - null null
+2025-05-18 02:18:42.358 +02:00 [INF] Executing endpoint 'ClientWebApp.Controllers.FileUploadController.Upload (ClientWebApp)'
+2025-05-18 02:18:42.359 +02:00 [INF] Route matched with {action = "Upload", controller = "FileUpload", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Upload() on controller ClientWebApp.Controllers.FileUploadController (ClientWebApp).
+2025-05-18 02:18:42.359 +02:00 [INF] Executing ViewResult, running view Upload.
+2025-05-18 02:18:42.361 +02:00 [INF] Executed ViewResult - view Upload executed in 2.1332ms.
+2025-05-18 02:18:42.362 +02:00 [INF] Executed action ClientWebApp.Controllers.FileUploadController.Upload (ClientWebApp) in 2.9132ms
+2025-05-18 02:18:42.362 +02:00 [INF] Executed endpoint 'ClientWebApp.Controllers.FileUploadController.Upload (ClientWebApp)'
+2025-05-18 02:18:42.362 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7130/FileUpload/Upload - 200 null text/html; charset=utf-8 7.8393ms
+2025-05-18 02:18:42.380 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7130/_framework/aspnetcore-browser-refresh.js - null null
+2025-05-18 02:18:42.380 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7130/_framework/aspnetcore-browser-refresh.js - 200 16509 application/javascript; charset=utf-8 1.0347ms
+2025-05-18 02:18:56.271 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7130/FileUpload/Download - null null
+2025-05-18 02:18:56.273 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7130/FileUpload/Download - 404 0 null 2.3404ms
+2025-05-18 02:18:56.273 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7130/FileUpload/Download, Response status code: 404
+2025-05-18 02:19:12.373 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7130/FileUpload/Upload - null null
+2025-05-18 02:19:12.380 +02:00 [INF] Executing endpoint 'ClientWebApp.Controllers.FileUploadController.Upload (ClientWebApp)'
+2025-05-18 02:19:12.380 +02:00 [INF] Route matched with {action = "Upload", controller = "FileUpload", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Upload() on controller ClientWebApp.Controllers.FileUploadController (ClientWebApp).
+2025-05-18 02:19:12.380 +02:00 [INF] Executing ViewResult, running view Upload.
+2025-05-18 02:19:12.383 +02:00 [INF] Executed ViewResult - view Upload executed in 3.3589ms.
+2025-05-18 02:19:12.384 +02:00 [INF] Executed action ClientWebApp.Controllers.FileUploadController.Upload (ClientWebApp) in 4.3549ms
+2025-05-18 02:19:12.384 +02:00 [INF] Executed endpoint 'ClientWebApp.Controllers.FileUploadController.Upload (ClientWebApp)'
+2025-05-18 02:19:12.389 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7130/FileUpload/Upload - 200 null text/html; charset=utf-8 16.7385ms
+2025-05-18 02:19:12.402 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7130/_framework/aspnetcore-browser-refresh.js - null null
+2025-05-18 02:19:12.404 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7130/_framework/aspnetcore-browser-refresh.js - 200 16509 application/javascript; charset=utf-8 1.5545ms
+2025-05-18 02:19:26.421 +02:00 [INF] Request starting HTTP/1.1 POST https://localhost:7130/api/FileDownload/Download - application/json; charset=utf-8 null
+2025-05-18 02:19:26.422 +02:00 [INF] Executing endpoint 'ClientWebApp.Controllers.FileDownloadController.DownloadFile (ClientWebApp)'
+2025-05-18 02:19:26.430 +02:00 [INF] Route matched with {action = "DownloadFile", controller = "FileDownload", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] DownloadFile(ClientWebApp.Models.DownloadFileDTO) on controller ClientWebApp.Controllers.FileDownloadController (ClientWebApp).
+2025-05-18 02:19:26.455 +02:00 [INF] Received download request for fileId="5ea054b0-2138-4b71-ac24-3a962b068e98" by mattias.tonna@gmail.com
+2025-05-18 02:19:26.775 +02:00 [INF] Executed DbCommand (10ms) [Parameters=[@__request_Email_0='?', @__request_AccessCode_1='?', @__request_FileId_2='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT a."Id", a."AccessCode", a."LawyerEmail", a."UploadedFileId", f."Id", f."FileHash", f."FileName", f."FilePath", f."UploadDate", f."UploadedByEmail"
+FROM "AccessPermissions" AS a
+INNER JOIN "Files" AS f ON a."UploadedFileId" = f."Id"
+WHERE a."LawyerEmail" = @__request_Email_0 AND a."AccessCode" = @__request_AccessCode_1 AND a."UploadedFileId" = @__request_FileId_2
+LIMIT 1
+2025-05-18 02:19:26.798 +02:00 [INF] File found: C:\Users\matti\Desktop\assignment enterprise\ClientWebApp\wwwroot\SecureFiles\22dac421-df7f-4fe7-89e7-6d9f044df025.docx. Proceeding with encryption.
+2025-05-18 02:19:26.816 +02:00 [INF] Symmetric AES keys generated.
+2025-05-18 02:19:26.821 +02:00 [INF] Symmetric encryption completed using AES.
+2025-05-18 02:19:26.826 +02:00 [INF] Data encrypted using RSA public key.
+2025-05-18 02:19:26.826 +02:00 [INF] Data encrypted using RSA public key.
+2025-05-18 02:19:26.826 +02:00 [INF] Hybrid encryption completed: AES data + RSA-encrypted key/IV.
+2025-05-18 02:19:26.826 +02:00 [INF] Asymmetric RSA key pair generated.
+2025-05-18 02:19:26.836 +02:00 [INF] Digital signature successfully created.
+2025-05-18 02:19:26.838 +02:00 [INF] Executed DbCommand (1ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?', @p2='?', @p3='?' (DbType = DateTime), @p4='?'], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "AccessLogs" ("Id", "Action", "IPAddress", "Timestamp", "UserEmail")
+VALUES (@p0, @p1, @p2, @p3, @p4);
+2025-05-18 02:19:26.838 +02:00 [INF] Download successfully processed and logged for mattias.tonna@gmail.com
+2025-05-18 02:19:26.844 +02:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType1`3[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-05-18 02:19:26.851 +02:00 [INF] Executed action ClientWebApp.Controllers.FileDownloadController.DownloadFile (ClientWebApp) in 421.2065ms
+2025-05-18 02:19:26.852 +02:00 [INF] Executed endpoint 'ClientWebApp.Controllers.FileDownloadController.DownloadFile (ClientWebApp)'
+2025-05-18 02:19:26.852 +02:00 [INF] Request finished HTTP/1.1 POST https://localhost:7130/api/FileDownload/Download - 200 null application/json; charset=utf-8 430.5144ms

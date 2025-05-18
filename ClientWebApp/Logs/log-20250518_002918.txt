@@ -1,0 +1,49 @@
+2025-05-18 02:29:18.156 +02:00 [INF] User profile is available. Using 'C:\Users\matti\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-05-18 02:29:18.248 +02:00 [INF] Now listening on: https://localhost:7130
+2025-05-18 02:29:18.249 +02:00 [INF] Now listening on: http://localhost:5248
+2025-05-18 02:29:18.280 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-05-18 02:29:18.280 +02:00 [INF] Hosting environment: Development
+2025-05-18 02:29:18.280 +02:00 [INF] Content root path: C:\Users\matti\Desktop\assignment enterprise\ClientWebApp
+2025-05-18 02:29:18.857 +02:00 [INF] User profile is available. Using 'C:\Users\matti\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-05-18 02:29:18.949 +02:00 [INF] Now listening on: https://localhost:7130
+2025-05-18 02:29:18.949 +02:00 [INF] Now listening on: http://localhost:5248
+2025-05-18 02:29:18.980 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-05-18 02:29:18.980 +02:00 [INF] Hosting environment: Development
+2025-05-18 02:29:18.980 +02:00 [INF] Content root path: C:\Users\matti\Desktop\assignment enterprise\ClientWebApp
+2025-05-18 02:29:19.259 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7130/test/error - null null
+2025-05-18 02:29:19.361 +02:00 [INF] Executing endpoint 'ClientWebApp.Controllers.TestController.TriggerError (ClientWebApp)'
+2025-05-18 02:29:19.371 +02:00 [INF] Route matched with {action = "TriggerError", controller = "Test", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult TriggerError() on controller ClientWebApp.Controllers.TestController (ClientWebApp).
+2025-05-18 02:29:19.373 +02:00 [INF] Executed action ClientWebApp.Controllers.TestController.TriggerError (ClientWebApp) in 0.8566ms
+2025-05-18 02:29:19.374 +02:00 [INF] Executed endpoint 'ClientWebApp.Controllers.TestController.TriggerError (ClientWebApp)'
+2025-05-18 02:29:19.376 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+System.Exception: Simulated error for testing.
+   at ClientWebApp.Controllers.TestController.TriggerError() in C:\Users\matti\Desktop\assignment enterprise\ClientWebApp\Controllers\TestController.cs:line 10
+   at lambda_method11(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-05-18 02:29:19.407 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7130/test/error - 500 null text/html; charset=utf-8 148.2287ms
+2025-05-18 02:29:19.417 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7130/_vs/browserLink - null null
+2025-05-18 02:29:19.421 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7130/_framework/aspnetcore-browser-refresh.js - null null
+2025-05-18 02:29:19.423 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7130/_framework/aspnetcore-browser-refresh.js - 200 16509 application/javascript; charset=utf-8 2.4065ms
+2025-05-18 02:29:19.431 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7130/_vs/browserLink - 200 null text/javascript; charset=UTF-8 13.5686ms
+2025-05-18 02:29:19.452 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7130/favicon.ico - null null
+2025-05-18 02:29:19.464 +02:00 [INF] Sending file. Request path: '/favicon.ico'. Physical path: 'C:\Users\matti\Desktop\assignment enterprise\ClientWebApp\wwwroot\favicon.ico'
+2025-05-18 02:29:19.464 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7130/favicon.ico - 200 5430 image/x-icon 12.247ms

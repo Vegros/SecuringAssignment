@@ -15,8 +15,11 @@ namespace ClientWebApp.Controllers
         FileRepository _fileRepository;
         EncryptionUtility _encryptionUtility;
         LogsRepository _logsRepository;
-        public FileUploadController(PermisionRepository permisionRepository, FileRepository fileRepository, EncryptionUtility encryptionUtility, LogsRepository logsRepository)
+        private readonly ILogger<FileDownloadController> _logger;
+
+        public FileUploadController(ILogger<FileDownloadController> logger, PermisionRepository permisionRepository, FileRepository fileRepository, EncryptionUtility encryptionUtility, LogsRepository logsRepository)
         {
+            _logger = logger;
             _permisionRepository = permisionRepository;
             _fileRepository = fileRepository;
             _encryptionUtility = encryptionUtility;
@@ -37,6 +40,7 @@ namespace ClientWebApp.Controllers
             if (model.File == null || model.File.Length == 0)
             {
                 ModelState.AddModelError("File", "Please select a file.");
+                _logger.LogWarning("Upload attempt with empty or null file.");
                 return View(model);
             }
 
@@ -44,20 +48,45 @@ namespace ClientWebApp.Controllers
             if (extension != ".docx")
             {
                 ModelState.AddModelError("File", "Only .docx allowed.");
+                _logger.LogWarning("Rejected file with invalid extension: {Extension}", extension);
                 return View(model);
             }
 
+            byte[] zipHeader = { 0x50, 0x4B, 0x03, 0x04 };
+
             using var ms = new MemoryStream();
             await model.File.CopyToAsync(ms);
+            byte[] fileBytes = ms.ToArray();
+
+            for (int i = 0; i < zipHeader.Length; i++)
+            {
+                if (fileBytes.Length <= i || fileBytes[i] != zipHeader[i])
+                {
+                    ModelState.AddModelError("File", "The file is not a valid .docx (ZIP format).");
+                    _logger.LogWarning("Header check failed for uploaded file {FileName}", model.File.FileName);
+                    return View(model);
+                }
+            }
+
+            ms.Position = 0;
             string fileHash = _encryptionUtility.Hash(ms);
             ms.Position = 0;
 
             var fileName = Guid.NewGuid() + extension;
             var filePath = Path.Combine(host.WebRootPath, "SecureFiles", fileName);
 
-            using (var stream = new FileStream(filePath, FileMode.Create))
+            try
             {
-                await ms.CopyToAsync(stream);
+                using (var stream = new FileStream(filePath, FileMode.Create))
+                {
+                    await ms.CopyToAsync(stream);
+                }
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError(ex, "Failed to save uploaded file to {Path}", filePath);
+                ModelState.AddModelError("File", "Error saving the file.");
+                return View(model);
             }
 
             var accessCode = Guid.NewGuid().ToString();
@@ -73,8 +102,8 @@ namespace ClientWebApp.Controllers
                 UploadDate = DateTime.UtcNow
             };
 
-
             _fileRepository.UploadFile(uploadedFile);
+            _logger.LogInformation("File metadata saved for {FileName} by {User}", model.File.FileName, uploadedBy);
 
             var permission = new AccessPermission
             {
@@ -85,6 +114,7 @@ namespace ClientWebApp.Controllers
             };
 
             _permisionRepository.addPermission(permission);
+            _logger.LogInformation("Access permission granted to {Lawyer}", model.LawyerEmail);
 
             var log = new AccessLog
             {
@@ -96,13 +126,11 @@ namespace ClientWebApp.Controllers
             };
 
             _logsRepository.addLogs(log);
-
+            _logger.LogInformation("Upload action logged for user {User}", uploadedBy);
 
             TempData["Message"] = $"File uploaded successfully! Access Code: {accessCode}";
             return RedirectToAction("Upload");
         }
-
-
 
 
     }

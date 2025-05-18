@@ -98,9 +98,17 @@
               "target": "Package",
               "version": "[4.2.0, )"
             },
-            "Serilog.Sinks.File": {
+            "Serilog.AspNetCore": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Serilog.Sinks.Console": {
               "target": "Package",
               "version": "[6.0.0, )"
+            },
+            "Serilog.Sinks.File": {
+              "target": "Package",
+              "version": "[7.0.0, )"
             },
             "Serilog.Sinks.PostgreSQL": {
               "target": "Package",

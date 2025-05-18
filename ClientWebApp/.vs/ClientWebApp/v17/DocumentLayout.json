@@ -3,24 +3,52 @@
   "WorkspaceRootPath": "C:\\Users\\matti\\Desktop\\assignment enterprise\\ClientWebApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7BF0F6E8-69C3-458F-BAC2-5BDFB7D7FC57}|ClientWebApp.csproj|c:\\users\\matti\\desktop\\assignment enterprise\\clientwebapp\\controllers\\filedownloadcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7BF0F6E8-69C3-458F-BAC2-5BDFB7D7FC57}|ClientWebApp.csproj|solutionrelative:controllers\\filedownloadcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7BF0F6E8-69C3-458F-BAC2-5BDFB7D7FC57}|ClientWebApp.csproj|c:\\users\\matti\\desktop\\assignment enterprise\\clientwebapp\\logs\\log-20250518_012942.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{7BF0F6E8-69C3-458F-BAC2-5BDFB7D7FC57}|ClientWebApp.csproj|solutionrelative:logs\\log-20250518_012942.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7BF0F6E8-69C3-458F-BAC2-5BDFB7D7FC57}|ClientWebApp.csproj|c:\\users\\matti\\desktop\\assignment enterprise\\clientwebapp\\utlities\\encryptionutility.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7BF0F6E8-69C3-458F-BAC2-5BDFB7D7FC57}|ClientWebApp.csproj|solutionrelative:utlities\\encryptionutility.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7BF0F6E8-69C3-458F-BAC2-5BDFB7D7FC57}|ClientWebApp.csproj|c:\\users\\matti\\desktop\\assignment enterprise\\clientwebapp\\controllers\\testcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BF0F6E8-69C3-458F-BAC2-5BDFB7D7FC57}|ClientWebApp.csproj|solutionrelative:controllers\\testcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7BF0F6E8-69C3-458F-BAC2-5BDFB7D7FC57}|ClientWebApp.csproj|c:\\users\\matti\\desktop\\assignment enterprise\\clientwebapp\\models\\downloadfiledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7BF0F6E8-69C3-458F-BAC2-5BDFB7D7FC57}|ClientWebApp.csproj|solutionrelative:models\\downloadfiledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7BF0F6E8-69C3-458F-BAC2-5BDFB7D7FC57}|ClientWebApp.csproj|c:\\users\\matti\\desktop\\assignment enterprise\\clientwebapp\\views\\test\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7BF0F6E8-69C3-458F-BAC2-5BDFB7D7FC57}|ClientWebApp.csproj|solutionrelative:views\\test\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BF0F6E8-69C3-458F-BAC2-5BDFB7D7FC57}|ClientWebApp.csproj|c:\\users\\matti\\desktop\\assignment enterprise\\clientwebapp\\views\\fileupload\\upload.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7BF0F6E8-69C3-458F-BAC2-5BDFB7D7FC57}|ClientWebApp.csproj|solutionrelative:views\\fileupload\\upload.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7BF0F6E8-69C3-458F-BAC2-5BDFB7D7FC57}|ClientWebApp.csproj|c:\\users\\matti\\desktop\\assignment enterprise\\clientwebapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7BF0F6E8-69C3-458F-BAC2-5BDFB7D7FC57}|ClientWebApp.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{7BF0F6E8-69C3-458F-BAC2-5BDFB7D7FC57}|ClientWebApp.csproj|c:\\users\\matti\\desktop\\assignment enterprise\\clientwebapp\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BF0F6E8-69C3-458F-BAC2-5BDFB7D7FC57}|ClientWebApp.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{7BF0F6E8-69C3-458F-BAC2-5BDFB7D7FC57}|ClientWebApp.csproj|c:\\users\\matti\\desktop\\assignment enterprise\\clientwebapp\\controllers\\fileuploadcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7BF0F6E8-69C3-458F-BAC2-5BDFB7D7FC57}|ClientWebApp.csproj|solutionrelative:controllers\\fileuploadcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BF0F6E8-69C3-458F-BAC2-5BDFB7D7FC57}|ClientWebApp.csproj|c:\\users\\matti\\desktop\\assignment enterprise\\clientwebapp\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7BF0F6E8-69C3-458F-BAC2-5BDFB7D7FC57}|ClientWebApp.csproj|solutionrelative:views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BF0F6E8-69C3-458F-BAC2-5BDFB7D7FC57}|ClientWebApp.csproj|c:\\users\\matti\\desktop\\assignment enterprise\\clientwebapp\\logs\\log-20250518.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{7BF0F6E8-69C3-458F-BAC2-5BDFB7D7FC57}|ClientWebApp.csproj|solutionrelative:logs\\log-20250518.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BF0F6E8-69C3-458F-BAC2-5BDFB7D7FC57}|ClientWebApp.csproj|c:\\users\\matti\\desktop\\assignment enterprise\\clientwebapp\\utlities\\encryptionutility.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BF0F6E8-69C3-458F-BAC2-5BDFB7D7FC57}|ClientWebApp.csproj|solutionrelative:utlities\\encryptionutility.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BF0F6E8-69C3-458F-BAC2-5BDFB7D7FC57}|ClientWebApp.csproj|c:\\users\\matti\\desktop\\assignment enterprise\\clientwebapp\\controllers\\filedownloadcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BF0F6E8-69C3-458F-BAC2-5BDFB7D7FC57}|ClientWebApp.csproj|solutionrelative:controllers\\filedownloadcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BF0F6E8-69C3-458F-BAC2-5BDFB7D7FC57}|ClientWebApp.csproj|c:\\users\\matti\\desktop\\assignment enterprise\\clientwebapp\\models\\downloadfiledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BF0F6E8-69C3-458F-BAC2-5BDFB7D7FC57}|ClientWebApp.csproj|solutionrelative:models\\downloadfiledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7BF0F6E8-69C3-458F-BAC2-5BDFB7D7FC57}|ClientWebApp.csproj|c:\\users\\matti\\desktop\\assignment enterprise\\clientwebapp\\repositories\\logsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -50,8 +78,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "log-20250518_012942.txt",
+              "DocumentMoniker": "C:\\Users\\matti\\Desktop\\assignment enterprise\\ClientWebApp\\Logs\\log-20250518_012942.txt",
+              "RelativeDocumentMoniker": "Logs\\log-20250518_012942.txt",
+              "ToolTip": "C:\\Users\\matti\\Desktop\\assignment enterprise\\ClientWebApp\\Logs\\log-20250518_012942.txt",
+              "RelativeToolTip": "Logs\\log-20250518_012942.txt",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAAB4AAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-05-18T01:30:17.278Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
@@ -63,55 +104,149 @@
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "Upload.cshtml",
+              "DocumentMoniker": "C:\\Users\\matti\\Desktop\\assignment enterprise\\ClientWebApp\\Views\\FileUpload\\Upload.cshtml",
+              "RelativeDocumentMoniker": "Views\\FileUpload\\Upload.cshtml",
+              "ToolTip": "C:\\Users\\matti\\Desktop\\assignment enterprise\\ClientWebApp\\Views\\FileUpload\\Upload.cshtml",
+              "RelativeToolTip": "Views\\FileUpload\\Upload.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-18T01:09:29.766Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\matti\\Desktop\\assignment enterprise\\ClientWebApp\\Views\\Test\\Login.cshtml",
+              "RelativeDocumentMoniker": "Views\\Test\\Login.cshtml",
+              "ToolTip": "C:\\Users\\matti\\Desktop\\assignment enterprise\\ClientWebApp\\Views\\Test\\Login.cshtml",
+              "RelativeToolTip": "Views\\Test\\Login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-18T00:56:15.716Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TestController.cs",
+              "DocumentMoniker": "C:\\Users\\matti\\Desktop\\assignment enterprise\\ClientWebApp\\Controllers\\TestController.cs",
+              "RelativeDocumentMoniker": "Controllers\\TestController.cs",
+              "ToolTip": "C:\\Users\\matti\\Desktop\\assignment enterprise\\ClientWebApp\\Controllers\\TestController.cs",
+              "RelativeToolTip": "Controllers\\TestController.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAA4wCQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T00:27:40.466Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\matti\\Desktop\\assignment enterprise\\ClientWebApp\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\matti\\Desktop\\assignment enterprise\\ClientWebApp\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAkwCUAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T00:24:26.441Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "C:\\Users\\matti\\Desktop\\assignment enterprise\\ClientWebApp\\Views\\Shared\\Error.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\Error.cshtml",
+              "ToolTip": "C:\\Users\\matti\\Desktop\\assignment enterprise\\ClientWebApp\\Views\\Shared\\Error.cshtml",
+              "RelativeToolTip": "Views\\Shared\\Error.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-18T00:22:28.966Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\matti\\Desktop\\assignment enterprise\\ClientWebApp\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\matti\\Desktop\\assignment enterprise\\ClientWebApp\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAEEAAAAAAAAAAAAowFEAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAADoAAAAAAAAAAAAgwEIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-25T00:03:53.012Z"
+              "WhenOpened": "2025-04-25T00:03:53.012Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 6,
+              "Title": "FileUploadController.cs",
+              "DocumentMoniker": "C:\\Users\\matti\\Desktop\\assignment enterprise\\ClientWebApp\\Controllers\\FileUploadController.cs",
+              "RelativeDocumentMoniker": "Controllers\\FileUploadController.cs",
+              "ToolTip": "C:\\Users\\matti\\Desktop\\assignment enterprise\\ClientWebApp\\Controllers\\FileUploadController.cs",
+              "RelativeToolTip": "Controllers\\FileUploadController.cs",
+              "ViewState": "AgIAAHIAAAAAAAAAAAAswIQAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-21T16:07:30.436Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "EncryptionUtility.cs",
+              "DocumentMoniker": "C:\\Users\\matti\\Desktop\\assignment enterprise\\ClientWebApp\\Utlities\\EncryptionUtility.cs",
+              "RelativeDocumentMoniker": "Utlities\\EncryptionUtility.cs",
+              "ToolTip": "C:\\Users\\matti\\Desktop\\assignment enterprise\\ClientWebApp\\Utlities\\EncryptionUtility.cs",
+              "RelativeToolTip": "Utlities\\EncryptionUtility.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAJkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T23:22:39.267Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "FileDownloadController.cs",
               "DocumentMoniker": "C:\\Users\\matti\\Desktop\\assignment enterprise\\ClientWebApp\\Controllers\\FileDownloadController.cs",
               "RelativeDocumentMoniker": "Controllers\\FileDownloadController.cs",
               "ToolTip": "C:\\Users\\matti\\Desktop\\assignment enterprise\\ClientWebApp\\Controllers\\FileDownloadController.cs",
               "RelativeToolTip": "Controllers\\FileDownloadController.cs",
-              "ViewState": "AgIAACQAAAAAAAAAAAAswDoAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAwAkAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-21T16:07:44.987Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 8,
+              "Title": "log-20250518.txt",
+              "DocumentMoniker": "C:\\Users\\matti\\Desktop\\assignment enterprise\\ClientWebApp\\Logs\\log-20250518.txt",
+              "RelativeDocumentMoniker": "Logs\\log-20250518.txt",
+              "ToolTip": "C:\\Users\\matti\\Desktop\\assignment enterprise\\ClientWebApp\\Logs\\log-20250518.txt",
+              "RelativeToolTip": "Logs\\log-20250518.txt",
+              "ViewState": "AgIAAFoAAAAAAAAAAAAAAHUAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-05-17T23:55:40.856Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "DownloadFileDTO.cs",
               "DocumentMoniker": "C:\\Users\\matti\\Desktop\\assignment enterprise\\ClientWebApp\\Models\\DownloadFileDTO.cs",
               "RelativeDocumentMoniker": "Models\\DownloadFileDTO.cs",
               "ToolTip": "C:\\Users\\matti\\Desktop\\assignment enterprise\\ClientWebApp\\Models\\DownloadFileDTO.cs",
               "RelativeToolTip": "Models\\DownloadFileDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAzAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-21T16:08:22.022Z"
+              "WhenOpened": "2025-04-21T16:08:22.022Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "EncryptionUtility.cs",
-              "DocumentMoniker": "C:\\Users\\matti\\Desktop\\assignment enterprise\\ClientWebApp\\Utlities\\EncryptionUtility.cs",
-              "RelativeDocumentMoniker": "Utlities\\EncryptionUtility.cs",
-              "ToolTip": "C:\\Users\\matti\\Desktop\\assignment enterprise\\ClientWebApp\\Utlities\\EncryptionUtility.cs",
-              "RelativeToolTip": "Utlities\\EncryptionUtility.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAuwB4AAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-24T23:22:39.267Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 12,
               "Title": "LogsRepository.cs",
               "DocumentMoniker": "C:\\Users\\matti\\Desktop\\assignment enterprise\\ClientWebApp\\Repositories\\LogsRepository.cs",
               "RelativeDocumentMoniker": "Repositories\\LogsRepository.cs",
@@ -123,19 +258,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "FileUploadController.cs",
-              "DocumentMoniker": "C:\\Users\\matti\\Desktop\\assignment enterprise\\ClientWebApp\\Controllers\\FileUploadController.cs",
-              "RelativeDocumentMoniker": "Controllers\\FileUploadController.cs",
-              "ToolTip": "C:\\Users\\matti\\Desktop\\assignment enterprise\\ClientWebApp\\Controllers\\FileUploadController.cs",
-              "RelativeToolTip": "Controllers\\FileUploadController.cs",
-              "ViewState": "AgIAAD4AAAAAAAAAAAAwwFIAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-21T16:07:30.436Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 13,
               "Title": "PermisionRepository.cs",
               "DocumentMoniker": "C:\\Users\\matti\\Desktop\\assignment enterprise\\ClientWebApp\\Repositories\\PermisionRepository.cs",
               "RelativeDocumentMoniker": "Repositories\\PermisionRepository.cs",
@@ -147,7 +270,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 16,
               "Title": "ApplicationDbContext.cs",
               "DocumentMoniker": "C:\\Users\\matti\\Desktop\\assignment enterprise\\ClientWebApp\\Data\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "Data\\ApplicationDbContext.cs",
@@ -159,7 +282,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 14,
               "Title": "FileRepository.cs",
               "DocumentMoniker": "C:\\Users\\matti\\Desktop\\assignment enterprise\\ClientWebApp\\Repositories\\FileRepository.cs",
               "RelativeDocumentMoniker": "Repositories\\FileRepository.cs",
@@ -171,7 +294,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 15,
               "Title": "BaseRepository.cs",
               "DocumentMoniker": "C:\\Users\\matti\\Desktop\\assignment enterprise\\ClientWebApp\\Repositories\\BaseRepository.cs",
               "RelativeDocumentMoniker": "Repositories\\BaseRepository.cs",

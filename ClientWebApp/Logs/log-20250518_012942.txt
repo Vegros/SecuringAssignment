@@ -1,0 +1,78 @@
+2025-05-18 03:29:42.327 +02:00 [INF] User profile is available. Using 'C:\Users\matti\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-05-18 03:29:42.490 +02:00 [INF] Now listening on: https://localhost:7130
+2025-05-18 03:29:42.490 +02:00 [INF] Now listening on: http://localhost:5248
+2025-05-18 03:29:42.523 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-05-18 03:29:42.523 +02:00 [INF] Hosting environment: Development
+2025-05-18 03:29:42.523 +02:00 [INF] Content root path: C:\Users\matti\Desktop\assignment enterprise\ClientWebApp
+2025-05-18 03:29:42.865 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7130/ - null null
+2025-05-18 03:29:43.666 +02:00 [INF] Executed DbCommand (26ms) [Parameters=[@__p_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT a."Id", a."AccessFailedCount", a."ConcurrencyStamp", a."Email", a."EmailConfirmed", a."LockoutEnabled", a."LockoutEnd", a."NormalizedEmail", a."NormalizedUserName", a."PasswordHash", a."PhoneNumber", a."PhoneNumberConfirmed", a."SecurityStamp", a."TwoFactorEnabled", a."UserName"
+FROM "AspNetUsers" AS a
+WHERE a."Id" = @__p_0
+LIMIT 1
+2025-05-18 03:29:43.728 +02:00 [INF] Executed DbCommand (1ms) [Parameters=[@__user_Id_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT a."Id", a."ClaimType", a."ClaimValue", a."UserId"
+FROM "AspNetUserClaims" AS a
+WHERE a."UserId" = @__user_Id_0
+2025-05-18 03:29:43.733 +02:00 [INF] Executing endpoint 'ClientWebApp.Controllers.HomeController.Index (ClientWebApp)'
+2025-05-18 03:29:43.738 +02:00 [INF] Route matched with {action = "Index", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ClientWebApp.Controllers.HomeController (ClientWebApp).
+2025-05-18 03:29:43.742 +02:00 [INF] Executing ViewResult, running view Index.
+2025-05-18 03:29:43.786 +02:00 [INF] Executed ViewResult - view Index executed in 44.8774ms.
+2025-05-18 03:29:43.787 +02:00 [INF] Executed action ClientWebApp.Controllers.HomeController.Index (ClientWebApp) in 48.1686ms
+2025-05-18 03:29:43.787 +02:00 [INF] Executed endpoint 'ClientWebApp.Controllers.HomeController.Index (ClientWebApp)'
+2025-05-18 03:29:43.793 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7130/ - 200 null text/html; charset=utf-8 931.8478ms
+2025-05-18 03:29:43.800 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7130/_framework/aspnetcore-browser-refresh.js - null null
+2025-05-18 03:29:43.805 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7130/_vs/browserLink - null null
+2025-05-18 03:29:43.806 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7130/_framework/aspnetcore-browser-refresh.js - 200 16509 application/javascript; charset=utf-8 6.734ms
+2025-05-18 03:29:43.826 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7130/_vs/browserLink - 200 null text/javascript; charset=UTF-8 21.726ms
+2025-05-18 03:29:47.055 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7130/test/login - null null
+2025-05-18 03:29:47.065 +02:00 [INF] Executing endpoint 'ClientWebApp.Controllers.TestController.Login (ClientWebApp)'
+2025-05-18 03:29:47.066 +02:00 [INF] Route matched with {action = "Login", controller = "Test", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller ClientWebApp.Controllers.TestController (ClientWebApp).
+2025-05-18 03:29:47.067 +02:00 [INF] Executing ViewResult, running view Login.
+2025-05-18 03:29:47.075 +02:00 [INF] Executed ViewResult - view Login executed in 8.5382ms.
+2025-05-18 03:29:47.076 +02:00 [INF] Executed action ClientWebApp.Controllers.TestController.Login (ClientWebApp) in 9.3495ms
+2025-05-18 03:29:47.076 +02:00 [INF] Executed endpoint 'ClientWebApp.Controllers.TestController.Login (ClientWebApp)'
+2025-05-18 03:29:47.076 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7130/test/login - 200 null text/html; charset=utf-8 21.0782ms
+2025-05-18 03:29:47.101 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7130/_framework/aspnetcore-browser-refresh.js - null null
+2025-05-18 03:29:47.101 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7130/_vs/browserLink - null null
+2025-05-18 03:29:47.102 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7130/_framework/aspnetcore-browser-refresh.js - 200 16509 application/javascript; charset=utf-8 1.0725ms
+2025-05-18 03:29:47.114 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7130/_vs/browserLink - 200 null text/javascript; charset=UTF-8 13.1763ms
+2025-05-18 03:29:54.291 +02:00 [INF] Request starting HTTP/2 POST https://localhost:7130/test/login - application/x-www-form-urlencoded 258
+2025-05-18 03:29:54.301 +02:00 [INF] Executing endpoint 'ClientWebApp.Controllers.TestController.Login (ClientWebApp)'
+2025-05-18 03:29:54.304 +02:00 [INF] Route matched with {action = "Login", controller = "Test", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(System.String, System.String) on controller ClientWebApp.Controllers.TestController (ClientWebApp).
+2025-05-18 03:29:54.314 +02:00 [INF] Executing StatusCodeResult, setting HTTP status code 200
+2025-05-18 03:29:54.314 +02:00 [INF] Executed action ClientWebApp.Controllers.TestController.Login (ClientWebApp) in 9.0851ms
+2025-05-18 03:29:54.314 +02:00 [INF] Executed endpoint 'ClientWebApp.Controllers.TestController.Login (ClientWebApp)'
+2025-05-18 03:29:54.314 +02:00 [INF] Request finished HTTP/2 POST https://localhost:7130/test/login - 200 0 null 23.3667ms
+2025-05-18 03:30:06.284 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7130/test/login - null null
+2025-05-18 03:30:06.287 +02:00 [INF] Executing endpoint 'ClientWebApp.Controllers.TestController.Login (ClientWebApp)'
+2025-05-18 03:30:06.287 +02:00 [INF] Route matched with {action = "Login", controller = "Test", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller ClientWebApp.Controllers.TestController (ClientWebApp).
+2025-05-18 03:30:06.287 +02:00 [INF] Executing ViewResult, running view Login.
+2025-05-18 03:30:06.289 +02:00 [INF] Executed ViewResult - view Login executed in 1.5666ms.
+2025-05-18 03:30:06.292 +02:00 [INF] Executed action ClientWebApp.Controllers.TestController.Login (ClientWebApp) in 4.8932ms
+2025-05-18 03:30:06.293 +02:00 [INF] Executed endpoint 'ClientWebApp.Controllers.TestController.Login (ClientWebApp)'
+2025-05-18 03:30:06.294 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7130/test/login - 200 null text/html; charset=utf-8 9.121ms
+2025-05-18 03:30:06.296 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7130/_framework/aspnetcore-browser-refresh.js - null null
+2025-05-18 03:30:06.296 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7130/_framework/aspnetcore-browser-refresh.js - 200 16509 application/javascript; charset=utf-8 0.7491ms
+2025-05-18 03:30:08.551 +02:00 [INF] Request starting HTTP/2 POST https://localhost:7130/test/login - application/x-www-form-urlencoded 256
+2025-05-18 03:30:08.553 +02:00 [INF] Executing endpoint 'ClientWebApp.Controllers.TestController.Login (ClientWebApp)'
+2025-05-18 03:30:08.553 +02:00 [INF] Route matched with {action = "Login", controller = "Test", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(System.String, System.String) on controller ClientWebApp.Controllers.TestController (ClientWebApp).
+2025-05-18 03:30:10.567 +02:00 [INF] Executing ForbidResult with authentication schemes ([]).
+2025-05-18 03:30:10.570 +02:00 [INF] AuthenticationScheme: Identity.Application was forbidden.
+2025-05-18 03:30:10.570 +02:00 [INF] Executed action ClientWebApp.Controllers.TestController.Login (ClientWebApp) in 2016.5766ms
+2025-05-18 03:30:10.570 +02:00 [INF] Executed endpoint 'ClientWebApp.Controllers.TestController.Login (ClientWebApp)'
+2025-05-18 03:30:10.570 +02:00 [INF] Request finished HTTP/2 POST https://localhost:7130/test/login - 302 0 null 2018.6497ms
+2025-05-18 03:30:10.572 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7130/Identity/Account/AccessDenied?ReturnUrl=%2Ftest%2Flogin - null null
+2025-05-18 03:30:10.574 +02:00 [INF] Executing endpoint '/Account/AccessDenied'
+2025-05-18 03:30:10.577 +02:00 [INF] Route matched with {page = "/Account/AccessDenied", area = "Identity", action = "", controller = ""}. Executing page /Account/AccessDenied
+2025-05-18 03:30:10.582 +02:00 [INF] Executing handler method Microsoft.AspNetCore.Identity.UI.V5.Pages.Account.Internal.AccessDeniedModel.OnGet - ModelState is "Valid"
+2025-05-18 03:30:10.582 +02:00 [INF] Executed handler method OnGet, returned result .
+2025-05-18 03:30:10.583 +02:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2025-05-18 03:30:10.583 +02:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2025-05-18 03:30:10.587 +02:00 [INF] Executed page /Account/AccessDenied in 8.6589ms
+2025-05-18 03:30:10.587 +02:00 [INF] Executed endpoint '/Account/AccessDenied'
+2025-05-18 03:30:10.587 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7130/Identity/Account/AccessDenied?ReturnUrl=%2Ftest%2Flogin - 200 null text/html; charset=utf-8 14.8807ms
+2025-05-18 03:30:10.596 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7130/_vs/browserLink - null null
+2025-05-18 03:30:10.598 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7130/_framework/aspnetcore-browser-refresh.js - null null
+2025-05-18 03:30:10.599 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7130/_framework/aspnetcore-browser-refresh.js - 200 16509 application/javascript; charset=utf-8 1.092ms
+2025-05-18 03:30:10.605 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7130/_vs/browserLink - 200 null text/javascript; charset=UTF-8 8.6519ms

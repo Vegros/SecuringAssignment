@@ -1,0 +1,59 @@
+2025-05-18 02:29:53.018 +02:00 [INF] User profile is available. Using 'C:\Users\matti\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-05-18 02:29:53.206 +02:00 [INF] Now listening on: https://localhost:7130
+2025-05-18 02:29:53.207 +02:00 [INF] Now listening on: http://localhost:5248
+2025-05-18 02:29:53.249 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-05-18 02:29:53.249 +02:00 [INF] Hosting environment: Development
+2025-05-18 02:29:53.249 +02:00 [INF] Content root path: C:\Users\matti\Desktop\assignment enterprise\ClientWebApp
+2025-05-18 02:29:53.697 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7130/ - null null
+2025-05-18 02:29:53.852 +02:00 [INF] Executing endpoint 'ClientWebApp.Controllers.HomeController.Index (ClientWebApp)'
+2025-05-18 02:29:53.860 +02:00 [INF] Route matched with {action = "Index", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ClientWebApp.Controllers.HomeController (ClientWebApp).
+2025-05-18 02:29:53.865 +02:00 [INF] Executing ViewResult, running view Index.
+2025-05-18 02:29:53.910 +02:00 [INF] Executed ViewResult - view Index executed in 46.7733ms.
+2025-05-18 02:29:53.910 +02:00 [INF] Executed action ClientWebApp.Controllers.HomeController.Index (ClientWebApp) in 49.8729ms
+2025-05-18 02:29:53.910 +02:00 [INF] Executed endpoint 'ClientWebApp.Controllers.HomeController.Index (ClientWebApp)'
+2025-05-18 02:29:53.913 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7130/ - 200 null text/html; charset=utf-8 219.764ms
+2025-05-18 02:29:53.924 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7130/_framework/aspnetcore-browser-refresh.js - null null
+2025-05-18 02:29:53.928 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7130/_framework/aspnetcore-browser-refresh.js - 200 16509 application/javascript; charset=utf-8 4.8193ms
+2025-05-18 02:29:53.930 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7130/_vs/browserLink - null null
+2025-05-18 02:29:53.951 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7130/_vs/browserLink - 200 null text/javascript; charset=UTF-8 21.0348ms
+2025-05-18 02:29:58.659 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7130/test/error - null null
+2025-05-18 02:29:58.669 +02:00 [INF] Executing endpoint 'ClientWebApp.Controllers.TestController.TriggerError (ClientWebApp)'
+2025-05-18 02:29:58.671 +02:00 [INF] Route matched with {action = "TriggerError", controller = "Test", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult TriggerError() on controller ClientWebApp.Controllers.TestController (ClientWebApp).
+2025-05-18 02:31:12.510 +02:00 [INF] Executed action ClientWebApp.Controllers.TestController.TriggerError (ClientWebApp) in 73839.5046ms
+2025-05-18 02:31:12.512 +02:00 [INF] Executed endpoint 'ClientWebApp.Controllers.TestController.TriggerError (ClientWebApp)'
+2025-05-18 02:31:12.514 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+System.Exception: Simulated error for testing.
+   at ClientWebApp.Controllers.TestController.TriggerError() in C:\Users\matti\Desktop\assignment enterprise\ClientWebApp\Controllers\TestController.cs:line 10
+   at lambda_method34(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.StatusCodePagesMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+2025-05-18 02:31:12.535 +02:00 [INF] Executing endpoint 'ClientWebApp.Controllers.HomeController.Error (ClientWebApp)'
+2025-05-18 02:31:12.536 +02:00 [INF] Route matched with {action = "Error", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Error() on controller ClientWebApp.Controllers.HomeController (ClientWebApp).
+2025-05-18 02:31:12.537 +02:00 [INF] Executing ViewResult, running view Error.
+2025-05-18 02:31:12.539 +02:00 [INF] Executed ViewResult - view Error executed in 2.9252ms.
+2025-05-18 02:31:12.539 +02:00 [INF] Executed action ClientWebApp.Controllers.HomeController.Error (ClientWebApp) in 3.1507ms
+2025-05-18 02:31:12.539 +02:00 [INF] Executed endpoint 'ClientWebApp.Controllers.HomeController.Error (ClientWebApp)'
+2025-05-18 02:31:12.539 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7130/test/error - 500 null text/html; charset=utf-8 73880.7835ms
+2025-05-18 02:31:12.554 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7130/_framework/aspnetcore-browser-refresh.js - null null
+2025-05-18 02:31:12.554 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7130/_vs/browserLink - null null
+2025-05-18 02:31:12.555 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7130/_framework/aspnetcore-browser-refresh.js - 200 16509 application/javascript; charset=utf-8 0.6834ms
+2025-05-18 02:31:12.566 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7130/_vs/browserLink - 200 null text/javascript; charset=UTF-8 11.647ms

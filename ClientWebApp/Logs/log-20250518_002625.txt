@@ -1,0 +1,77 @@
+2025-05-18 02:26:26.120 +02:00 [INF] User profile is available. Using 'C:\Users\matti\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-05-18 02:26:26.297 +02:00 [INF] Now listening on: https://localhost:7130
+2025-05-18 02:26:26.297 +02:00 [INF] Now listening on: http://localhost:5248
+2025-05-18 02:26:26.340 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-05-18 02:26:26.340 +02:00 [INF] Hosting environment: Development
+2025-05-18 02:26:26.340 +02:00 [INF] Content root path: C:\Users\matti\Desktop\assignment enterprise\ClientWebApp
+2025-05-18 02:26:27.115 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7130/ - null null
+2025-05-18 02:26:27.842 +02:00 [INF] Executed DbCommand (28ms) [Parameters=[@__p_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT a."Id", a."AccessFailedCount", a."ConcurrencyStamp", a."Email", a."EmailConfirmed", a."LockoutEnabled", a."LockoutEnd", a."NormalizedEmail", a."NormalizedUserName", a."PasswordHash", a."PhoneNumber", a."PhoneNumberConfirmed", a."SecurityStamp", a."TwoFactorEnabled", a."UserName"
+FROM "AspNetUsers" AS a
+WHERE a."Id" = @__p_0
+LIMIT 1
+2025-05-18 02:26:27.928 +02:00 [INF] Executed DbCommand (3ms) [Parameters=[@__user_Id_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT a."Id", a."ClaimType", a."ClaimValue", a."UserId"
+FROM "AspNetUserClaims" AS a
+WHERE a."UserId" = @__user_Id_0
+2025-05-18 02:26:27.933 +02:00 [INF] Executing endpoint 'ClientWebApp.Controllers.HomeController.Index (ClientWebApp)'
+2025-05-18 02:26:27.939 +02:00 [INF] Route matched with {action = "Index", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ClientWebApp.Controllers.HomeController (ClientWebApp).
+2025-05-18 02:26:27.944 +02:00 [INF] Executing ViewResult, running view Index.
+2025-05-18 02:26:27.993 +02:00 [INF] Executed ViewResult - view Index executed in 49.9462ms.
+2025-05-18 02:26:27.993 +02:00 [INF] Executed action ClientWebApp.Controllers.HomeController.Index (ClientWebApp) in 53.5959ms
+2025-05-18 02:26:27.993 +02:00 [INF] Executed endpoint 'ClientWebApp.Controllers.HomeController.Index (ClientWebApp)'
+2025-05-18 02:26:27.999 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7130/ - 200 null text/html; charset=utf-8 887.4541ms
+2025-05-18 02:26:28.005 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7130/_framework/aspnetcore-browser-refresh.js - null null
+2025-05-18 02:26:28.009 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7130/_vs/browserLink - null null
+2025-05-18 02:26:28.010 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7130/_framework/aspnetcore-browser-refresh.js - 200 16509 application/javascript; charset=utf-8 5.1362ms
+2025-05-18 02:26:28.032 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7130/_vs/browserLink - 200 null text/javascript; charset=UTF-8 22.8776ms
+2025-05-18 02:26:32.957 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7130/kalsdads - null null
+2025-05-18 02:26:32.971 +02:00 [INF] Executing endpoint 'ClientWebApp.Controllers.HomeController.StatusCodeHandler (ClientWebApp)'
+2025-05-18 02:26:32.975 +02:00 [INF] Route matched with {action = "StatusCodeHandler", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult StatusCodeHandler(Int32) on controller ClientWebApp.Controllers.HomeController (ClientWebApp).
+2025-05-18 02:26:32.983 +02:00 [INF] Executing ViewResult, running view NotFound.
+2025-05-18 02:26:32.985 +02:00 [ERR] The view 'NotFound' was not found. Searched locations: ["/Views/Home/NotFound.cshtml","/Views/Shared/NotFound.cshtml","/Pages/Shared/NotFound.cshtml"]
+2025-05-18 02:26:32.988 +02:00 [INF] Executed action ClientWebApp.Controllers.HomeController.StatusCodeHandler (ClientWebApp) in 12.9059ms
+2025-05-18 02:26:32.989 +02:00 [INF] Executed endpoint 'ClientWebApp.Controllers.HomeController.StatusCodeHandler (ClientWebApp)'
+2025-05-18 02:26:32.991 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: The view 'NotFound' was not found. The following locations were searched:
+/Views/Home/NotFound.cshtml
+/Views/Shared/NotFound.cshtml
+/Pages/Shared/NotFound.cshtml
+   at Microsoft.AspNetCore.Mvc.ViewEngines.ViewEngineResult.EnsureSuccessful(IEnumerable`1 originalLocations)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Builder.StatusCodePagesExtensions.<>c__DisplayClass7_0.<<CreateHandler>b__0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Diagnostics.StatusCodePagesMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-05-18 02:26:33.026 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7130/kalsdads - 500 null text/html; charset=utf-8 69.5696ms
+2025-05-18 02:26:33.027 +02:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7130/kalsdads, Response status code: 500
+2025-05-18 02:26:33.036 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7130/_vs/browserLink - null null
+2025-05-18 02:26:33.037 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7130/_framework/aspnetcore-browser-refresh.js - null null
+2025-05-18 02:26:33.037 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7130/_framework/aspnetcore-browser-refresh.js - 200 16509 application/javascript; charset=utf-8 0.9186ms
+2025-05-18 02:26:33.050 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7130/_vs/browserLink - 200 null text/javascript; charset=UTF-8 13.9169ms
+2025-05-18 02:26:35.518 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7130/ - null null
+2025-05-18 02:26:35.526 +02:00 [INF] Executing endpoint 'ClientWebApp.Controllers.HomeController.Index (ClientWebApp)'
+2025-05-18 02:26:35.526 +02:00 [INF] Route matched with {action = "Index", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ClientWebApp.Controllers.HomeController (ClientWebApp).
+2025-05-18 02:26:35.527 +02:00 [INF] Executing ViewResult, running view Index.
+2025-05-18 02:26:35.529 +02:00 [INF] Executed ViewResult - view Index executed in 2.3453ms.
+2025-05-18 02:26:35.529 +02:00 [INF] Executed action ClientWebApp.Controllers.HomeController.Index (ClientWebApp) in 2.47ms
+2025-05-18 02:26:35.529 +02:00 [INF] Executed endpoint 'ClientWebApp.Controllers.HomeController.Index (ClientWebApp)'
+2025-05-18 02:26:35.529 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7130/ - 200 null text/html; charset=utf-8 10.7657ms
+2025-05-18 02:26:35.539 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7130/_framework/aspnetcore-browser-refresh.js - null null
+2025-05-18 02:26:35.539 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7130/_framework/aspnetcore-browser-refresh.js - 200 16509 application/javascript; charset=utf-8 0.95ms

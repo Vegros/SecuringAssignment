@@ -816,5 +816,17 @@
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"voemkoqj4y"},{"Name":"integrity","Value":"sha256-30eSqccYlwsbztKVXyiVA1IQWaxqy10Q/FSVQdjzSEw="},{"Name":"label","Value":"_content/ClientWebApp/SecureFiles/6ff8de8e-1f90-45ad-aebc-41878abf114d.docx"}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"99493"},{"Name":"Content-Type","Value":"application/vnd.openxmlformats-officedocument.wordprocessingml.document"},{"Name":"ETag","Value":"\u002230eSqccYlwsbztKVXyiVA1IQWaxqy10Q/FSVQdjzSEw=\u0022"},{"Name":"Last-Modified","Value":"Mon, 21 Apr 2025 15:37:20 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/ClientWebApp/SecureFiles/c012635d-2d50-4392-89b7-2bc52b91a6c0.cccnft1nfi.docx">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\SecureFiles\c012635d-2d50-4392-89b7-2bc52b91a6c0.docx'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"cccnft1nfi"},{"Name":"integrity","Value":"sha256-xI68skMkIZ2WuPxXt/e1Os7KMaAxX0fGlENTsOnSnFI="},{"Name":"label","Value":"_content/ClientWebApp/SecureFiles/c012635d-2d50-4392-89b7-2bc52b91a6c0.docx"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"29733"},{"Name":"Content-Type","Value":"application/vnd.openxmlformats-officedocument.wordprocessingml.document"},{"Name":"ETag","Value":"\u0022xI68skMkIZ2WuPxXt/e1Os7KMaAxX0fGlENTsOnSnFI=\u0022"},{"Name":"Last-Modified","Value":"Sun, 18 May 2025 00:18:17 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/ClientWebApp/SecureFiles/c012635d-2d50-4392-89b7-2bc52b91a6c0.docx">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\SecureFiles\c012635d-2d50-4392-89b7-2bc52b91a6c0.docx'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-xI68skMkIZ2WuPxXt/e1Os7KMaAxX0fGlENTsOnSnFI="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"29733"},{"Name":"Content-Type","Value":"application/vnd.openxmlformats-officedocument.wordprocessingml.document"},{"Name":"ETag","Value":"\u0022xI68skMkIZ2WuPxXt/e1Os7KMaAxX0fGlENTsOnSnFI=\u0022"},{"Name":"Last-Modified","Value":"Sun, 18 May 2025 00:18:17 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
   </ItemGroup>
 </Project>

@@ -1,5 +1,3 @@
-using System.Diagnostics;
-using ClientWebApp.Models;
 using Microsoft.AspNetCore.Mvc;
 
 namespace ClientWebApp.Controllers
@@ -23,10 +21,20 @@ namespace ClientWebApp.Controllers
             return View();
         }
 
-        [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
+        [Route("Home/Error")]
         public IActionResult Error()
         {
-            return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
+            return View();
+        }
+
+        [Route("Home/StatusCode")]
+        public IActionResult StatusCodeHandler(int code)
+        {
+            if (code == 404)
+            {
+                return View("NotFound");
+            }
+            return View("Error");
         }
     }
 }

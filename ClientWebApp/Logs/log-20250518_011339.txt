@@ -1,0 +1,18 @@
+2025-05-18 03:13:39.650 +02:00 [INF] User profile is available. Using 'C:\Users\matti\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-05-18 03:13:39.810 +02:00 [INF] Now listening on: https://localhost:7130
+2025-05-18 03:13:39.810 +02:00 [INF] Now listening on: http://localhost:5248
+2025-05-18 03:13:39.843 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-05-18 03:13:39.843 +02:00 [INF] Hosting environment: Development
+2025-05-18 03:13:39.843 +02:00 [INF] Content root path: C:\Users\matti\Desktop\assignment enterprise\ClientWebApp
+2025-05-18 03:13:40.139 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7130/ - null null
+2025-05-18 03:13:40.302 +02:00 [INF] Executing endpoint 'ClientWebApp.Controllers.HomeController.Index (ClientWebApp)'
+2025-05-18 03:13:40.311 +02:00 [INF] Route matched with {action = "Index", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ClientWebApp.Controllers.HomeController (ClientWebApp).
+2025-05-18 03:13:40.315 +02:00 [INF] Executing ViewResult, running view Index.
+2025-05-18 03:13:40.363 +02:00 [INF] Executed ViewResult - view Index executed in 48.8036ms.
+2025-05-18 03:13:40.364 +02:00 [INF] Executed action ClientWebApp.Controllers.HomeController.Index (ClientWebApp) in 52.1825ms
+2025-05-18 03:13:40.364 +02:00 [INF] Executed endpoint 'ClientWebApp.Controllers.HomeController.Index (ClientWebApp)'
+2025-05-18 03:13:40.367 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7130/ - 200 null text/html; charset=utf-8 231.7314ms
+2025-05-18 03:13:40.375 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7130/_framework/aspnetcore-browser-refresh.js - null null
+2025-05-18 03:13:40.380 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7130/_framework/aspnetcore-browser-refresh.js - 200 16509 application/javascript; charset=utf-8 4.2072ms
+2025-05-18 03:13:40.391 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7130/_vs/browserLink - null null
+2025-05-18 03:13:40.412 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7130/_vs/browserLink - 200 null text/javascript; charset=UTF-8 21.2369ms

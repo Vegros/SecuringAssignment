@@ -1,0 +1,184 @@
+2025-05-18 01:54:55.409 +02:00 [INF] User profile is available. Using 'C:\Users\matti\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-05-18 01:54:55.698 +02:00 [INF] Now listening on: https://localhost:7130
+2025-05-18 01:54:55.699 +02:00 [INF] Now listening on: http://localhost:5248
+2025-05-18 01:54:55.743 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-05-18 01:54:55.744 +02:00 [INF] Hosting environment: Development
+2025-05-18 01:54:55.744 +02:00 [INF] Content root path: C:\Users\matti\Desktop\assignment enterprise\ClientWebApp
+2025-05-18 01:54:56.516 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7130/ - null null
+2025-05-18 01:54:56.637 +02:00 [INF] Executing endpoint 'ClientWebApp.Controllers.HomeController.Index (ClientWebApp)'
+2025-05-18 01:54:56.666 +02:00 [INF] Route matched with {action = "Index", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ClientWebApp.Controllers.HomeController (ClientWebApp).
+2025-05-18 01:54:56.674 +02:00 [INF] Executing ViewResult, running view Index.
+2025-05-18 01:54:57.129 +02:00 [INF] Executed ViewResult - view Index executed in 457.2542ms.
+2025-05-18 01:54:57.130 +02:00 [INF] Executed action ClientWebApp.Controllers.HomeController.Index (ClientWebApp) in 462.6901ms
+2025-05-18 01:54:57.130 +02:00 [INF] Executed endpoint 'ClientWebApp.Controllers.HomeController.Index (ClientWebApp)'
+2025-05-18 01:54:57.131 +02:00 [INF] HTTP GET / responded 200 in 529.9140 ms
+2025-05-18 01:54:57.135 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7130/ - 200 null text/html; charset=utf-8 623.112ms
+2025-05-18 01:54:57.142 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7130/lib/bootstrap/dist/css/bootstrap.min.css - null null
+2025-05-18 01:54:57.143 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7130/css/site.css?v=pAGv4ietcJNk_EwsQZ5BN9-K4MuNYS2a9wl4Jw-q9D0 - null null
+2025-05-18 01:54:57.143 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7130/ClientWebApp.styles.css?v=Gqcinc1CPuyKfel_GqZTHe7XPL7mDayTRBD0khRE6cA - null null
+2025-05-18 01:54:57.143 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7130/js/site.js?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo - null null
+2025-05-18 01:54:57.143 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7130/lib/jquery/dist/jquery.min.js - null null
+2025-05-18 01:54:57.143 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7130/lib/bootstrap/dist/js/bootstrap.bundle.min.js - null null
+2025-05-18 01:54:57.149 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7130/_framework/aspnetcore-browser-refresh.js - null null
+2025-05-18 01:54:57.197 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7130/_vs/browserLink - null null
+2025-05-18 01:54:57.220 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7130/_framework/aspnetcore-browser-refresh.js - 200 16509 application/javascript; charset=utf-8 69.6049ms
+2025-05-18 01:54:57.223 +02:00 [INF] Sending file. Request path: '/ClientWebApp.styles.css'. Physical path: 'C:\Users\matti\Desktop\assignment enterprise\ClientWebApp\obj\Debug\net8.0\scopedcss\bundle\ClientWebApp.styles.css'
+2025-05-18 01:54:57.225 +02:00 [INF] Sending file. Request path: '/js/site.js'. Physical path: 'C:\Users\matti\Desktop\assignment enterprise\ClientWebApp\wwwroot\js\site.js'
+2025-05-18 01:54:57.225 +02:00 [INF] HTTP GET /ClientWebApp.styles.css responded 200 in 81.5188 ms
+2025-05-18 01:54:57.225 +02:00 [INF] HTTP GET /js/site.js responded 200 in 81.9522 ms
+2025-05-18 01:54:57.225 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7130/ClientWebApp.styles.css?v=Gqcinc1CPuyKfel_GqZTHe7XPL7mDayTRBD0khRE6cA - 200 1130 text/css 82.6719ms
+2025-05-18 01:54:57.225 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7130/js/site.js?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo - 200 231 text/javascript 82.2955ms
+2025-05-18 01:54:57.234 +02:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.bundle.min.js'. Physical path: 'C:\Users\matti\Desktop\assignment enterprise\ClientWebApp\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js'
+2025-05-18 01:54:57.234 +02:00 [INF] Sending file. Request path: '/css/site.css'. Physical path: 'C:\Users\matti\Desktop\assignment enterprise\ClientWebApp\wwwroot\css\site.css'
+2025-05-18 01:54:57.235 +02:00 [INF] HTTP GET /lib/bootstrap/dist/js/bootstrap.bundle.min.js responded 200 in 91.0164 ms
+2025-05-18 01:54:57.235 +02:00 [INF] HTTP GET /css/site.css responded 200 in 92.1287 ms
+2025-05-18 01:54:57.235 +02:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/css/bootstrap.min.css'. Physical path: 'C:\Users\matti\Desktop\assignment enterprise\ClientWebApp\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css'
+2025-05-18 01:54:57.235 +02:00 [INF] HTTP GET /lib/bootstrap/dist/css/bootstrap.min.css responded 200 in 93.2523 ms
+2025-05-18 01:54:57.236 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7130/lib/bootstrap/dist/css/bootstrap.min.css - 200 162720 text/css 94.4289ms
+2025-05-18 01:54:57.236 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7130/css/site.css?v=pAGv4ietcJNk_EwsQZ5BN9-K4MuNYS2a9wl4Jw-q9D0 - 200 362 text/css 93.6519ms
+2025-05-18 01:54:57.236 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7130/lib/bootstrap/dist/js/bootstrap.bundle.min.js - 200 78468 text/javascript 93.0091ms
+2025-05-18 01:54:57.243 +02:00 [INF] Sending file. Request path: '/lib/jquery/dist/jquery.min.js'. Physical path: 'C:\Users\matti\Desktop\assignment enterprise\ClientWebApp\wwwroot\lib\jquery\dist\jquery.min.js'
+2025-05-18 01:54:57.243 +02:00 [INF] HTTP GET /lib/jquery/dist/jquery.min.js responded 200 in 100.1391 ms
+2025-05-18 01:54:57.243 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7130/lib/jquery/dist/jquery.min.js - 200 89501 text/javascript 100.6976ms
+2025-05-18 01:54:57.261 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7130/_vs/browserLink - 200 null text/javascript; charset=UTF-8 65.4089ms
+2025-05-18 01:55:01.235 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7130/FileUpload/Upload - null null
+2025-05-18 01:55:01.243 +02:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-05-18 01:55:01.246 +02:00 [INF] AuthenticationScheme: Identity.Application was challenged.
+2025-05-18 01:55:01.246 +02:00 [INF] HTTP GET /FileUpload/Upload responded 302 in 7.5127 ms
+2025-05-18 01:55:01.246 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7130/FileUpload/Upload - 302 0 null 10.8081ms
+2025-05-18 01:55:01.248 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7130/Identity/Account/Login?ReturnUrl=%2FFileUpload%2FUpload - null null
+2025-05-18 01:55:01.253 +02:00 [INF] Executing endpoint '/Account/Login'
+2025-05-18 01:55:01.263 +02:00 [INF] Route matched with {page = "/Account/Login", area = "Identity", action = "", controller = ""}. Executing page /Account/Login
+2025-05-18 01:55:01.278 +02:00 [INF] Executing handler method ClientWebApp.Areas.Identity.Pages.Account.LoginModel.OnGetAsync - ModelState is "Valid"
+2025-05-18 01:55:01.281 +02:00 [INF] AuthenticationScheme: Identity.External signed out.
+2025-05-18 01:55:01.282 +02:00 [INF] Executed handler method OnGetAsync, returned result .
+2025-05-18 01:55:01.284 +02:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2025-05-18 01:55:01.284 +02:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2025-05-18 01:55:01.318 +02:00 [INF] Executed page /Account/Login in 54.0601ms
+2025-05-18 01:55:01.318 +02:00 [INF] Executed endpoint '/Account/Login'
+2025-05-18 01:55:01.318 +02:00 [INF] HTTP GET /Identity/Account/Login responded 200 in 67.7196 ms
+2025-05-18 01:55:01.318 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7130/Identity/Account/Login?ReturnUrl=%2FFileUpload%2FUpload - 200 null text/html; charset=utf-8 69.8011ms
+2025-05-18 01:55:01.326 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7130/lib/jquery-validation/dist/jquery.validate.min.js - null null
+2025-05-18 01:55:01.327 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7130/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js - null null
+2025-05-18 01:55:01.327 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7130/_framework/aspnetcore-browser-refresh.js - null null
+2025-05-18 01:55:01.328 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7130/_framework/aspnetcore-browser-refresh.js - 200 16509 application/javascript; charset=utf-8 1.1496ms
+2025-05-18 01:55:01.329 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7130/_vs/browserLink - null null
+2025-05-18 01:55:01.346 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7130/_vs/browserLink - 200 null text/javascript; charset=UTF-8 16.7893ms
+2025-05-18 01:55:01.355 +02:00 [INF] Sending file. Request path: '/lib/jquery-validation/dist/jquery.validate.min.js'. Physical path: 'C:\Users\matti\Desktop\assignment enterprise\ClientWebApp\wwwroot\lib\jquery-validation\dist\jquery.validate.min.js'
+2025-05-18 01:55:01.355 +02:00 [INF] HTTP GET /lib/jquery-validation/dist/jquery.validate.min.js responded 200 in 28.8803 ms
+2025-05-18 01:55:01.356 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7130/lib/jquery-validation/dist/jquery.validate.min.js - 200 24601 text/javascript 29.4068ms
+2025-05-18 01:55:01.357 +02:00 [INF] Sending file. Request path: '/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js'. Physical path: 'C:\Users\matti\Desktop\assignment enterprise\ClientWebApp\wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.min.js'
+2025-05-18 01:55:01.357 +02:00 [INF] HTTP GET /lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js responded 200 in 29.7544 ms
+2025-05-18 01:55:01.357 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7130/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js - 200 5824 text/javascript 30.2526ms
+2025-05-18 01:55:02.733 +02:00 [INF] Request starting HTTP/2 POST https://localhost:7130/Identity/Account/ExternalLogin?returnUrl=%2FFileUpload%2FUpload - application/x-www-form-urlencoded 201
+2025-05-18 01:55:02.737 +02:00 [INF] Executing endpoint '/Account/ExternalLogin'
+2025-05-18 01:55:02.743 +02:00 [INF] Route matched with {page = "/Account/ExternalLogin", area = "Identity", action = "", controller = ""}. Executing page /Account/ExternalLogin
+2025-05-18 01:55:02.757 +02:00 [INF] Executing handler method Microsoft.AspNetCore.Identity.UI.V5.Pages.Account.Internal.ExternalLoginModel.OnPost - ModelState is "Invalid"
+2025-05-18 01:55:02.758 +02:00 [INF] Executed handler method OnPost, returned result Microsoft.AspNetCore.Mvc.ChallengeResult.
+2025-05-18 01:55:02.759 +02:00 [INF] Executing ChallengeResult with authentication schemes (["Microsoft"]).
+2025-05-18 01:55:02.761 +02:00 [INF] AuthenticationScheme: Microsoft was challenged.
+2025-05-18 01:55:02.761 +02:00 [INF] Executed page /Account/ExternalLogin in 18.2053ms
+2025-05-18 01:55:02.761 +02:00 [INF] Executed endpoint '/Account/ExternalLogin'
+2025-05-18 01:55:02.761 +02:00 [INF] HTTP POST /Identity/Account/ExternalLogin responded 302 in 25.5983 ms
+2025-05-18 01:55:02.761 +02:00 [INF] Request finished HTTP/2 POST https://localhost:7130/Identity/Account/ExternalLogin?returnUrl=%2FFileUpload%2FUpload - 302 0 null 28.1524ms
+2025-05-18 01:55:05.157 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7130/signin-microsoft?code=1.ATwAtutbJeivRU2sydx93JR5_rLKp1acN6ZMk02eIlTJYWwaAV08AA.AgABBAIAAABVrSpeuWamRam2jAF1XRQEAwDs_wUA9P9jcVThh3VJ4A-nGR0z0Tu43oEepVsCkqBUXN0M5ziWloIzUBaxXTWpR5W_qoqazCyVedCgxdz4iGCgKjr0bEO7OvMtp8tGx-oDavmT8AeeEopWwHxJ378acBXh6HoKLQsjuX1UtOuM2khiW83Q_z424PrsysNSvplpoeiAXr7OhvlSsc1gzOGLt4059SS75NBSCWaPSF5WAQhYxYyyChVW3mSKGKzRK57DKrhwnduJ3mjXNRqKaifHqckOpcpBwIasBJON6ibm_XDb06NGh_1SCCqhwSiLkR-72tQF_JN-vC5Ha4xZZDgns21T9KzBIjXTaXl_D0Jr_OUJCicN4eLCO6Es6Mx7fPiqY-i01SzQa2BZXpjj_mgGUrUMR0UzUHPAPa9rdmyHlvnFFi_zwzCwCGI0SQqJpVxm1UGFx3TaeRm8ZLcgTEJ3wLlIcpJuuu7uBGf7TJg16emJEww53VdtxAZ0nLtZ229WNcpSwVch3lEWJe-sm3NC0U7L9pg6TCvxvqFBnBhVR6boDyY7nAfmXJx5let3LUWXYKXPPOc2y5p6UdJzUUjoXWTc0vfQ3sETQ_oNbW1bZzA70z22shUdT0lG7at9SNN8LI7EGNxBm4Aj1_Ysqk9Sjnqr59v3SCr3IvrUnIW1dY3ewFp3OwXOitH6XcmQSyOCK92dfcmGpTS1xb6xCl-TOGe_xjUQqp7YAPqgTpoDroCY_Gkk57x4JAFt6d3fkybVLpA5uDcABfdyIXegJWpUFOK2mdzTQ4G5BNmR&state=CfDJ8JMTMR3Bp8hChzsCWG7tb9h-4fsOsoijVev1w3q5yeBoWNNfMcaCCr7RnmQNplurW4aeEK9H8Ud4_IbijIn2F1yD9hlqXFO4W-LQ-3samGIl7ND2B6eOd6hAjSG_HlXGwcYqqgERDwHysmWO7nVOzldrfovsHvDp3tMbswkQriWvZT4OlqzB8cc1zFKlNx2dHhVc3xXvI379v8PoNivYZs8TJ8KAS2B8vghqQsu4Mg401n_FZyRcx99NxsX6-f0LZm9XchRQf_UR0Cbv7x9HOgQsrTQndjFgibtQZzI6Pde7YIBkl4aut0uCiL4TpnuswpJlsiemhz0ocCibdztM85nhzGoLejUj3nqjjymBqFCDKKYdLmHISJyr7VMrDw_3oBgG89Ttl7GPYxwyBHgxa6MGmtaOms9etS09THfsn2xr&session_state=004eeb39-54e9-791b-c08f-30900201786a - null null
+2025-05-18 01:55:05.757 +02:00 [INF] AuthenticationScheme: Identity.External signed in.
+2025-05-18 01:55:05.757 +02:00 [INF] HTTP GET /signin-microsoft responded 302 in 598.4610 ms
+2025-05-18 01:55:05.758 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7130/signin-microsoft?code=1.ATwAtutbJeivRU2sydx93JR5_rLKp1acN6ZMk02eIlTJYWwaAV08AA.AgABBAIAAABVrSpeuWamRam2jAF1XRQEAwDs_wUA9P9jcVThh3VJ4A-nGR0z0Tu43oEepVsCkqBUXN0M5ziWloIzUBaxXTWpR5W_qoqazCyVedCgxdz4iGCgKjr0bEO7OvMtp8tGx-oDavmT8AeeEopWwHxJ378acBXh6HoKLQsjuX1UtOuM2khiW83Q_z424PrsysNSvplpoeiAXr7OhvlSsc1gzOGLt4059SS75NBSCWaPSF5WAQhYxYyyChVW3mSKGKzRK57DKrhwnduJ3mjXNRqKaifHqckOpcpBwIasBJON6ibm_XDb06NGh_1SCCqhwSiLkR-72tQF_JN-vC5Ha4xZZDgns21T9KzBIjXTaXl_D0Jr_OUJCicN4eLCO6Es6Mx7fPiqY-i01SzQa2BZXpjj_mgGUrUMR0UzUHPAPa9rdmyHlvnFFi_zwzCwCGI0SQqJpVxm1UGFx3TaeRm8ZLcgTEJ3wLlIcpJuuu7uBGf7TJg16emJEww53VdtxAZ0nLtZ229WNcpSwVch3lEWJe-sm3NC0U7L9pg6TCvxvqFBnBhVR6boDyY7nAfmXJx5let3LUWXYKXPPOc2y5p6UdJzUUjoXWTc0vfQ3sETQ_oNbW1bZzA70z22shUdT0lG7at9SNN8LI7EGNxBm4Aj1_Ysqk9Sjnqr59v3SCr3IvrUnIW1dY3ewFp3OwXOitH6XcmQSyOCK92dfcmGpTS1xb6xCl-TOGe_xjUQqp7YAPqgTpoDroCY_Gkk57x4JAFt6d3fkybVLpA5uDcABfdyIXegJWpUFOK2mdzTQ4G5BNmR&state=CfDJ8JMTMR3Bp8hChzsCWG7tb9h-4fsOsoijVev1w3q5yeBoWNNfMcaCCr7RnmQNplurW4aeEK9H8Ud4_IbijIn2F1yD9hlqXFO4W-LQ-3samGIl7ND2B6eOd6hAjSG_HlXGwcYqqgERDwHysmWO7nVOzldrfovsHvDp3tMbswkQriWvZT4OlqzB8cc1zFKlNx2dHhVc3xXvI379v8PoNivYZs8TJ8KAS2B8vghqQsu4Mg401n_FZyRcx99NxsX6-f0LZm9XchRQf_UR0Cbv7x9HOgQsrTQndjFgibtQZzI6Pde7YIBkl4aut0uCiL4TpnuswpJlsiemhz0ocCibdztM85nhzGoLejUj3nqjjymBqFCDKKYdLmHISJyr7VMrDw_3oBgG89Ttl7GPYxwyBHgxa6MGmtaOms9etS09THfsn2xr&session_state=004eeb39-54e9-791b-c08f-30900201786a - 302 0 null 600.4147ms
+2025-05-18 01:55:05.761 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7130/Identity/Account/ExternalLogin?returnUrl=%2FFileUpload%2FUpload&handler=Callback - null null
+2025-05-18 01:55:05.763 +02:00 [INF] Executing endpoint '/Account/ExternalLogin'
+2025-05-18 01:55:05.764 +02:00 [INF] Route matched with {page = "/Account/ExternalLogin", area = "Identity", action = "", controller = ""}. Executing page /Account/ExternalLogin
+2025-05-18 01:55:05.766 +02:00 [INF] Executing handler method Microsoft.AspNetCore.Identity.UI.V5.Pages.Account.Internal.ExternalLoginModel.OnGetCallbackAsync - ModelState is "Valid"
+2025-05-18 01:55:06.718 +02:00 [INF] Executed DbCommand (46ms) [Parameters=[@__loginProvider_0='?', @__providerKey_1='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT a."LoginProvider", a."ProviderKey", a."ProviderDisplayName", a."UserId"
+FROM "AspNetUserLogins" AS a
+WHERE a."LoginProvider" = @__loginProvider_0 AND a."ProviderKey" = @__providerKey_1
+LIMIT 2
+2025-05-18 01:55:06.792 +02:00 [INF] Executed DbCommand (5ms) [Parameters=[@__userId_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT a."Id", a."AccessFailedCount", a."ConcurrencyStamp", a."Email", a."EmailConfirmed", a."LockoutEnabled", a."LockoutEnd", a."NormalizedEmail", a."NormalizedUserName", a."PasswordHash", a."PhoneNumber", a."PhoneNumberConfirmed", a."SecurityStamp", a."TwoFactorEnabled", a."UserName"
+FROM "AspNetUsers" AS a
+WHERE a."Id" = @__userId_0
+LIMIT 2
+2025-05-18 01:55:06.821 +02:00 [INF] AuthenticationScheme: Identity.External signed out.
+2025-05-18 01:55:06.841 +02:00 [INF] Executed DbCommand (3ms) [Parameters=[@__user_Id_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT a."Id", a."ClaimType", a."ClaimValue", a."UserId"
+FROM "AspNetUserClaims" AS a
+WHERE a."UserId" = @__user_Id_0
+2025-05-18 01:55:06.845 +02:00 [INF] AuthenticationScheme: Identity.Application signed in.
+2025-05-18 01:55:06.845 +02:00 [INF] User logged in with Microsoft provider.
+2025-05-18 01:55:06.846 +02:00 [INF] Executed handler method OnGetCallbackAsync, returned result Microsoft.AspNetCore.Mvc.LocalRedirectResult.
+2025-05-18 01:55:06.848 +02:00 [INF] Executing LocalRedirectResult, redirecting to /FileUpload/Upload.
+2025-05-18 01:55:06.848 +02:00 [INF] Executed page /Account/ExternalLogin in 1083.9499ms
+2025-05-18 01:55:06.849 +02:00 [INF] Executed endpoint '/Account/ExternalLogin'
+2025-05-18 01:55:06.849 +02:00 [INF] HTTP GET /Identity/Account/ExternalLogin responded 302 in 1085.6512 ms
+2025-05-18 01:55:06.851 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7130/FileUpload/Upload - null null
+2025-05-18 01:55:06.853 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7130/Identity/Account/ExternalLogin?returnUrl=%2FFileUpload%2FUpload&handler=Callback - 302 0 null 1092.7014ms
+2025-05-18 01:55:06.855 +02:00 [INF] Executing endpoint 'ClientWebApp.Controllers.FileUploadController.Upload (ClientWebApp)'
+2025-05-18 01:55:06.856 +02:00 [INF] Route matched with {action = "Upload", controller = "FileUpload", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Upload() on controller ClientWebApp.Controllers.FileUploadController (ClientWebApp).
+2025-05-18 01:55:06.857 +02:00 [INF] Executing ViewResult, running view Upload.
+2025-05-18 01:55:06.863 +02:00 [INF] Executed ViewResult - view Upload executed in 6.2951ms.
+2025-05-18 01:55:06.865 +02:00 [INF] Executed action ClientWebApp.Controllers.FileUploadController.Upload (ClientWebApp) in 8.8791ms
+2025-05-18 01:55:06.865 +02:00 [INF] Executed endpoint 'ClientWebApp.Controllers.FileUploadController.Upload (ClientWebApp)'
+2025-05-18 01:55:06.865 +02:00 [INF] HTTP GET /FileUpload/Upload responded 200 in 12.6515 ms
+2025-05-18 01:55:06.865 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7130/FileUpload/Upload - 200 null text/html; charset=utf-8 14.4616ms
+2025-05-18 01:55:06.884 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7130/_framework/aspnetcore-browser-refresh.js - null null
+2025-05-18 01:55:06.884 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7130/_framework/aspnetcore-browser-refresh.js - 200 16509 application/javascript; charset=utf-8 1.1756ms
+2025-05-18 01:55:06.887 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7130/_vs/browserLink - null null
+2025-05-18 01:55:06.898 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7130/_vs/browserLink - 200 null text/javascript; charset=UTF-8 11.2338ms
+2025-05-18 01:55:20.236 +02:00 [INF] Request starting HTTP/2 POST https://localhost:7130/FileUpload/Upload - multipart/form-data; boundary=----WebKitFormBoundaryRSg2gYYtyYaFDBp9 9352
+2025-05-18 01:55:20.241 +02:00 [INF] Executing endpoint 'ClientWebApp.Controllers.FileUploadController.Upload (ClientWebApp)'
+2025-05-18 01:55:20.245 +02:00 [INF] Route matched with {action = "Upload", controller = "FileUpload", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Upload(ClientWebApp.Models.UploadFileViewModel, Microsoft.AspNetCore.Hosting.IWebHostEnvironment) on controller ClientWebApp.Controllers.FileUploadController (ClientWebApp).
+2025-05-18 01:55:20.262 +02:00 [INF] Executing ViewResult, running view Upload.
+2025-05-18 01:55:20.265 +02:00 [INF] Executed ViewResult - view Upload executed in 2.9527ms.
+2025-05-18 01:55:20.265 +02:00 [INF] Executed action ClientWebApp.Controllers.FileUploadController.Upload (ClientWebApp) in 20.0067ms
+2025-05-18 01:55:20.265 +02:00 [INF] Executed endpoint 'ClientWebApp.Controllers.FileUploadController.Upload (ClientWebApp)'
+2025-05-18 01:55:20.266 +02:00 [INF] HTTP POST /FileUpload/Upload responded 200 in 27.1911 ms
+2025-05-18 01:55:20.267 +02:00 [INF] Request finished HTTP/2 POST https://localhost:7130/FileUpload/Upload - 200 null text/html; charset=utf-8 30.8045ms
+2025-05-18 01:55:20.273 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7130/_framework/aspnetcore-browser-refresh.js - null null
+2025-05-18 01:55:20.273 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7130/_vs/browserLink - null null
+2025-05-18 01:55:20.274 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7130/_framework/aspnetcore-browser-refresh.js - 200 16509 application/javascript; charset=utf-8 1.2029ms
+2025-05-18 01:55:20.284 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7130/_vs/browserLink - 200 null text/javascript; charset=UTF-8 10.6326ms
+2025-05-18 02:14:53.677 +02:00 [INF] User profile is available. Using 'C:\Users\matti\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-05-18 02:14:53.860 +02:00 [INF] Now listening on: https://localhost:7130
+2025-05-18 02:14:53.861 +02:00 [INF] Now listening on: http://localhost:5248
+2025-05-18 02:14:53.901 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-05-18 02:14:53.901 +02:00 [INF] Hosting environment: Development
+2025-05-18 02:14:53.901 +02:00 [INF] Content root path: C:\Users\matti\Desktop\assignment enterprise\ClientWebApp
+2025-05-18 02:14:54.100 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7130/ - null null
+2025-05-18 02:14:54.269 +02:00 [INF] Executing endpoint 'ClientWebApp.Controllers.HomeController.Index (ClientWebApp)'
+2025-05-18 02:14:54.277 +02:00 [INF] Route matched with {action = "Index", controller = "Home", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller ClientWebApp.Controllers.HomeController (ClientWebApp).
+2025-05-18 02:14:54.282 +02:00 [INF] Executing ViewResult, running view Index.
+2025-05-18 02:14:54.330 +02:00 [INF] Executed ViewResult - view Index executed in 49.9014ms.
+2025-05-18 02:14:54.331 +02:00 [INF] Executed action ClientWebApp.Controllers.HomeController.Index (ClientWebApp) in 53.3458ms
+2025-05-18 02:14:54.331 +02:00 [INF] Executed endpoint 'ClientWebApp.Controllers.HomeController.Index (ClientWebApp)'
+2025-05-18 02:14:54.333 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7130/ - 200 null text/html; charset=utf-8 237.3379ms
+2025-05-18 02:14:54.343 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7130/_framework/aspnetcore-browser-refresh.js - null null
+2025-05-18 02:14:54.347 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7130/_framework/aspnetcore-browser-refresh.js - 200 16509 application/javascript; charset=utf-8 4.3954ms
+2025-05-18 02:14:54.348 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7130/_vs/browserLink - null null
+2025-05-18 02:14:54.369 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7130/_vs/browserLink - 200 null text/javascript; charset=UTF-8 21.1974ms
+2025-05-18 02:14:55.951 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7130/FileUpload/Upload - null null
+2025-05-18 02:14:55.960 +02:00 [INF] Executing endpoint 'ClientWebApp.Controllers.FileUploadController.Upload (ClientWebApp)'
+2025-05-18 02:14:55.961 +02:00 [INF] Route matched with {action = "Upload", controller = "FileUpload", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Upload() on controller ClientWebApp.Controllers.FileUploadController (ClientWebApp).
+2025-05-18 02:14:55.962 +02:00 [INF] Executing ViewResult, running view Upload.
+2025-05-18 02:14:55.970 +02:00 [INF] Executed ViewResult - view Upload executed in 7.6613ms.
+2025-05-18 02:14:55.970 +02:00 [INF] Executed action ClientWebApp.Controllers.FileUploadController.Upload (ClientWebApp) in 8.9484ms
+2025-05-18 02:14:55.970 +02:00 [INF] Executed endpoint 'ClientWebApp.Controllers.FileUploadController.Upload (ClientWebApp)'
+2025-05-18 02:14:55.970 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7130/FileUpload/Upload - 200 null text/html; charset=utf-8 19.8759ms
+2025-05-18 02:14:55.978 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7130/_vs/browserLink - null null
+2025-05-18 02:14:55.985 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7130/_framework/aspnetcore-browser-refresh.js - null null
+2025-05-18 02:14:55.986 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7130/_framework/aspnetcore-browser-refresh.js - 200 16509 application/javascript; charset=utf-8 1.0728ms
+2025-05-18 02:14:55.996 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7130/_vs/browserLink - 200 null text/javascript; charset=UTF-8 17.6122ms
+2025-05-18 02:15:02.922 +02:00 [INF] Request starting HTTP/2 POST https://localhost:7130/FileUpload/Upload - multipart/form-data; boundary=----WebKitFormBoundaryFBniGZky1Fa4yjA4 197757
+2025-05-18 02:15:02.932 +02:00 [INF] Executing endpoint 'ClientWebApp.Controllers.FileUploadController.Upload (ClientWebApp)'
+2025-05-18 02:15:02.939 +02:00 [INF] Route matched with {action = "Upload", controller = "FileUpload", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Upload(ClientWebApp.Models.UploadFileViewModel, Microsoft.AspNetCore.Hosting.IWebHostEnvironment) on controller ClientWebApp.Controllers.FileUploadController (ClientWebApp).
+2025-05-18 02:15:02.969 +02:00 [WRN] Rejected file with invalid extension: .jpg
+2025-05-18 02:15:02.970 +02:00 [INF] Executing ViewResult, running view Upload.
+2025-05-18 02:15:02.973 +02:00 [INF] Executed ViewResult - view Upload executed in 3.4824ms.
+2025-05-18 02:15:02.976 +02:00 [INF] Executed action ClientWebApp.Controllers.FileUploadController.Upload (ClientWebApp) in 36.64ms
+2025-05-18 02:15:02.976 +02:00 [INF] Executed endpoint 'ClientWebApp.Controllers.FileUploadController.Upload (ClientWebApp)'
+2025-05-18 02:15:02.980 +02:00 [INF] Request finished HTTP/2 POST https://localhost:7130/FileUpload/Upload - 200 null text/html; charset=utf-8 58.0726ms
+2025-05-18 02:15:02.982 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7130/_vs/browserLink - null null
+2025-05-18 02:15:02.982 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7130/_framework/aspnetcore-browser-refresh.js - null null
+2025-05-18 02:15:02.983 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7130/_framework/aspnetcore-browser-refresh.js - 200 16509 application/javascript; charset=utf-8 1.1307ms
+2025-05-18 02:15:02.996 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7130/_vs/browserLink - 200 null text/javascript; charset=UTF-8 14.4267ms

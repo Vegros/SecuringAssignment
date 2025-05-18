@@ -3,6 +3,7 @@ using ClientWebApp.Repositories;
 using ClientWebApp.Utlities;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
+using Serilog;
 
 namespace ClientWebApp
 {
@@ -11,6 +12,14 @@ namespace ClientWebApp
         public static void Main(string[] args)
         {
             var builder = WebApplication.CreateBuilder(args);
+
+            var timestamp = DateTime.UtcNow.ToString("yyyyMMdd_HHmmss");
+            Log.Logger = new LoggerConfiguration()
+                .WriteTo.File($"Logs/log-{timestamp}.txt")
+                .CreateLogger();
+
+            builder.Host.UseSerilog();
+
 
             // Add services to the container.
 
@@ -53,20 +62,21 @@ namespace ClientWebApp
 
             var app = builder.Build();
 
+            app.UseExceptionHandler("/Home/Error");
+            app.UseStatusCodePagesWithReExecute("/Home/StatusCode", "?code={0}");
 
 
             // Configure the HTTP request pipeline.
             if (app.Environment.IsDevelopment())
             {
+
                 app.UseMigrationsEndPoint();
             }
             else
             {
-                app.UseExceptionHandler("/Home/Error");
                 // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
                 app.UseHsts();
             }
-
             app.UseHttpsRedirection();
             app.UseStaticFiles();
 

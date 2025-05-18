@@ -1,0 +1,41 @@
+2025-05-18 02:27:54.756 +02:00 [INF] User profile is available. Using 'C:\Users\matti\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-05-18 02:27:54.847 +02:00 [INF] Now listening on: https://localhost:7130
+2025-05-18 02:27:54.847 +02:00 [INF] Now listening on: http://localhost:5248
+2025-05-18 02:27:54.890 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-05-18 02:27:54.890 +02:00 [INF] Hosting environment: Development
+2025-05-18 02:27:54.890 +02:00 [INF] Content root path: C:\Users\matti\Desktop\assignment enterprise\ClientWebApp
+2025-05-18 02:27:58.633 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7130/test/error - null null
+2025-05-18 02:27:58.731 +02:00 [INF] Executing endpoint 'ClientWebApp.Controllers.TestController.TriggerError (ClientWebApp)'
+2025-05-18 02:27:58.736 +02:00 [INF] Route matched with {action = "TriggerError", controller = "Test", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult TriggerError() on controller ClientWebApp.Controllers.TestController (ClientWebApp).
+2025-05-18 02:27:58.738 +02:00 [INF] Executed action ClientWebApp.Controllers.TestController.TriggerError (ClientWebApp) in 0.7598ms
+2025-05-18 02:27:58.740 +02:00 [INF] Executed endpoint 'ClientWebApp.Controllers.TestController.TriggerError (ClientWebApp)'
+2025-05-18 02:27:58.741 +02:00 [ERR] An unhandled exception has occurred while executing the request.
+System.Exception: Simulated error for testing.
+   at ClientWebApp.Controllers.TestController.TriggerError() in C:\Users\matti\Desktop\assignment enterprise\ClientWebApp\Controllers\TestController.cs:line 10
+   at lambda_method11(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.StatusCodePagesMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-05-18 02:27:58.776 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7130/test/error - 500 null text/html; charset=utf-8 143.6504ms
+2025-05-18 02:27:58.790 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7130/_vs/browserLink - null null
+2025-05-18 02:27:58.792 +02:00 [INF] Request starting HTTP/2 GET https://localhost:7130/_framework/aspnetcore-browser-refresh.js - null null
+2025-05-18 02:27:58.794 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7130/_framework/aspnetcore-browser-refresh.js - 200 16509 application/javascript; charset=utf-8 2.1156ms
+2025-05-18 02:27:58.805 +02:00 [INF] Request finished HTTP/2 GET https://localhost:7130/_vs/browserLink - 200 null text/javascript; charset=UTF-8 14.2677ms
